@@ -10,24 +10,17 @@
     <div class="container">
         <h1>Word Quiz</h1>
         
-        <!-- 新增PDF上传部分 -->
-        <div class="pdf-upload-section">
-            <h2>Upload PDF File</h2>
+        <!-- PDF处理部分 -->
+        <div class="pdf-section">
+            <h2>Word List Management</h2>
             <input type="file" id="pdf-file" accept=".pdf" />
             <button id="extract-btn">Extract Words</button>
             <div id="loading-spinner" class="spinner" style="display: none;"></div>
-            <div id="file-error" class="error-message"></div>
+            <div id="extraction-status"></div>
         </div>
 
-        <!-- 提取的单词列表 -->
-        <div id="extracted-words" class="extracted-words-container" style="display: none;">
-            <h3>Extracted Words</h3>
-            <div id="words-list" class="words-list"></div>
-            <button id="start-quiz-btn">Start Quiz with These Words</button>
-        </div>
-
-        <!-- 原有的测验部分 -->
-        <div id="quiz-section" style="display: none;">
+        <!-- 单词测验部分 -->
+        <div id="quiz-section">
             <div class="progress-container">
                 <div id="progress-bar"></div>
                 <div id="progress-text">0/50</div>
@@ -47,7 +40,8 @@
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <!-- 添加 PDF.js 库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
