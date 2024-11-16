@@ -1,63 +1,38 @@
-/* style.css */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.controls {
-    margin: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#quiz-container {
-    margin: 20px 0;
-}
-
-.word-info {
-    margin: 20px 0;
-    padding: 20px;
-    background: #f5f5f5;
+.word-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
     border-radius: 5px;
+    border-left: 4px solid #4CAF50;
 }
 
-#user-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+.word-card h3 {
+    margin-top: 0;
+    color: #2196F3;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
 }
 
-.feedback {
-    margin: 10px 0;
-    padding: 10px;
+.word-card h4 {
+    color: #666;
+    margin: 15px 0 5px 0;
 }
 
-.correct {
-    color: green;
+.word-basic p {
+    margin: 5px 0;
 }
 
-.wrong {
-    color: red;
-}
-
-.error-word {
+.word-example, .word-extra-examples, .word-related {
     margin: 10px 0;
     padding: 10px;
-    background: #fff3f3;
-    border-left: 3px solid red;
+    background-color: #fff;
+    border-radius: 3px;
 }
 
-button {
-    padding: 10px 20px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.wrong .word-card {
+    border-left-color: #f44336;
 }
 
-button:hover {
-    background: #0056b3;
+.correct .word-card {
+    border-left-color: #4CAF50;
 }

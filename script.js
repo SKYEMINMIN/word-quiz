@@ -1,124 +1,87 @@
-// 确保在 DOM 加载完成后执行
-document.addEventListener('DOMContentLoaded', () => {
-    let currentQuiz = [];
-    let currentWordIndex = 0;
-    let correctCount = 0;
-    let errorCount = 0;
-    let errorList = [];
+function checkAnswer() {
+    const currentWord = currentQuiz[currentWordIndex];
+    const userAnswer = userInput.value.trim().toLowerCase();
+    
+    // 创建详细的单词卡片 HTML
+    const wordCard = `
+        <div class="word-card">
+            <h3>=== 单词测试卡 ===</h3>
+            <div class="word-basic">
+                <p>英文: ${currentWord.english}</p>
+                <p>中文: ${currentWord.chinese}</p>
+                <p>音标: ${currentWord.phonetic}</p>
+                <p>词性: ${currentWord.partOfSpeech || 'N/A'}</p>
+                <p>难度: ${currentWord.difficulty || 'N/A'}</p>
+                <p>使用频率: ${currentWord.frequency || 'N/A'}</p>
+            </div>
 
-    // DOM 元素
-    const startButton = document.getElementById('start-quiz');
-    const quizContainer = document.getElementById('quiz-container');
-    const wordDisplay = document.getElementById('word-display');
-    const userInput = document.getElementById('user-input');
-    const submitButton = document.getElementById('submit-btn');
-    const feedback = document.getElementById('feedback');
-    const results = document.getElementById('results');
-    const progressSpan = document.getElementById('progress');
-    const restartButton = document.getElementById('restart-btn');
+            ${currentWord.example ? `
+                <div class="word-example">
+                    <h4>--- 例句 ---</h4>
+                    <p>例句: ${currentWord.example.sentence}</p>
+                    <p>翻译: ${currentWord.example.translation}</p>
+                    ${currentWord.example.situation ? `<p>场景: ${currentWord.example.situation}</p>` : ''}
+                </div>
+            ` : ''}
 
-    // 开始测验
-    startButton.addEventListener('click', startQuiz);
+            ${currentWord.examples ? `
+                <div class="word-extra-examples">
+                    <h4>--- 补充例句 ---</h4>
+                    ${currentWord.examples.map(ex => `
+                        <p>例句: ${ex.sentence}</p>
+                        <p>翻译: ${ex.translation}</p>
+                    `).join('')}
+                </div>
+            ` : ''}
 
-    // 提交答案
-    submitButton.addEventListener('click', checkAnswer);
+            ${(currentWord.synonyms || currentWord.root || currentWord.related) ? `
+                <div class="word-related">
+                    <h4>--- 相关词 ---</h4>
+                    ${currentWord.synonyms ? `<p>同义词: ${currentWord.synonyms.join(', ')}</p>` : ''}
+                    ${currentWord.root ? `<p>词根: ${currentWord.root}</p>` : ''}
+                    ${currentWord.related ? `<p>相关词: ${currentWord.related.join(', ')}</p>` : ''}
+                </div>
+            ` : ''}
 
-    // 重新开始
-    restartButton.addEventListener('click', () => {
-        results.style.display = 'none';
-        startQuiz();
-    });
+            ${currentWord.notes ? `
+                <div class="word-notes">
+                    <p>注释: ${currentWord.notes}</p>
+                </div>
+            ` : ''}
+        </div>
+    `;
 
-    // 回车提交
-    userInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            checkAnswer();
-        }
-    });
-
-    function startQuiz() {
-        // 重置所有计数器
-        currentWordIndex = 0;
-        correctCount = 0;
-        errorCount = 0;
-        errorList = [];
-        
-        // 获取随机单词
-        currentQuiz = wordsModule.getRandomWords(50);
-        
-        // 显示第一个单词
-        showCurrentWord();
-        
-        // 显示界面元素
-        quizContainer.style.display = 'block';
-        startButton.style.display = 'none';
-        results.style.display = 'none';
-        userInput.value = '';
-        userInput.focus();
-    }
-
-    function showCurrentWord() {
-        const word = currentQuiz[currentWordIndex];
-        wordDisplay.innerHTML = `
-            <div class="word-info">
-                <p class="chinese">${word.chinese}</p>
-                <p class="phonetic">${word.phonetic}</p>
+    if (userAnswer === currentWord.english.toLowerCase()) {
+        feedback.innerHTML = `
+            <div class="correct">
+                <p>正确！</p>
+                ${wordCard}
             </div>
         `;
-        progressSpan.textContent = `${currentWordIndex + 1}/${currentQuiz.length}`;
+        correctCount++;
+    } else {
+        feedback.innerHTML = `
+            <div class="wrong">
+                <p>错误！正确答案是: ${currentWord.english}</p>
+                ${wordCard}
+            </div>
+        `;
+        errorCount++;
+        errorList.push(currentWord);
     }
-
-    function checkAnswer() {
-        const currentWord = currentQuiz[currentWordIndex];
-        const userAnswer = userInput.value.trim().toLowerCase();
-        
-        if (userAnswer === currentWord.english.toLowerCase()) {
-            // 答对了
-            feedback.textContent = '正确！';
-            feedback.className = 'correct';
-            correctCount++;
+    
+    // 清空输入框并聚焦
+    userInput.value = '';
+    userInput.focus();
+    
+    // 延迟后进入下一题
+    setTimeout(() => {
+        currentWordIndex++;
+        if (currentWordIndex < currentQuiz.length) {
+            showCurrentWord();
+            feedback.textContent = '';
         } else {
-            // 答错了
-            feedback.textContent = `错误！正确答案是: ${currentWord.english}`;
-            feedback.className = 'wrong';
-            errorCount++;
-            errorList.push(currentWord);
+            showResults();
         }
-        
-        // 清空输入框并聚焦
-        userInput.value = '';
-        userInput.focus();
-        
-        // 延迟后进入下一题
-        setTimeout(() => {
-            currentWordIndex++;
-            if (currentWordIndex < currentQuiz.length) {
-                showCurrentWord();
-                feedback.textContent = '';
-            } else {
-                showResults();
-            }
-        }, 1500);
-    }
-
-    function showResults() {
-        quizContainer.style.display = 'none';
-        results.style.display = 'block';
-        startButton.style.display = 'block';
-        
-        document.getElementById('correct-count').textContent = correctCount;
-        document.getElementById('error-count').textContent = errorCount;
-        
-        // 显示错误列表
-        const errorListDiv = document.getElementById('error-list');
-        errorListDiv.innerHTML = '<h3>错误单词列表：</h3>';
-        errorList.forEach(word => {
-            errorListDiv.innerHTML += `
-                <div class="error-word">
-                    <p>${word.english} - ${word.chinese}</p>
-                    <p class="phonetic">${word.phonetic}</p>
-                </div>
-            `;
-        });
-    }
-});
+    }, 3000); // 增加到3秒，给用户更多时间查看单词卡
+}
