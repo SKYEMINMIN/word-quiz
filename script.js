@@ -20,13 +20,13 @@ function initializeQuiz() {
     // 随机选择50个单词
     currentWords = [...wordsList]
         .sort(() => Math.random() - 0.5)
-        .slice(0, 50);
+        .slice(0, Math.min(50, wordsList.length));
     currentIndex = 0;
     score = 0;
     incorrectWords = [];
-    showQuestion();
-    results.style.display = 'none';
     quizContainer.style.display = 'block';
+    results.style.display = 'none';
+    showQuestion();
     updateProgress();
 }
 

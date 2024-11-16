@@ -1,35 +1,35 @@
-const wordsList = [
-    // 第一部分：人物关系
-    { english: "friend", chinese: "朋友" },
-    { english: "boy", chinese: "男孩" },
-    { english: "girl", chinese: "女孩" },
-    { english: "mother", chinese: "母亲" },
-    { english: "father", chinese: "父亲" },
-    { english: "sister", chinese: "姐妹" },
-    { english: "brother", chinese: "兄弟" },
-    { english: "uncle", chinese: "叔叔；舅舅" },
-    { english: "man", chinese: "男人" },
-    { english: "woman", chinese: "女人" },
-    
-    // 第二部分：衣服
-    { english: "jacket", chinese: "夹克衫" },
-    { english: "shirt", chinese: "衬衫" },
-    { english: "T-shirt", chinese: "T恤衫" },
-    { english: "skirt", chinese: "短裙" },
-    { english: "dress", chinese: "连衣裙" },
-    { english: "jeans", chinese: "牛仔裤" },
-    
-    // 第三部分：学习用品
-    { english: "pen", chinese: "钢笔" },
-    { english: "pencil", chinese: "铅笔" },
-    { english: "ruler", chinese: "尺子" },
-    { english: "book", chinese: "书" },
-    { english: "bag", chinese: "包" },
-    
-    // 第四部分：动物
-    { english: "cat", chinese: "猫" },
-    { english: "dog", chinese: "狗" },
-    { english: "pig", chinese: "猪" },
-    { english: "duck", chinese: "鸭" },
-    { english: "rabbit", chinese: "兔" }
-];
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语单词测验</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>英语单词测验</h1>
+        <div class="controls">
+            <button id="start-quiz">开始测验</button>
+            <span id="progress">0/50</span>
+        </div>
+        
+        <div id="quiz-container" style="display: none;">
+            <div id="word-display"></div>
+            <input type="text" id="user-input" placeholder="请输入英文单词">
+            <button id="submit-btn">提交</button>
+            <div id="feedback"></div>
+        </div>
+        
+        <div id="results" style="display: none;">
+            <h2>测验结果</h2>
+            <p>正确: <span id="correct-count">0</span></p>
+            <p>错误: <span id="error-count">0</span></p>
+            <div id="error-list"></div>
+            <button id="restart-btn">重新开始</button>
+        </div>
+    </div>
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
