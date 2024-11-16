@@ -3,45 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word Quiz</title>
+    <title>英语单词测验</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Word Quiz</h1>
-        
-        <!-- PDF处理部分 -->
-        <div class="pdf-section">
-            <h2>Word List Management</h2>
-            <input type="file" id="pdf-file" accept=".pdf" />
-            <button id="extract-btn">Extract Words</button>
-            <div id="loading-spinner" class="spinner" style="display: none;"></div>
-            <div id="extraction-status"></div>
+        <h1>英语单词测验</h1>
+        <div class="controls">
+            <button id="start-quiz">开始测验</button>
+            <span id="progress">0/50</span>
         </div>
-
-        <!-- 单词测验部分 -->
-        <div id="quiz-section">
-            <div class="progress-container">
-                <div id="progress-bar"></div>
-                <div id="progress-text">0/50</div>
-            </div>
-            <div id="quiz-container">
-                <div id="word-display"></div>
-                <input type="text" id="user-input" placeholder="Type your answer">
-                <button id="submit-btn">Submit</button>
-            </div>
-            <div id="feedback" class="feedback"></div>
-            <div id="score">Correct: <span id="score-value">0</span></div>
-            <div id="result-container" style="display: none;">
-                <h2>Quiz Complete!</h2>
-                <p>Incorrect words: <span id="error-count">0</span></p>
-                <div id="error-words"></div>
-                <button id="restart-btn">Restart Quiz</button>
-            </div>
+        
+        <div id="quiz-container">
+            <div id="word-display"></div>
+            <input type="text" id="user-input" placeholder="请输入英文单词">
+            <button id="submit-btn">提交</button>
+            <div id="feedback"></div>
+        </div>
+        
+        <div id="results" style="display: none;">
+            <h2>测验结果</h2>
+            <p>正确: <span id="correct-count">0</span></p>
+            <p>错误: <span id="error-count">0</span></p>
+            <div id="error-list"></div>
+            <button id="restart-btn">重新开始</button>
         </div>
     </div>
-    <!-- 添加 PDF.js 库 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="words.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
