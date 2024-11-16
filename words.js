@@ -1,59 +1,103 @@
 const wordsList = [
-    // 第一部分：人物关系
-    { english: "friend", chinese: "朋友" },
-    { english: "boy", chinese: "男孩" },
-    { english: "girl", chinese: "女孩" },
-    { english: "mother", chinese: "母亲" },
-    { english: "father", chinese: "父亲" },
-    { english: "sister", chinese: "姐妹" },
-    { english: "brother", chinese: "兄弟" },
-    { english: "uncle", chinese: "叔叔；舅舅" },
-    { english: "man", chinese: "男人" },
-    { english: "woman", chinese: "女人" },
-    
-    // 第二部分：衣服
-    { english: "jacket", chinese: "夹克衫" },
-    { english: "shirt", chinese: "衬衫" },
-    { english: "T-shirt", chinese: "T恤衫" },
-    { english: "skirt", chinese: "短裙" },
-    { english: "dress", chinese: "连衣裙" },
-    { english: "jeans", chinese: "牛仔裤" },
-    { english: "sweater", chinese: "毛衣" },
-    { english: "coat", chinese: "上衣" },
-    { english: "raincoat", chinese: "雨衣" },
-    { english: "shorts", chinese: "短裤" },
-    { english: "sneakers", chinese: "网球鞋" },
-    { english: "slippers", chinese: "拖鞋" },
-    { english: "sandals", chinese: "凉鞋" },
-    { english: "boots", chinese: "靴子" },
-    { english: "hat", chinese: "帽子" },
-    { english: "cap", chinese: "便帽" },
-    { english: "sunglasses", chinese: "太阳镜" },
-    { english: "tie", chinese: "领带" },
-    { english: "scarf", chinese: "围巾" },
-    { english: "gloves", chinese: "手套" },
-
-    // 第三部分：学习用品
-    { english: "pen", chinese: "钢笔" },
-    { english: "pencil", chinese: "铅笔" },
-    { english: "ruler", chinese: "尺子" },
-    { english: "book", chinese: "书" },
-    { english: "bag", chinese: "包" },
-    { english: "pencil-case", chinese: "铅笔盒" },
-    { english: "schoolbag", chinese: "书包" },
-    { english: "eraser", chinese: "橡皮" },
-    { english: "crayon", chinese: "蜡笔" },
-    { english: "notebook", chinese: "笔记本" },
-
-    // 第四部分：动物
-    { english: "cat", chinese: "猫" },
-    { english: "dog", chinese: "狗" },
-    { english: "pig", chinese: "猪" },
-    { english: "duck", chinese: "鸭" },
-    { english: "rabbit", chinese: "兔子" },
-    { english: "horse", chinese: "马" },
-    { english: "elephant", chinese: "大象" },
-    { english: "fish", chinese: "鱼" },
-    { english: "bird", chinese: "鸟" },
-    { english: "monkey", chinese: "猴子" }
+    {
+        english: "friend",
+        chinese: "朋友",
+        phonetic: "[frend]",
+        partOfSpeech: "n.", // 词性
+        difficulty: "easy", // 难度等级
+        frequency: "high", // 使用频率
+        synonyms: ["companion", "buddy", "pal"], // 同义词
+        example: {
+            sentence: "Tom has been my best friend since childhood.",
+            translation: "汤姆从童年起就是我最好的朋友。",
+            situation: "social" // 使用场景
+        },
+        additionalExample: {
+            sentence: "It's important to make new friends at school.",
+            translation: "在学校交新朋友很重要。"
+        },
+        rootOrAffix: { // 词根词缀信息
+            root: "friend-",
+            related: ["friendly", "friendship", "unfriendly"]
+        },
+        imageUrl: "friend.jpg", // 配图URL（可选）
+        note: "常用于日常社交场合" // 使用注意事项
+    },
+    {
+        english: "communicate",
+        chinese: "交流，沟通",
+        phonetic: "[kəˈmjuːnɪkeɪt]",
+        partOfSpeech: "v.",
+        difficulty: "medium",
+        frequency: "high",
+        synonyms: ["talk", "converse", "correspond"],
+        example: {
+            sentence: "It's important to communicate effectively with your team.",
+            translation: "与团队进行有效沟通很重要。",
+            situation: "business"
+        },
+        additionalExample: {
+            sentence: "Modern technology helps people communicate across borders.",
+            translation: "现代技术帮助人们跨境交流。"
+        },
+        rootOrAffix: {
+            root: "commun-",
+            related: ["communication", "communicative", "communicator"]
+        },
+        note: "正式场合常用"
+    },
+    {
+        english: "appreciate",
+        chinese: "感激；欣赏",
+        phonetic: "[əˈpriːʃieɪt]",
+        partOfSpeech: "v.",
+        difficulty: "medium",
+        frequency: "medium",
+        synonyms: ["value", "esteem", "be grateful for"],
+        example: {
+            sentence: "I really appreciate your help with this project.",
+            translation: "我真的很感激你对这个项目的帮助。",
+            situation: "general"
+        },
+        additionalExample: {
+            sentence: "Not everyone can appreciate classical music.",
+            translation: "不是每个人都能欣赏古典音乐。"
+        },
+        rootOrAffix: {
+            root: "prec-",
+            related: ["appreciation", "appreciative", "appreciable"]
+        },
+        note: "可表达感谢或欣赏"
+    }
 ];
+
+// 测试函数
+function testWordDisplay() {
+    // 随机选择一个单词
+    const randomWord = wordsList[Math.floor(Math.random() * wordsList.length)];
+    
+    console.log("\n=== 单词测试卡 ===");
+    console.log(`英文: ${randomWord.english}`);
+    console.log(`中文: ${randomWord.chinese}`);
+    console.log(`音标: ${randomWord.phonetic}`);
+    console.log(`词性: ${randomWord.partOfSpeech}`);
+    console.log(`难度: ${randomWord.difficulty}`);
+    console.log(`使用频率: ${randomWord.frequency}`);
+    console.log("\n--- 例句 ---");
+    console.log(`例句: ${randomWord.example.sentence}`);
+    console.log(`翻译: ${randomWord.example.translation}`);
+    console.log(`场景: ${randomWord.example.situation}`);
+    console.log("\n--- 补充例句 ---");
+    console.log(`例句: ${randomWord.additionalExample.sentence}`);
+    console.log(`翻译: ${randomWord.additionalExample.translation}`);
+    console.log("\n--- 相关词 ---");
+    console.log(`同义词: ${randomWord.synonyms.join(", ")}`);
+    if (randomWord.rootOrAffix) {
+        console.log(`词根: ${randomWord.rootOrAffix.root}`);
+        console.log(`相关词: ${randomWord.rootOrAffix.related.join(", ")}`);
+    }
+    console.log(`\n注释: ${randomWord.note}`);
+}
+
+// 运行测试
+testWordDisplay();
