@@ -1,103 +1,248 @@
 const wordsList = [
+    // A类词汇 - 基础必备
     {
-        english: "friend",
-        chinese: "朋友",
-        phonetic: "[frend]",
-        partOfSpeech: "n.", // 词性
-        difficulty: "easy", // 难度等级
-        frequency: "high", // 使用频率
-        synonyms: ["companion", "buddy", "pal"], // 同义词
-        example: {
-            sentence: "Tom has been my best friend since childhood.",
-            translation: "汤姆从童年起就是我最好的朋友。",
-            situation: "social" // 使用场景
-        },
-        additionalExample: {
-            sentence: "It's important to make new friends at school.",
-            translation: "在学校交新朋友很重要。"
-        },
-        rootOrAffix: { // 词根词缀信息
-            root: "friend-",
-            related: ["friendly", "friendship", "unfriendly"]
-        },
-        imageUrl: "friend.jpg", // 配图URL（可选）
-        note: "常用于日常社交场合" // 使用注意事项
-    },
-    {
-        english: "communicate",
-        chinese: "交流，沟通",
-        phonetic: "[kəˈmjuːnɪkeɪt]",
-        partOfSpeech: "v.",
+        english: "ability",
+        chinese: "能力",
+        phonetic: "[əˈbɪləti]",
+        partOfSpeech: "n.",
         difficulty: "medium",
         frequency: "high",
-        synonyms: ["talk", "converse", "correspond"],
+        synonyms: ["capability", "capacity", "skill"],
+        antonyms: ["inability", "incapability"],
         example: {
-            sentence: "It's important to communicate effectively with your team.",
-            translation: "与团队进行有效沟通很重要。",
-            situation: "business"
+            sentence: "His ability to solve problems quickly is impressive.",
+            translation: "他快速解决问题的能力令人印象深刻。",
+            situation: "formal"
         },
         additionalExample: {
-            sentence: "Modern technology helps people communicate across borders.",
-            translation: "现代技术帮助人们跨境交流。"
+            sentence: "She has the ability to speak five languages.",
+            translation: "她会说五种语言。"
         },
         rootOrAffix: {
-            root: "commun-",
-            related: ["communication", "communicative", "communicator"]
+            root: "abil-",
+            meaning: "能够",
+            related: ["able", "enable", "disable"]
         },
-        note: "正式场合常用"
+        note: "常用于描述个人技能和能力",
+        level: "CET4"
     },
     {
-        english: "appreciate",
-        chinese: "感激；欣赏",
-        phonetic: "[əˈpriːʃieɪt]",
-        partOfSpeech: "v.",
-        difficulty: "medium",
-        frequency: "medium",
-        synonyms: ["value", "esteem", "be grateful for"],
+        english: "abroad",
+        chinese: "在国外",
+        phonetic: "[əˈbrɔːd]",
+        partOfSpeech: "adv.",
+        difficulty: "easy",
+        frequency: "high",
+        synonyms: ["overseas", "internationally"],
         example: {
-            sentence: "I really appreciate your help with this project.",
-            translation: "我真的很感激你对这个项目的帮助。",
+            sentence: "He plans to study abroad next year.",
+            translation: "他计划明年出国留学。",
+            situation: "education"
+        },
+        additionalExample: {
+            sentence: "Many people like traveling abroad during holidays.",
+            translation: "许多人喜欢在假期出国旅行。"
+        },
+        rootOrAffix: {
+            prefix: "a-",
+            root: "broad",
+            meaning: "宽的，广的"
+        },
+        note: "常用于教育和旅行语境",
+        level: "CET4"
+    },
+    {
+        english: "accept",
+        chinese: "接受",
+        phonetic: "[əkˈsept]",
+        partOfSpeech: "v.",
+        difficulty: "easy",
+        frequency: "very high",
+        synonyms: ["receive", "agree to", "take"],
+        antonyms: ["reject", "refuse", "decline"],
+        example: {
+            sentence: "I accept your apology.",
+            translation: "我接受你的道歉。",
             situation: "general"
         },
         additionalExample: {
-            sentence: "Not everyone can appreciate classical music.",
-            translation: "不是每个人都能欣赏古典音乐。"
+            sentence: "The university accepted him as a graduate student.",
+            translation: "这所大学录取他为研究生。"
         },
         rootOrAffix: {
-            root: "prec-",
-            related: ["appreciation", "appreciative", "appreciable"]
+            prefix: "ac-",
+            root: "cept",
+            meaning: "拿，取",
+            related: ["acceptable", "acceptance", "unacceptable"]
         },
-        note: "可表达感谢或欣赏"
+        note: "可用于正式和非正式场合",
+        level: "CET4",
+        collocation: ["accept responsibility", "accept an offer", "accept the fact"]
+    },
+    {
+        english: "accomplish",
+        chinese: "完成，实现",
+        phonetic: "[əˈkʌmplɪʃ]",
+        partOfSpeech: "v.",
+        difficulty: "medium",
+        frequency: "medium",
+        synonyms: ["achieve", "complete", "fulfill"],
+        antonyms: ["fail", "neglect"],
+        example: {
+            sentence: "She accomplished all her goals for this year.",
+            translation: "她实现了她今年所有的目标。",
+            situation: "achievement"
+        },
+        additionalExample: {
+            sentence: "It takes time to accomplish great things.",
+            translation: "成就大事需要时间。"
+        },
+        rootOrAffix: {
+            prefix: "ac-",
+            root: "compli",
+            meaning: "完成",
+            related: ["accomplishment", "accomplished"]
+        },
+        note: "多用于描述重要成就",
+        level: "CET6",
+        collocation: ["accomplish a task", "accomplish a mission", "accomplish objectives"]
+    },
+    {
+        english: "accurate",
+        chinese: "准确的，精确的",
+        phonetic: "[ˈækjərət]",
+        partOfSpeech: "adj.",
+        difficulty: "medium",
+        frequency: "high",
+        synonyms: ["precise", "exact", "correct"],
+        antonyms: ["inaccurate", "wrong", "imprecise"],
+        example: {
+            sentence: "The weather forecast was very accurate.",
+            translation: "天气预报非常准确。",
+            situation: "general"
+        },
+        additionalExample: {
+            sentence: "Scientists need accurate data for their research.",
+            translation: "科学家们需要准确的数据来进行研究。"
+        },
+        rootOrAffix: {
+            root: "accur-",
+            related: ["accuracy", "accurately", "inaccuracy"]
+        },
+        note: "常用于科学和技术领域",
+        level: "CET4",
+        collocation: ["accurate information", "accurate measurement", "accurate description"]
+    },
+    {
+        english: "adapt",
+        chinese: "适应，调整",
+        phonetic: "[əˈdæpt]",
+        partOfSpeech: "v.",
+        difficulty: "medium",
+        frequency: "high",
+        synonyms: ["adjust", "accommodate", "modify"],
+        antonyms: ["maintain", "preserve"],
+        example: {
+            sentence: "It took him some time to adapt to the new environment.",
+            translation: "他花了一些时间来适应新环境。",
+            situation: "change"
+        },
+        additionalExample: {
+            sentence: "Animals must adapt to survive climate change.",
+            translation: "动物必须适应气候变化才能生存。"
+        },
+        rootOrAffix: {
+            root: "apt-",
+            meaning: "适合的",
+            related: ["adaptable", "adaptation", "adaptive"]
+        },
+        note: "既可以是及物动词也可以是不及物动词",
+        level: "CET4",
+        collocation: ["adapt to change", "adapt quickly", "adapt well"]
+    },
+    {
+        english: "advantage",
+        chinese: "优势，有利条件",
+        phonetic: "[ədˈvæntɪdʒ]",
+        partOfSpeech: "n.",
+        difficulty: "easy",
+        frequency: "very high",
+        synonyms: ["benefit", "merit", "edge"],
+        antonyms: ["disadvantage", "drawback"],
+        example: {
+            sentence: "The main advantage of living in the city is convenience.",
+            translation: "住在城市的主要优势是便利。",
+            situation: "analysis"
+        },
+        additionalExample: {
+            sentence: "He took advantage of the opportunity to study abroad.",
+            translation: "他抓住了出国留学的机会。"
+        },
+        rootOrAffix: {
+            prefix: "ad-",
+            root: "vant",
+            related: ["advantageous", "disadvantage"]
+        },
+        note: "可用作名词和动词短语(take advantage of)",
+        level: "CET4",
+        collocation: ["competitive advantage", "take advantage of", "gain an advantage"]
+    },
+    {
+        english: "adventure",
+        chinese: "冒险，奇遇",
+        phonetic: "[ədˈventʃər]",
+        partOfSpeech: "n./v.",
+        difficulty: "easy",
+        frequency: "medium",
+        synonyms: ["exploit", "quest", "venture"],
+        example: {
+            sentence: "Their trip to the Amazon was quite an adventure.",
+            translation: "他们的亚马逊之行是一次很大的冒险。",
+            situation: "travel"
+        },
+        additionalExample: {
+            sentence: "Children love reading adventure stories.",
+            translation: "孩子们喜欢读冒险故事。"
+        },
+        rootOrAffix: {
+            root: "vent-",
+            meaning: "来，到达",
+            related: ["adventurous", "adventurer"]
+        },
+        note: "常用于旅行和文学语境",
+        level: "CET4",
+        collocation: ["adventure tourism", "sense of adventure", "go on an adventure"]
     }
 ];
 
-// 测试函数
-function testWordDisplay() {
-    // 随机选择一个单词
-    const randomWord = wordsList[Math.floor(Math.random() * wordsList.length)];
-    
-    console.log("\n=== 单词测试卡 ===");
-    console.log(`英文: ${randomWord.english}`);
-    console.log(`中文: ${randomWord.chinese}`);
-    console.log(`音标: ${randomWord.phonetic}`);
-    console.log(`词性: ${randomWord.partOfSpeech}`);
-    console.log(`难度: ${randomWord.difficulty}`);
-    console.log(`使用频率: ${randomWord.frequency}`);
-    console.log("\n--- 例句 ---");
-    console.log(`例句: ${randomWord.example.sentence}`);
-    console.log(`翻译: ${randomWord.example.translation}`);
-    console.log(`场景: ${randomWord.example.situation}`);
-    console.log("\n--- 补充例句 ---");
-    console.log(`例句: ${randomWord.additionalExample.sentence}`);
-    console.log(`翻译: ${randomWord.additionalExample.translation}`);
-    console.log("\n--- 相关词 ---");
-    console.log(`同义词: ${randomWord.synonyms.join(", ")}`);
-    if (randomWord.rootOrAffix) {
-        console.log(`词根: ${randomWord.rootOrAffix.root}`);
-        console.log(`相关词: ${randomWord.rootOrAffix.related.join(", ")}`);
-    }
-    console.log(`\n注释: ${randomWord.note}`);
+// 搜索功能
+function searchWord(keyword) {
+    return wordsList.filter(word => 
+        word.english.includes(keyword) || 
+        word.chinese.includes(keyword)
+    );
 }
 
-// 运行测试
-testWordDisplay();
+// 按难度获取单词
+function getWordsByDifficulty(level) {
+    return wordsList.filter(word => word.difficulty === level);
+}
+
+// 获取某个词性的所有单词
+function getWordsByPartOfSpeech(pos) {
+    return wordsList.filter(word => word.partOfSpeech.includes(pos));
+}
+
+// 获取高频词
+function getHighFrequencyWords() {
+    return wordsList.filter(word => word.frequency === "high" || word.frequency === "very high");
+}
+
+// 导出功能
+module.exports = {
+    wordsList,
+    searchWord,
+    getWordsByDifficulty,
+    getWordsByPartOfSpeech,
+    getHighFrequencyWords
+};
