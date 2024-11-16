@@ -1,38 +1,288 @@
+/* 基础样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* 标题样式 */
+h1 {
+    text-align: center;
+    color: #2196F3;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #333;
+    margin: 20px 0;
+}
+
+/* 控制区域样式 */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* 按钮通用样式 */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1976D2;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* 进度显示 */
+#progress {
+    font-size: 18px;
+    color: #666;
+    font-weight: bold;
+}
+
+/* 测验容器 */
+#quiz-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 单词显示区域 */
+#word-display {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.word-info {
+    margin-bottom: 15px;
+}
+
+.chinese {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.phonetic {
+    font-size: 16px;
+    color: #666;
+    font-style: italic;
+}
+
+/* 输入框样式 */
+#user-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+#user-input:focus {
+    border-color: #2196F3;
+    outline: none;
+}
+
+/* 反馈信息样式 */
+#feedback {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.correct {
+    color: #4CAF50;
+    background-color: #E8F5E9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.wrong {
+    color: #f44336;
+    background-color: #FFEBEE;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 单词卡片样式 */
 .word-card {
     background-color: #f9f9f9;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border-left: 4px solid #4CAF50;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 4px solid #2196F3;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .word-card h3 {
     margin-top: 0;
     color: #2196F3;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 5px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    font-size: 1.2em;
 }
 
 .word-card h4 {
     color: #666;
-    margin: 15px 0 5px 0;
+    margin: 15px 0 10px 0;
+    font-size: 1.1em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.word-basic {
+    margin-bottom: 15px;
 }
 
 .word-basic p {
-    margin: 5px 0;
+    margin: 8px 0;
+    line-height: 1.6;
 }
 
-.word-example, .word-extra-examples, .word-related {
-    margin: 10px 0;
-    padding: 10px;
+.word-example, 
+.word-extra-examples, 
+.word-related {
     background-color: #fff;
-    border-radius: 3px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #eee;
 }
 
-.wrong .word-card {
-    border-left-color: #f44336;
+.word-notes {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #FFF3E0;
+    border-radius: 5px;
+    font-style: italic;
 }
 
-.correct .word-card {
-    border-left-color: #4CAF50;
+/* 结果区域样式 */
+#results {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#error-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.error-word {
+    background-color: #FFF3F3;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-left: 3px solid #f44336;
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .chinese {
+        font-size: 20px;
+    }
+
+    .phonetic {
+        font-size: 14px;
+    }
+
+    #user-input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .word-card {
+        padding: 15px;
+    }
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* 打印样式 */
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .container {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    button {
+        display: none;
+    }
 }
