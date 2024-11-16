@@ -3,6 +3,7 @@ let currentIndex = 0;
 let score = 0;
 let incorrectWords = [];
 
+// 获取DOM元素
 const startQuizBtn = document.getElementById('start-quiz');
 const quizContainer = document.getElementById('quiz-container');
 const wordDisplay = document.getElementById('word-display');
@@ -13,23 +14,28 @@ const results = document.getElementById('results');
 const correctCount = document.getElementById('correct-count');
 const errorCount = document.getElementById('error-count');
 const errorList = document.getElementById('error-list');
-const restartBtn = document.getElementById('restart-btn');
-const progress = document.getElementById('progress');
+const progressDisplay = document.getElementById('progress');
 
+// 初始化测验
 function initializeQuiz() {
-    // 随机选择50个单词
+    // 随机选择单词
     currentWords = [...wordsList]
         .sort(() => Math.random() - 0.5)
         .slice(0, Math.min(50, wordsList.length));
     currentIndex = 0;
     score = 0;
     incorrectWords = [];
+    
+    // 显示测验界面
     quizContainer.style.display = 'block';
     results.style.display = 'none';
+    
+    // 显示第一个问题
     showQuestion();
     updateProgress();
 }
 
+// 显示问题
 function showQuestion() {
     if (currentIndex < currentWords.length) {
         wordDisplay.textContent = currentWords[currentIndex].chinese;
@@ -40,10 +46,7 @@ function showQuestion() {
     }
 }
 
-function updateProgress() {
-    progress.textContent = `${currentIndex}/${currentWords.length}`;
-}
-
+// 检查答案
 function checkAnswer() {
     const userAnswer = userInput.value.toLowerCase().trim();
     const correctAnswer = currentWords[currentIndex].english.toLowerCase();
@@ -67,6 +70,12 @@ function checkAnswer() {
     }, 1500);
 }
 
+// 更新进度
+function updateProgress() {
+    progressDisplay.textContent = `${currentIndex}/${currentWords.length}`;
+}
+
+// 显示结果
 function showResults() {
     quizContainer.style.display = 'none';
     results.style.display = 'block';
@@ -78,10 +87,10 @@ function showResults() {
         .join('');
 }
 
-// 事件监听器
+// 添加事件监听器
 startQuizBtn.addEventListener('click', initializeQuiz);
 submitBtn.addEventListener('click', checkAnswer);
 userInput.addEventListener('keyup', e => {
     if (e.key === 'Enter') checkAnswer();
 });
-restartBtn.addEventListener('click', initializeQuiz);
+document.getElementById('restart-btn').addEventListener('click', initializeQuiz);
