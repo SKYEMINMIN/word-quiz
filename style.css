@@ -72,112 +72,114 @@
 /* 单词卡片样式 */
 .word-card {
     background-color: white;
-    padding: 25px;
-    margin: 20px 0;
+    padding: 30px;
+    margin: 20px auto;
     border-radius: 12px;
-    border-left: 5px solid #2196F3;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    font-size: 15px;
-    line-height: 1.6;
+    border-left: 4px solid #2196F3;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 600px;
 }
 
-.word-card h3 {
-    color: #1976D2;
-    margin: 0 0 20px 0;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e0e0e0;
-    font-size: 1.4em;
-}
-
-.word-card h4 {
-    color: #2196F3;
-    margin: 20px 0 10px 0;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #e0e0e0;
-    font-size: 1.2em;
-}
-
-/* 单词信息区块样式 */
-.word-basic {
+/* 主要信息区域 */
+.word-main-info {
+    text-align: center;
+    padding: 20px;
     background-color: #f8f9fa;
-    padding: 15px;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+/* 英文单词显示 */
+.word-english {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1976D2;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+/* 音标显示 */
+.word-phonetic {
+    font-size: 24px;
+    color: #444;
     margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
 }
 
-.word-definition,
-.word-example,
-.word-extra-examples,
-.word-related,
-.word-etymology,
-.word-notes {
-    background-color: #fff;
+/* 中文释义 */
+.word-chinese {
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+/* 分隔线 */
+.divider {
+    height: 2px;
+    background-color: #e0e0e0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* 例句部分 */
+.word-examples {
+    margin-top: 20px;
     padding: 15px;
-    margin: 15px 0;
+    background-color: #f8f9fa;
     border-radius: 8px;
-    border: 1px solid #e0e0e0;
 }
 
-/* 例句样式 */
 .example-item {
     margin: 10px 0;
-    padding: 10px;
-    background-color: #f8f9fa;
+    padding: 12px;
+    background-color: white;
     border-radius: 6px;
+    border-left: 2px solid #2196F3;
 }
 
-.example-item:not(:last-child) {
-    margin-bottom: 15px;
+.example-item p {
+    margin: 5px 0;
+    line-height: 1.6;
+    font-size: 15px;
 }
 
-/* 补充说明样式 */
-.word-notes {
-    background-color: #fff3e0;
-    font-style: italic;
-}
-
-/* 继续提示样式 */
+/* 继续提示 */
 .continue-tip {
-    margin-top: 20px;
     text-align: center;
     color: #666;
-    font-style: italic;
-    padding: 10px;
+    margin-top: 25px;
+    padding: 12px;
     background-color: #f5f5f5;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-size: 14px;
 }
 
-/* 错误单词展示样式 */
-.error-word {
-    background-color: #f8f9fa;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 8px;
-    border-left: 3px solid #f44336;
-}
-
-/* 文本对齐和强调 */
-.word-card p, 
-.word-basic p, 
-.word-definition p,
-.word-example p,
-.word-extra-examples p,
-.word-related p,
-.word-etymology p,
-.word-notes p {
-    text-align: left;
-    margin: 8px 0;
-}
-
-strong {
-    color: #1976D2;
+/* 正确/错误提示 */
+.result-status {
+    text-align: center;
+    font-size: 22px;
     font-weight: 600;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.correct .result-status {
+    color: #4CAF50;
+    background-color: #E8F5E9;
+}
+
+.wrong .result-status {
+    color: #f44336;
+    background-color: #FFEBEE;
 }
 
 /* Mac 显示优化 */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     .word-card {
-        font-size: 14px;
         -webkit-font-smoothing: antialiased;
     }
 }

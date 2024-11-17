@@ -1,158 +1,233 @@
-const wordsList = [
+export const wordsList = [
     {
-        english: "ability",
-        chinese: "能力，才能",
-        phonetic: "[əˈbɪləti]",
-        partOfSpeech: "n.",
-        difficulty: "medium",
-        frequency: "high",
-        root: "abil-",
-        synonyms: ["capability", "capacity", "skill", "talent"],
-        antonyms: ["inability", "incapacity"],
-        related: ["able", "ably", "disabled"],
-        example: {
-            sentence: "His ability to solve problems quickly is impressive.",
-            translation: "他快速解决问题的能力令人印象深刻。",
-            situation: "formal"
-        },
-        examples: [
-            {
-                sentence: "She has the ability to speak six languages.",
-                translation: "她会说六种语言。"
-            },
-            {
-                sentence: "The project will test your ability to work under pressure.",
-                translation: "这个项目将考验你在压力下工作的能力。"
-            }
-        ],
-        notes: "常用于学术和职场场合"
+        "english": "abandon",
+        "chinese": "放弃，遗弃",
+        "phonetic": "[əˈbændən]",
+        "partOfSpeech": "v.",
+        "example": "My car has abandoned me in the middle of nowhere",
+        "translation": "我的车在荒郊野外抛锚了"
     },
     {
-        english: "communicate",
-        chinese: "交流，沟通",
-        phonetic: "[kəˈmjuːnɪkeɪt]",
-        partOfSpeech: "v.",
-        difficulty: "medium",
-        frequency: "high",
-        root: "commun-",
-        synonyms: ["talk", "converse", "correspond"],
-        related: ["communication", "communicative", "communicator"],
-        example: {
-            sentence: "It's important to communicate effectively with your team.",
-            translation: "与团队进行有效沟通很重要。",
-            situation: "business"
-        },
-        examples: [
-            {
-                sentence: "Modern technology helps people communicate across borders.",
-                translation: "现代技术帮助人们跨境交流。"
-            },
-            {
-                sentence: "She finds it difficult to communicate her feelings.",
-                translation: "她觉得很难表达自己的感受。"
-            }
-        ],
-        notes: "正式场合常用"
+        "english": "ability",
+        "chinese": "能力，才能",
+        "phonetic": "[əˈbɪləti]",
+        "partOfSpeech": "n.",
+        "example": "He has the ability to understand complex math problems",
+        "translation": "他有理解复杂数学问题的能力"
     },
     {
-        english: "develop",
-        chinese: "发展，开发",
-        phonetic: "[dɪˈveləp]",
-        partOfSpeech: "v.",
-        difficulty: "medium",
-        frequency: "high",
-        synonyms: ["grow", "evolve", "progress"],
-        related: ["development", "developer", "developing"],
-        example: {
-            sentence: "We need to develop new skills to stay competitive.",
-            translation: "我们需要培养新技能以保持竞争力。",
-            situation: "business"
-        },
-        examples: [
-            {
-                sentence: "The company is developing a new software product.",
-                translation: "公司正在开发一款新的软件产品。"
-            },
-            {
-                sentence: "Children develop at different rates.",
-                translation: "孩子们的发展速度各不相同。"
-            }
-        ],
-        notes: "可用于多个领域，包括个人成长、产品开发等"
+        "english": "able",
+        "chinese": "能够的",
+        "phonetic": "[ˈeɪbl]",
+        "partOfSpeech": "adj.",
+        "example": "Are you able to help me with this?",
+        "translation": "你能帮我处理这个吗？"
     },
     {
-        english: "experience",
-        chinese: "经验，经历",
-        phonetic: "[ɪkˈspɪəriəns]",
-        partOfSpeech: "n./v.",
-        difficulty: "medium",
-        frequency: "high",
-        synonyms: ["knowledge", "practice", "encounter"],
-        related: ["experienced", "experiential", "inexperienced"],
-        example: {
-            sentence: "She has ten years of teaching experience.",
-            translation: "她有十年的教学经验。",
-            situation: "professional"
-        },
-        examples: [
-            {
-                sentence: "We all experience difficulties at some point in life.",
-                translation: "我们在生活中都会经历困难。"
-            },
-            {
-                sentence: "The new virtual reality game offers an immersive experience.",
-                translation: "这款新的虚拟现实游戏提供了身临其境的体验。"
-            }
-        ],
-        notes: "既可作名词表示'经验'，也可作动词表示'经历'"
+        "english": "above",
+        "chinese": "在...上面",
+        "phonetic": "[əˈbʌv]",
+        "partOfSpeech": "prep.",
+        "example": "The picture hangs above the fireplace",
+        "translation": "这幅画挂在壁炉上方"
     },
     {
-        english: "future",
-        chinese: "未来，将来",
-        phonetic: "[ˈfjuːtʃə]",
-        partOfSpeech: "n./adj.",
-        difficulty: "easy",
-        frequency: "high",
-        synonyms: ["forthcoming", "coming", "prospective"],
-        antonyms: ["past", "previous"],
-        example: {
-            sentence: "We need to plan for the future.",
-            translation: "我们需要规划未来。",
-            situation: "general"
-        },
-        examples: [
-            {
-                sentence: "Future generations will benefit from these environmental policies.",
-                translation: "未来几代人将从这些环境政策中受益。"
-            },
-            {
-                sentence: "What are your future plans?",
-                translation: "你未来有什么计划？"
-            }
-        ],
-        notes: "在商业和规划场景中经常使用"
+        "english": "abroad",
+        "chinese": "在国外",
+        "phonetic": "[əˈbrɔːd]",
+        "partOfSpeech": "adv.",
+        "example": "He's planning to study abroad next year",
+        "translation": "他计划明年出国留学"
+    },
+    {
+        "english": "absolute",
+        "chinese": "绝对的，完全的",
+        "phonetic": "[ˈæbsəluːt]",
+        "partOfSpeech": "adj.",
+        "example": "I have absolute confidence in his ability",
+        "translation": "我对他的能力有绝对的信心"
+    },
+    {
+        "english": "accept",
+        "chinese": "接受，同意",
+        "phonetic": "[əkˈsept]",
+        "partOfSpeech": "v.",
+        "example": "He accepted the job offer immediately",
+        "translation": "他立即接受了这份工作邀请"
+    },
+    {
+        "english": "accident",
+        "chinese": "事故，意外",
+        "phonetic": "[ˈæksɪdənt]",
+        "partOfSpeech": "n.",
+        "example": "There was a car accident on the highway",
+        "translation": "高速公路上发生了一起车祸"
+    },
+    {
+        "english": "accompany",
+        "chinese": "陪伴，伴随",
+        "phonetic": "[əˈkʌmpəni]",
+        "partOfSpeech": "v.",
+        "example": "Would you like me to accompany you to the store?",
+        "translation": "你想让我陪你去商店吗？"
+    },
+    {
+        "english": "according",
+        "chinese": "根据，按照",
+        "phonetic": "[əˈkɔːrdɪŋ]",
+        "partOfSpeech": "prep.",
+        "example": "According to the weather forecast, it will rain tomorrow",
+        "translation": "根据天气预报，明天会下雨"
+    },
+    {
+        "english": "account",
+        "chinese": "账户，解释",
+        "phonetic": "[əˈkaʊnt]",
+        "partOfSpeech": "n.",
+        "example": "I need to open a bank account",
+        "translation": "我需要开一个银行账户"
+    },
+    {
+        "english": "achieve",
+        "chinese": "达到，实现",
+        "phonetic": "[əˈtʃiːv]",
+        "partOfSpeech": "v.",
+        "example": "She worked hard to achieve her goals",
+        "translation": "她为实现目标而努力工作"
+    },
+    {
+        "english": "across",
+        "chinese": "穿过，横过",
+        "phonetic": "[əˈkrɔs]",
+        "partOfSpeech": "prep.",
+        "example": "The bridge across the river is under repair",
+        "translation": "横跨河流的桥正在维修"
+    },
+    {
+        "english": "act",
+        "chinese": "行动，表演",
+        "phonetic": "[ækt]",
+        "partOfSpeech": "v.",
+        "example": "He acted in several movies last year",
+        "translation": "他去年在几部电影中演出"
+    },
+    {
+        "english": "active",
+        "chinese": "活跃的，积极的",
+        "phonetic": "[ˈæktɪv]",
+        "partOfSpeech": "adj.",
+        "example": "She leads an active lifestyle",
+        "translation": "她过着积极活跃的生活"
+    },
+    {
+        "english": "actual",
+        "chinese": "实际的，真实的",
+        "phonetic": "[ˈæktʃuəl]",
+        "partOfSpeech": "adj.",
+        "example": "The actual cost was higher than expected",
+        "translation": "实际成本比预期要高"
+    },
+    {
+        "english": "adapt",
+        "chinese": "适应，调整",
+        "phonetic": "[əˈdæpt]",
+        "partOfSpeech": "v.",
+        "example": "It took time to adapt to the new environment",
+        "translation": "需要时间来适应新环境"
+    },
+    {
+        "english": "add",
+        "chinese": "添加，增加",
+        "phonetic": "[æd]",
+        "partOfSpeech": "v.",
+        "example": "Please add some sugar to my coffee",
+        "translation": "请在我的咖啡里加些糖"
+    },
+    {
+        "english": "address",
+        "chinese": "地址，演讲",
+        "phonetic": "[əˈdres]",
+        "partOfSpeech": "n.",
+        "example": "What's your email address?",
+        "translation": "你的电子邮件地址是什么？"
+    },
+    {
+        "english": "admit",
+        "chinese": "承认，准许进入",
+        "phonetic": "[ədˈmɪt]",
+        "partOfSpeech": "v.",
+        "example": "He admitted his mistake",
+        "translation": "他承认了他的错误"
+    },
+    {
+        "english": "advance",
+        "chinese": "前进，提高",
+        "phonetic": "[ədˈvæns]",
+        "partOfSpeech": "v.",
+        "example": "Technology continues to advance rapidly",
+        "translation": "科技持续快速发展"
+    },
+    {
+        "english": "advantage",
+        "chinese": "优势，好处",
+        "phonetic": "[ədˈvæntɪdʒ]",
+        "partOfSpeech": "n.",
+        "example": "Being bilingual gives you an advantage in the job market",
+        "translation": "会说双语在就业市场上会给你带来优势"
+    },
+    {
+        "english": "advertise",
+        "chinese": "做广告，宣传",
+        "phonetic": "[ˈædvərtaɪz]",
+        "partOfSpeech": "v.",
+        "example": "They plan to advertise the new product on TV",
+        "translation": "他们计划在电视上为新产品做广告"
+    },
+    {
+        "english": "advice",
+        "chinese": "建议，忠告",
+        "phonetic": "[ədˈvaɪs]",
+        "partOfSpeech": "n.",
+        "example": "He gave me some good advice about my career",
+        "translation": "他给了我一些关于职业的好建议"
+    },
+    {
+        "english": "affect",
+        "chinese": "影响，感染",
+        "phonetic": "[əˈfekt]",
+        "partOfSpeech": "v.",
+        "example": "The weather can affect your mood",
+        "translation": "天气会影响你的心情"
     }
-    // 您可以继续添加更多单词...
+    // ... 更多单词
 ];
 
-// 定义工具对象
-const wordsModule = {
+// 导出工具函数
+export const wordsModule = {
+    // 获取所有单词
     getAllWords() {
         return wordsList;
     },
     
-    searchWord(keyword) {
-        return wordsList.filter(word => 
-            word.english.toLowerCase().includes(keyword.toLowerCase()) || 
-            word.chinese.includes(keyword)
-        );
-    },
-    
+    // 获取随机单词
     getRandomWords(count) {
         const shuffled = [...wordsList].sort(() => 0.5 - Math.random());
         return shuffled.slice(0, Math.min(count, wordsList.length));
+    },
+
+    // 根据英文查找单词
+    findWordByEnglish(english) {
+        return wordsList.find(word => word.english.toLowerCase() === english.toLowerCase());
+    },
+
+    // 获取指定数量的随机单词，但不重复
+    getUniqueRandomWords(count) {
+        const available = [...wordsList];
+        const result = [];
+        for (let i = 0; i < Math.min(count, available.length); i++) {
+            const randomIndex = Math.floor(Math.random() * available.length);
+            result.push(available.splice(randomIndex, 1)[C_0]());
+        }
+        return result;
     }
 };
-
-// 确保 wordsModule 在全局范围可用
-window.wordsModule = wordsModule;
