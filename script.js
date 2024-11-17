@@ -1,9 +1,6 @@
-// script.js
-import { wordsList, wordsModule } from './words.js';
-
-
+// 确保DOM完全加载后执行
 document.addEventListener('DOMContentLoaded', function() {
-    // 获取 DOM 元素
+    // 获取DOM元素
     const startButton = document.getElementById('start-quiz');
     const quizContainer = document.getElementById('quiz-container');
     const wordDisplay = document.getElementById('word-display');
@@ -30,13 +27,13 @@ document.addEventListener('DOMContentLoaded', function() {
     submitButton.addEventListener('click', checkAnswer);
     restartButton.addEventListener('click', startQuiz);
 
-    // 添加获取随机单词的辅助函数
+    // 获取随机单词的辅助函数
     function getRandomWords(wordsList, count) {
         const shuffled = [...wordsList].sort(() => 0.5 - Math.random());
         return shuffled.slice(0, count);
     }
 
-    // 添加全局键盘事件监听
+    // 全局键盘事件监听
     document.addEventListener('keydown', function(e) {
         if (waitingForNext) {
             // 在显示单词卡状态下，按任意键继续
@@ -53,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 添加输入框键盘事件监听
+    // 输入框键盘事件监听
     userInput.addEventListener('keypress', function(e) {
         if (e.key === 'Enter' && !waitingForNext) {
             checkAnswer();
@@ -70,24 +67,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 开始测试函数
     function startQuiz() {
-        currentWordIndex = 0;
-        correctCount = 0;
-        errorCount = 0;
-        errorList = [];
-        waitingForNext = false;
-        
-        // 从words数组中随机选择50个单词
-        currentQuiz = getRandomWords(words, 50);
-        
-        startButton.style.display = 'none';
-        quizContainer.style.display = 'block';
-        results.style.display = 'none';
-        feedback.innerHTML = '';
-        
-        showCurrentWord();
-        
-        userInput.value = '';
-        userInput.focus();
+        try {
+            if (!Array.isArray(words) || words.length === 0) {
+                throw new Error('单词数据未正确加载');
+            }
+
+            currentWordIndex = 0;
+            correctCount = 0;
+            errorCount = 0;
+            errorList = [];
+            waitingForNext = false;
+            
+            // 从words数组中随机选择50个单词
+            currentQuiz = getRandomWords(words, 50);
+            
+            startButton.style.display = 'none';
+            quizContainer.style.display = 'block';
+            results.style.display = 'none';
+            feedback.innerHTML = '';
+            
+            showCurrentWord();
+            
+            userInput.value = '';
+            userInput.focus();
+        } catch (error) {
+            console.error('启动测验时出错:', error);
+            feedback.innerHTML = `<div class="wrong">出错了：${error.message}</div>`;
+        }
     }
 
     // 显示当前单词
@@ -175,18 +181,23 @@ document.addEventListener('DOMContentLoaded', function() {
     function showResults() {
         quizContainer.style.display = 'none';
         results.style.display = 'block';
-        startButton.style.display = 'block';
-        startButton.textContent = '重新测试';
         
         correctCountElement.textContent = correctCount;
         errorCountElement.textContent = errorCount;
         
-        // 显示错误列表
-        errorListElement.innerHTML = errorList.map(word => `
-            <div class="error-item">
-                <span class="english">${word.english}</span>
-                <span class="chinese">${word.chinese}</span>
-            </div>
-        `).join('');
+        // 清空错误列表
+        errorListElement.innerHTML = '';
+        
+        // 显示错误的单词
+        errorList.forEach(word => {
+            const errorWordElement = document.createElement('div');
+            errorWordElement.className = 'error-word';
+            errorWordElement.innerHTML = `
+                <div class="word-english">${word.english}</div>
+                <div class="word-phonetic">${word.phonetic || ''}</div>
+                <div class="word-chinese">${word.chinese}</div>
+            `;
+            errorListElement.appendChild(errorWordElement);
+        });
     }
 });
