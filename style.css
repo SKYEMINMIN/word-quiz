@@ -1,183 +1,416 @@
-/* 基础容器样式 */
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* 容器样式 */
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* 头部样式 */
-.header {
+/* 标题样式 */
+.title {
     text-align: center;
-    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin: 30px 0;
+    font-weight: 600;
 }
 
-.header h1 {
-    color: #2196F3;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-/* 测试容器样式 */
-#quiz-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* 输入和按钮样式 */
-#user-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 2px solid #2196F3;
-    border-radius: 6px;
-    font-size: 16px;
-}
-
-#submit-btn, #start-quiz, #restart-btn {
-    background-color: #2196F3;
+/* 开始按钮样式 */
+.start-button {
+    display: block;
+    width: 240px;
+    height: 60px;
+    margin: 40px auto;
+    font-size: 1.2em;
+    font-weight: 500;
     color: white;
+    background-color: #4a90e2;
     border: none;
-    padding: 10px 20px;
-    border-radius: 6px;
+    border-radius: 30px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(74, 144, 226, 0.2);
 }
 
-#submit-btn:hover, #start-quiz:hover, #restart-btn:hover {
-    background-color: #1976D2;
+.start-button:hover {
+    background-color: #357abd;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(74, 144, 226, 0.3);
 }
 
-/* 进度和单词显示 */
-#progress {
+/* 测验容器样式 */
+.quiz-container {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    margin-top: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* 进度显示 */
+.progress {
+    text-align: center;
+    font-size: 1.1em;
     color: #666;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+/* 单词显示区域 */
+.word-display {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.word-info {
+    margin-bottom: 40px;
+}
+
+.word-info .chinese {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #2c3e50;
     margin-bottom: 15px;
-    font-size: 14px;
 }
 
-.chinese {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.phonetic {
+.word-info .phonetic {
+    font-size: 1.3em;
     color: #666;
-    font-size: 16px;
-    margin-bottom: 20px;
+}
+
+/* 输入框样式 */
+.user-input {
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    background-color: #f8f9fa;
+}
+
+.user-input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+    background-color: white;
 }
 
 /* 单词卡片样式 */
 .word-card {
-    background-color: white;
-    padding: 25px;
-    margin: 20px 0;
-    border-radius: 12px;
-    border-left: 5px solid #2196F3;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    font-size: 15px;
-    line-height: 1.6;
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    margin: 30px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
 }
 
-.word-card h3 {
-    color: #1976D2;
-    margin: 0 0 20px 0;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e0e0e0;
+.word-card.correct {
+    border-left: 6px solid #4caf50;
+}
+
+.word-card.wrong {
+    border-left: 6px solid #f44336;
+}
+
+.word-card .result-header {
     font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #2c3e50;
 }
 
-.word-card h4 {
-    color: #2196F3;
-    margin: 20px 0 10px 0;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #e0e0e0;
+.word-card .english {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.word-card .phonetic {
+    font-size: 1.4em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.word-card .pos {
     font-size: 1.2em;
-}
-
-/* 单词信息区块样式 */
-.word-basic {
-    background-color: #f8f9fa;
-    padding: 15px;
-    border-radius: 8px;
+    color: #666;
     margin-bottom: 15px;
-}
-
-.word-definition,
-.word-example,
-.word-extra-examples,
-.word-related,
-.word-etymology,
-.word-notes {
-    background-color: #fff;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 8px;
-    border: 1px solid #e0e0e0;
-}
-
-/* 例句样式 */
-.example-item {
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #f8f9fa;
-    border-radius: 6px;
-}
-
-.example-item:not(:last-child) {
-    margin-bottom: 15px;
-}
-
-/* 补充说明样式 */
-.word-notes {
-    background-color: #fff3e0;
     font-style: italic;
 }
 
-/* 继续提示样式 */
-.continue-tip {
-    margin-top: 20px;
+.word-card .chinese {
+    font-size: 1.6em;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+.word-card .example {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.word-card .example .english {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.word-card .example .chinese {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.word-card .next-tip {
     text-align: center;
     color: #666;
+    margin-top: 30px;
     font-style: italic;
-    padding: 10px;
-    background-color: #f5f5f5;
-    border-radius: 5px;
+    font-size: 1.1em;
 }
 
-/* 错误单词展示样式 */
+/* 结果页面样式 */
+.results {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.results h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.result-summary {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+}
+
+.result-item {
+    text-align: center;
+}
+
+.result-label {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.result-value {
+    font-size: 2em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.error-list {
+    margin-top: 40px;
+}
+
+.error-list h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
 .error-word {
-    background-color: #f8f9fa;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 8px;
-    border-left: 3px solid #f44336;
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
 }
 
-/* 文本对齐和强调 */
-.word-card p, 
-.word-basic p, 
-.word-definition p,
-.word-example p,
-.word-extra-examples p,
-.word-related p,
-.word-etymology p,
-.word-notes p {
-    text-align: left;
-    margin: 8px 0;
-}
-
-strong {
-    color: #1976D2;
-    font-weight: 600;
-}
-
-/* Mac 显示优化 */
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    .word-card {
-        font-size: 14px;
-        -webkit-font-smoothing: antialiased;
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
     }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .word-card .english {
+        font-size: 2.2em;
+    }
+
+    .user-input {
+        width: 100%;
+    }
+}
+/* ... 保留之前的基础样式 ... */
+
+/* 新增分栏布局样式 */
+.split-layout {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    height: calc(100vh - 180px); /* 减去标题和按钮的高度 */
+    min-height: 500px;
+}
+
+.left-panel {
+    flex: 0 0 45%;
+    min-width: 400px;
+}
+
+.right-panel {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* 修改容器样式 */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 修改测验容器样式 */
+.quiz-container {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* 调整进度显示 */
+.progress {
+    text-align: center;
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* 调整单词显示区域 */
+.word-display {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word-info {
+    text-align: center;
+}
+
+/* 调整输入框位置 */
+.user-input {
+    margin-top: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* 调整单词卡样式 */
+.word-card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* 结果页面样式调整 */
+.results {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 1000px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* 响应式设计调整 */
+@media (max-width: 1024px) {
+    .split-layout {
+        flex-direction: column;
+    }
+
+    .left-panel {
+        flex: 0 0 auto;
+        min-width: 100%;
+        height: 50vh;
+    }
+
+    .right-panel {
+        flex: 0 0 auto;
+        height: 50vh;
+    }
+}
+
+/* 优化标题样式 */
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #2c3e50;
+    margin: 20px 0;
+}
+
+/* 优化开始按钮样式 */
+.start-button {
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
