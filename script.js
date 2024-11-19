@@ -166,8 +166,8 @@ function createFeedbackCard(word, isCorrect) {
                 <div class="word-main">
                     <span class="word-english">${word.word}</span>
                     <span class="word-phonetic">${word.phonetic}</span>
+                    <span class="word-chinese">${word.chinese}</span>
                 </div>
-                <div class="word-chinese">${word.chinese}</div>
             </div>
             <div class="word-examples">
                 <div class="example">
@@ -182,6 +182,8 @@ function createFeedbackCard(word, isCorrect) {
         </div>
     `;
 }
+
+
 
 
 

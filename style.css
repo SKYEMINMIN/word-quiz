@@ -24,6 +24,107 @@
     --TY-Text-2: var(--app-text-color) !important;
 }
 
+/* 修改默认字体大小 */
+:root:not(#😅) {
+    /* 保持其他变量不变，只添加字体大小变量 */
+    --font-size-xxl: 1.2rem;    /* 最大号字体 */
+    --font-size-xl: 1.1rem;     /* 大号字体 */
+    --font-size-l: 1rem;        /* 中大号字体 */
+    --font-size-m: 0.95rem;     /* 中号字体 */
+    --font-size-s: 0.9rem;      /* 小号字体 */
+    --font-size-xs: 0.85rem;    /* 最小号字体 */
+}
+
+/* 标题样式 */
+.word-quiz-app .title {
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+}
+
+/* 开始按钮 */
+.word-quiz-app .start-button {
+    font-size: var(--font-size-l);
+}
+
+/* 单词显示区域 */
+.word-quiz-app .word-display {
+    font-size: var(--font-size-xl);
+}
+
+/* 输入框 */
+.word-quiz-app .user-input {
+    font-size: var(--font-size-l);
+}
+
+/* 计数器 */
+#word-counter {
+    font-size: var(--font-size-m);
+}
+
+/* 单词卡中的字体 */
+.word-english {
+    font-size: var(--font-size-xl);
+}
+
+.word-phonetic {
+    font-size: var(--font-size-s);
+}
+
+.word-chinese {
+    font-size: var(--font-size-m);
+}
+
+/* 例句样式 */
+.example-english {
+    font-size: var(--font-size-m);
+}
+
+.example-chinese {
+    font-size: var(--font-size-s);
+}
+
+/* 结果显示 */
+.result-header {
+    font-size: var(--font-size-l);
+}
+
+/* 分数显示 */
+.score-number {
+    font-size: var(--font-size-xl);
+}
+
+.score-percentage {
+    font-size: var(--font-size-l);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .word-quiz-app .title {
+        font-size: var(--font-size-xl);
+    }
+    
+    .word-quiz-app .word-display {
+        font-size: var(--font-size-l);
+    }
+    
+    .word-quiz-app .user-input {
+        font-size: var(--font-size-m);
+    }
+    
+    .word-english {
+        font-size: var(--font-size-l);
+    }
+    
+    .word-phonetic {
+        font-size: var(--font-size-xs);
+    }
+    
+    .word-chinese {
+        font-size: var(--font-size-s);
+    }
+}
+
+
 /* 2. 重置全局滚动行为 */
 html,
 html *,
@@ -192,4 +293,125 @@ body {
 .feedback-card .word.incorrect {
     color: #f44336;  /* 红色 */
     font-weight: bold;
+}
+
+/* 单词卡样式 - 更紧凑的布局 */
+.feedback-card {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 8px 0;
+    box-shadow: var(--app-shadow);
+    background: #ffffff;
+    max-height: 65vh; /* 限制最大高度为视窗高度的65% */
+    overflow-y: auto;
+}
+
+/* 正确/错误状态 */
+.feedback-card.correct {
+    background-color: rgba(0, 176, 66, 0.1);
+    border: 1px solid var(--app-success-color);
+}
+
+.feedback-card.wrong {
+    background-color: rgba(235, 47, 47, 0.1);
+    border: 1px solid var(--app-error-color);
+}
+
+/* 结果标题样式 */
+.result-header {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+/* 单词信息区域样式 - 改为一行显示 */
+.word-info {
+    text-align: center;
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.word-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* 单词、音标、释义在一行显示 */
+.word-english {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--app-text-color);
+}
+
+.word-phonetic {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+.word-chinese {
+    font-size: 1rem;
+    color: var(--app-text-color);
+    margin-left: 8px;
+}
+
+/* 例句区域样式 */
+.word-examples {
+    margin-top: 12px;
+    line-height: 1.6;
+}
+
+.example {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: rgba(245, 246, 248, 0.5);
+    border-radius: 6px;
+}
+
+.example-english {
+    font-weight: bold;
+    color: var(--app-text-color);
+    margin-bottom: 4px;
+    font-size: 0.95rem;
+}
+
+.example-chinese {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* 滚动条样式优化 */
+.feedback-card::-webkit-scrollbar {
+    width: 4px;
+}
+
+.feedback-card::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 2px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .feedback-card {
+        max-height: 70vh;
+    }
+    
+    .word-english {
+        font-size: 1.1rem;
+    }
+    
+    .word-phonetic {
+        font-size: 0.85rem;
+    }
+    
+    .word-chinese {
+        font-size: 0.95rem;
+    }
 }
