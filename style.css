@@ -178,3 +178,18 @@ body {
         padding: 12px;
     }
 }
+#word-counter {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+}
+.feedback-card .word.correct {
+    color: #4CAF50;  /* 绿色 */
+    font-weight: bold;
+}
+
+.feedback-card .word.incorrect {
+    color: #f44336;  /* 红色 */
+    font-weight: bold;
+}
