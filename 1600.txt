@@ -1,0 +1,411 @@
+friend 朋友[frend] This is my friend.|这是我的朋友。#A true friend will stand by you through difficult times.|真正的朋友会在困难时期陪伴你。
+boy 男孩[bɔi] The boy is happy.|这个男孩很开心。#The little boy showed remarkable talent in sports.|这个小男孩在运动方面表现出非凡的才能。
+girl 女孩[ɡə:l] The girl is reading.|这个女孩在读书。#The young girl won first prize in the competition.|这个女孩在比赛中获得了第一名。
+mother 母亲[ˈmʌðə] My mother is kind.|我妈妈很善良。#Mother spent all day preparing for the family reunion.|妈妈花了一整天准备家庭聚会。
+father 父亲[ˈfɑ:ðə] My father works hard.|我父亲工作很努力。#Father taught me how to ride a bicycle.|父亲教我骑自行车。
+sister 姐妹[ˈsistə] My sister is older than me.|我姐姐比我大。#His sister graduated from medical school last year.|他的姐姐去年从医学院毕业。
+brother 兄弟[ˈbrʌðə] My brother plays football.|我兄弟踢足球。#His brother has always been his biggest supporter.|他的兄弟一直是他最大的支持者。
+uncle 叔叔[ˈʌŋkl] My uncle lives nearby.|我叔叔住在附近。#Uncle Tom traveled around the world last summer.|汤姆叔叔去年夏天环游世界。
+man 男人[mæn] The man is tall.|这个男人很高。#The man dedicated his life to helping others.|这个男人把一生都献给了帮助他人。
+woman 女人[ˈwumən] The woman is beautiful.|这个女人很漂亮。#The woman runs her own successful business.|这个女人经营着自己成功的企业。
+miss 小姐[mis] Miss Wang is our teacher.|王小姐是我们的老师。#Miss Smith won the outstanding teacher award.|史密斯小姐获得了优秀教师奖。
+lady 女士[ˈleidi] The lady is wearing red.|这位女士穿着红色衣服。#The elderly lady volunteers at the local hospital.|这位老太太在当地医院做志愿者。
+mom 妈妈[mɔm] Mom is cooking dinner.|妈妈在做晚饭。#Mom always knows how to make everything better.|妈妈总是知道如何让一切变得更好。
+dad 爸爸[dæd] Dad is washing the car.|爸爸在洗车。#Dad taught me the importance of hard work.|爸爸教会我努力工作的重要性。
+parent 父母[ˈpεərənt] My parent is strict.|我的父母很严格。#Every parent wants the best for their children.|每个父母都想给孩子最好的。
+grandma 奶奶[ˈɡrænmɑ] Grandma makes cookies.|奶奶在做饼干。#Grandma shared stories from her childhood with us.|奶奶和我们分享她童年的故事。
+aunt 姑姑[ɑ:nt] My aunt lives in Beijing.|我姑姑住在北京。#Aunt Mary helped me prepare for the college entrance exam.|玛丽姑姑帮我准备大学入学考试。
+cousin 堂兄弟[ˈkʌzən] My cousin is coming today.|我的堂兄今天要来。#My cousin studied abroad for five years.|我的堂兄在国外学习了五年。
+son 儿子[sʌn] His son is six years old.|他的儿子六岁了。#Their son became a successful doctor.|他们的儿子成为了一名成功的医生。
+daughter 女儿[ˈdɔ:tə] Her daughter likes dancing.|她的女儿喜欢跳舞。#Their daughter won a scholarship to Harvard.|他们的女儿获得了哈佛的奖学金。
+baby 婴儿[ˈbeibi] The baby is sleeping.|婴儿在睡觉。#The baby learned to walk at ten months old.|这个婴儿在十个月大时就学会走路了。
+kid 小孩[kid] The kid is playing.|这个小孩在玩耍。#The kid showed amazing mathematical ability.|这个小孩表现出惊人的数学能力。
+classmate 同学[ˈklɑ:smeit] My classmate helps me.|我的同学帮助我。#My classmate became a famous scientist.|我的同学成为了一位著名的科学家。
+queen 女王[kwi:n] The queen is coming.|女王要来了。#The queen addressed the nation during the crisis.|女王在危机期间向全国发表讲话。
+visitor 访客[ˈvizitə] The visitor arrived late.|访客迟到了。#The visitor brought gifts from his home country.|这位访客带来了他祖国的礼物。
+neighbour 邻居[ˈneibə] My neighbour is friendly.|我的邻居很友好。#Our neighbour helped us during the power outage.|我们的邻居在停电期间帮助了我们。
+jacket 夹克[ˈdʒækit] I need a jacket.|我需要一件夹克。#The waterproof jacket protected him from the heavy rain.|这件防水夹克让他免受大雨的影响。
+shirt 衬衫[ʃə:t] The shirt is white.|这件衬衫是白色的。#He ironed his shirt carefully before the interview.|他在面试前仔细熨烫了衬衫。
+skirt 短裙[skə:t] Her skirt is blue.|她的短裙是蓝色的。#The pleated skirt swayed gracefully as she walked.|百褶裙随着她的步伐优雅摆动。
+dress 连衣裙[dres] She bought a dress.|她买了一条连衣裙。#The elegant dress was perfect for the wedding ceremony.|这件优雅的连衣裙很适合婚礼。
+jeans 牛仔裤[dʒi:n] These jeans fit well.|这条牛仔裤很合身。#The vintage jeans became popular among young people.|这种复古牛仔裤在年轻人中很流行。
+pants 长裤[pænts] My pants are new.|我的长裤是新的。#The comfortable pants are suitable for hiking.|这条舒适的长裤很适合徒步旅行。
+socks 袜子[sɔks] I need new socks.|我需要新袜子。#The wool socks kept his feet warm in winter.|这双羊毛袜子让他的脚在冬天保持温暖。
+shoes 鞋子[ʃu:z] My shoes are black.|我的鞋子是黑色的。#The running shoes provided excellent support during the marathon.|这双跑鞋在马拉松比赛中提供了极好的支撑。
+sweater 毛衣[ˈswetə] The sweater is warm.|这件毛衣很暖和。#The hand-knitted sweater was a Christmas gift from grandmother.|这件手织毛衣是奶奶的圣诞礼物。
+coat 外套[kəut] I need a warm coat.|我需要一件暖和的外套。#The winter coat protected him from the freezing wind.|这件冬季外套让他免受寒风侵袭。
+raincoat 雨衣[ˈreinkəut] Wear your raincoat.|穿上你的雨衣。#The lightweight raincoat was perfect for the rainy season.|这件轻便的雨衣很适合雨季使用。
+shorts 短裤[ʃɔ:ts] I wear shorts today.|我今天穿短裤。#The athletic shorts were comfortable for playing tennis.|这条运动短裤打网球时很舒适。
+hat 帽子[hæt] The hat is red.|这顶帽子是红色的。#The wide-brimmed hat provided excellent sun protection.|这顶宽檐帽提供了很好的遮阳效果。
+cap 便帽[kæp] He wears a cap.|他戴着便帽。#The baseball cap protected his eyes from the strong sunlight.|这顶棒球帽保护他的眼睛免受强光照射。
+scarf 围巾[skɑ:f] The scarf is long.|这条围巾很长。#The silk scarf added elegance to her outfit.|这条丝巾为她的着装增添了优雅。
+gloves 手套[ɡlʌvz] I lost my gloves.|我丢了手套。#The waterproof gloves kept his hands dry while skiing.|这副防水手套让他滑雪时手保持干燥。
+pen 钢笔[pen] This is my pen.|这是我的钢笔。#The fountain pen wrote smoothly on the premium paper.|这支钢笔在优质纸张上书写流畅。
+pencil 铅笔[ˈpensəl] I need a pencil.|我需要一支铅笔。#The artist used various pencils to create detailed sketches.|艺术家使用各种铅笔创作详细的素描。
+ruler 尺子[ˈru:lə] The ruler is long.|这把尺子很长。#The metal ruler helped create precise measurements.|这把金属尺子帮助进行精确测量。
+book 书[buk] I read a book.|我在读一本书。#The ancient book contained valuable historical information.|这本古书包含了宝贵的历史信息。
+bag 包[bæɡ] My bag is heavy.|我的包很重。#The leather bag has lasted for many years.|这个皮包已经用了很多年。
+newspaper 报纸[ˈnju:zpeipə] I read newspaper.|我看报纸。#The local newspaper reported on community developments.|当地报纸报道了社区发展情况。
+eraser 橡皮[iˈreizə] I need an eraser.|我需要一个橡皮。#The quality eraser removed pencil marks completely.|这个优质橡皮完全擦除了铅笔痕迹。
+crayon 蜡笔[ˈkreiən] Use the crayon.|用这支蜡笔。#The children used crayons to create colorful drawings.|孩子们用蜡笔创作了彩色画作。
+cat 猫[kæt] The cat is sleeping.|猫在睡觉。#The Siamese cat won first prize in the pet show.|这只暹罗猫在宠物展览中获得第一名。
+dog 狗[dɔɡ] The dog is friendly.|这只狗很友好。#The trained dog helps blind people cross the street.|这只训练有素的狗帮助盲人过马路。
+pig 猪[piɡ] The pig is pink.|这头猪是粉色的。#The pig gained weight quickly on the farm.|这头猪在农场里快速增重。
+duck 鸭[dʌk] The duck swims well.|鸭子游泳很好。#The duck family crossed the busy park pond.|这家鸭子穿过繁忙的公园池塘。
+rabbit 兔[ˈræbit] The rabbit is white.|兔子是白色的。#The wild rabbit hopped through the garden at dawn.|野兔在黎明时跳过花园。
+horse 马[hɔ:s] The horse runs fast.|马跑得快。#The beautiful horse won several racing competitions.|这匹漂亮的马赢得了几场赛马比赛。
+elephant 大象[ˈelifənt] The elephant is big.|大象很大。#The African elephant protected its baby from predators.|这头非洲象保护它的宝宝免受捕食者伤害。
+ant 蚂蚁[ænt] The ant is small.|蚂蚁很小。#The industrious ants worked together to build their nest.|勤劳的蚂蚁一起建造它们的巢穴。
+fish 鱼[fiʃ] The fish swims.|鱼在游泳。#The tropical fish displayed brilliant colors in the aquarium.|热带鱼在水族箱中展示出绚丽的色彩。
+bird 鸟[bə:d] The bird can fly.|鸟会飞。#The rare bird species was spotted in the rainforest.|这种稀有鸟类在热带雨林中被发现。
+eagle 鹰[ˈi:ɡl] The eagle flies high.|鹰飞得很高。#The majestic eagle soared above the mountain peaks.|雄伟的老鹰在山峰上空翱翔。
+snake 蛇[sneik] The snake is long.|蛇很长。#The colorful snake slithered through the grass.|这条彩色的蛇在草丛中滑行。
+mouse 老鼠[maus] The mouse is quick.|老鼠很快。#The clever mouse found its way through the maze.|聪明的老鼠找到了穿过迷宫的路。
+monkey 猴[ˈmʌŋki] The monkey climbs.|猴子在爬。#The playful monkey swung from tree to tree.|调皮的猴子在树与树之间荡来荡去。
+panda 熊猫[ˈpændə] The panda eats bamboo.|熊猫吃竹子。#The giant panda played happily in the snow.|大熊猫在雪地里快乐地玩耍。
+bear 熊[bεə] The bear is strong.|熊很强壮。#The brown bear caught fish in the mountain stream.|棕熊在山溪中捕鱼。
+lion 狮子[ˈlaiən] The lion roars.|狮子在咆哮。#The male lion protected his pride in the savanna.|雄狮在草原上保护他的狮群。
+tiger 老虎[ˈtaiɡə] The tiger is fierce.|老虎很凶猛。#The Bengal tiger stalked silently through the jungle.|孟加拉虎在丛林中悄悄潜行。
+fox 狐狸[fɔks] The fox is clever.|狐狸很聪明。#The red fox hunted for food in the snow.|红狐在雪地里寻找食物。
+zebra 斑马[ˈzi:brə] The zebra has stripes.|斑马有条纹。#The zebra herd migrated across the African plains.|斑马群在非洲平原上迁徙。
+deer 鹿[diə] The deer runs fast.|鹿跑得快。#The gentle deer grazed peacefully in the meadow.|温顺的鹿在草地上平静地吃草。
+giraffe 长颈鹿[dʒiˈrɑ:f] The giraffe is tall.|长颈鹿很高。#The giraffe reached the highest leaves on the tree.|长颈鹿够到了树上最高的叶子。
+goose 鹅[ɡu:s] The goose swims.|鹅在游泳。#The wild goose led its flock south for winter.|野鹅带领它的鸟群南飞过冬。
+hen 母鸡[hen] The hen lays eggs.|母鸡下蛋。#The mother hen gathered her chicks under her wings.|母鸡把小鸡聚集在翅膀下。
+sheep 绵羊[ʃi:p] The sheep eats grass.|绵羊吃草。#The flock of sheep grazed peacefully on the hillside.|一群绵羊在山坡上安静地吃草。
+cow 奶牛[kau] The cow gives milk.|奶牛产奶。#The dairy cow produced fresh milk every morning.|奶牛每天早上都产新鲜的牛奶。
+shark 鲨鱼[ʃɑ:k] The shark swims fast.|鲨鱼游得快。#The great white shark patrolled the deep ocean waters.|大白鲨在深海水域巡游。
+apple 苹果[ˈæpl] I eat an apple.|我吃一个苹果。#The fresh apple fell from the old tree in the orchard.|新鲜的苹果从果园里的老树上掉下来。
+banana 香蕉[bəˈnɑ:nə] I like bananas.|我喜欢香蕉。#The ripe bananas provided quick energy for the athletes.|熟透的香蕉为运动员提供快速能量。
+pear 梨[pεə] The pear is sweet.|这个梨很甜。#The juicy pear was perfectly ripe for eating.|这个多汁的梨正好熟透可以食用。
+orange 橙子[ˈɔrindʒ] I have an orange.|我有一个橙子。#The sweet orange provided plenty of vitamin C.|这个甜橙提供了丰富的维生素C。
+watermelon 西瓜[ˈwɔ:təmelən] The watermelon is big.|这个西瓜很大。#The cold watermelon refreshed us on the hot summer day.|冰凉的西瓜在炎热的夏天让我们清爽。
+grape 葡萄[ɡreip] I bought some grapes.|我买了一些葡萄。#The sweet grapes were harvested from the vineyard.|甜美的葡萄从葡萄园里收获。
+eggplant 茄子[ˈeɡplɑ:nt] I cook eggplant.|我烹饪茄子。#The grilled eggplant was seasoned with herbs.|烤茄子用香草调味。
+tomato 西红柿[təˈmɑ:təu] I slice tomatoes.|我切西红柿。#The fresh tomatoes made the salad taste better.|新鲜的西红柿让沙拉味道更好。
+potato 土豆[pəˈteitəu] I peel potatoes.|我削土豆皮。#The baked potato was served with sour cream.|烤土豆配酸奶油端上桌。
+peach 桃子[pi:tʃ] The peach is soft.|这个桃子很软。#The sweet peach juice dripped down his chin.|甜美的桃汁滴到他的下巴上。
+strawberry 草莓[ˈstrɔ:bəri] I grow strawberries.|我种草莓。#The fresh strawberries were perfect for making jam.|新鲜的草莓非常适合制作果酱。
+cucumber 黄瓜[ˈkju:kʌmbə] I slice cucumber.|我切黄瓜。#The cool cucumber added freshness to the sandwich.|清爽的黄瓜为三明治增添了新鲜感。
+onion 洋葱[ˈʌnjən] I cut onions.|我切洋葱。#The chopped onion added flavor to the soup.|切碎的洋葱为汤增添了风味。
+carrot 胡萝卜[ˈkærət] I eat carrots.|我吃胡萝卜。#The fresh carrot was perfect for the salad.|新鲜的胡萝卜很适合做沙拉。
+cabbage 卷心菜[ˈkæbidʒ] I cook cabbage.|我烹饪卷心菜。#The green cabbage was perfect for making coleslaw.|绿卷心菜很适合制作凉拌卷心菜。
+rice 米饭[rais] I eat rice daily.|我每天吃米饭。#The steamed rice accompanied the curry perfectly.|蒸好的米饭很配咖喱。
+bread 面包[bred] I buy fresh bread.|我买新鲜面包。#The homemade bread filled the kitchen with its aroma.|自制面包的香气填满了厨房。
+milk 牛奶[milk] I drink milk.|我喝牛奶。#The fresh milk came from the local dairy farm.|新鲜牛奶来自当地奶牛场。
+egg 鸡蛋[eɡ] I boil eggs.|我煮鸡蛋。#The fresh eggs were collected from the henhouse.|新鲜的鸡蛋是从鸡舍收集的。
+meat 肉[mi:t] I cook meat.|我烹饪肉。#The tender meat was cooked to perfection.|嫩肉烹饪得恰到好处。
+fish 鱼[fiʃ] I like fish.|我喜欢鱼。#The grilled fish was seasoned with herbs.|烤鱼用香草调味。
+soup 汤[su:p] The soup is hot.|汤是热的。#The homemade soup warmed us on the cold winter day.|自制的汤在寒冷的冬天温暖了我们。
+cake 蛋糕[keik] I bake cakes.|我烤蛋糕。#The birthday cake was decorated with fresh fruit.|生日蛋糕用新鲜水果装饰。
+cookie 饼干[ˈkuki] I like cookies.|我喜欢饼干。#The chocolate cookies filled the house with sweet aroma.|巧克力饼干的香甜气息充满了房子。
+car 汽车[kɑ:] I drive a car.|我开车。#The electric car runs silently on the highway.|电动汽车在高速公路上安静地行驶。
+bus 公共汽车[bʌs] I take the bus.|我坐公交车。#The school bus picked up children every morning.|校车每天早上接送孩子们。
+train 火车[trein] The train is fast.|火车很快。#The high-speed train arrived at its destination on time.|高铁准时到达目的地。
+plane 飞机[plein] The plane flies.|飞机在飞。#The commercial plane carried hundreds of passengers.|这架商用飞机载着数百名乘客。
+ship 轮船[ʃip] The ship is huge.|轮船很大。#The cruise ship sailed across the Pacific Ocean.|游轮驶过太平洋。
+bike 自行车[baik] I ride my bike.|我骑自行车。#The mountain bike performed well on rough terrain.|这辆山地自行车在崎岖地形上表现良好。
+taxi 出租车[ˈtæksi] I call a taxi.|我叫出租车。#The taxi driver knew all the shortcuts in the city.|出租车司机知道城市里所有的捷径。
+school 学校[sku:l] I go to school.|我去学校。#The new school opened its doors to students last month.|新学校上个月向学生开放。
+hospital 医院[ˈhɔspitl] The hospital is big.|医院很大。#The modern hospital provides excellent medical care.|这家现代化医院提供优质的医疗服务。
+library 图书馆[ˈlaibrəri] I study in the library.|我在图书馆学习。#The university library contains thousands of books.|大学图书馆藏有数千本书。
+gym 体育馆[dʒim] I exercise in the gym.|我在体育馆锻炼。#The new gym has state-of-the-art equipment.|新体育馆有最先进的设备。
+washroom 洗手间[ˈwɔʃrum] The washroom is clean.|洗手间很干净。#The public washroom was recently renovated.|公共洗手间最近装修过。
+flat 公寓[flæt] I live in a flat.|我住在公寓里。#The modern flat has a beautiful city view.|这间现代公寓有美丽的城市景观。
+company 公司[ˈkɔmpəni] I work for a company.|我在一家公司工作。#The technology company developed innovative products.|这家科技公司开发创新产品。
+factory 工厂[ˈfæktəri] The factory is large.|工厂很大。#The automobile factory produces thousands of cars annually.|这家汽车工厂每年生产数千辆汽车。
+store 商店[stɔ:] I shop at the store.|我在商店购物。#The convenience store is open twenty-four hours.|这家便利店24小时营业。
+bank 银行[bæŋk] I go to the bank.|我去银行。#The local bank offers various financial services.|当地银行提供各种金融服务。
+restaurant 餐馆[ˈrestərɔnt] We eat at restaurants.|我们在餐馆吃饭。#The Italian restaurant serves authentic pasta dishes.|这家意大利餐厅供应正宗的意面。
+park 公园[pɑ:k] I walk in the park.|我在公园散步。#The city park has beautiful flowers and trees.|城市公园有美丽的花草树木。
+museum 博物馆[mju:ˈziəm] I visit the museum.|我参观博物馆。#The history museum displays ancient artifacts.|历史博物馆展示古代文物。
+hotel 宾馆[həuˈtel] I stay in a hotel.|我住在宾馆。#The luxury hotel offers excellent service.|这家豪华酒店提供优质服务。
+cinema 电影院[ˈsinəmə] I go to the cinema.|我去电影院。#The modern cinema shows the latest movies.|这家现代电影院放映最新电影。
+airport 机场[ˈεəpɔ:t] I arrive at the airport.|我到达机场。#The international airport handles millions of passengers.|这个国际机场接待数百万旅客。
+station 车站[ˈsteiʃən] I wait at the station.|我在车站等候。#The train station was crowded during rush hour.|火车站在高峰时段很拥挤。
+sky 天空[skai] The sky is blue.|天空是蓝色的。#The night sky was filled with twinkling stars.|夜空中充满了闪烁的星星。
+sun 太阳[sʌn] The sun is bright.|太阳很明亮。#The morning sun cast long shadows across the field.|晨光在田野上投下长长的影子。
+moon 月亮[mu:n] The moon is round.|月亮是圆的。#The full moon illuminated the entire landscape.|满月照亮了整个风景。
+star 星星[stɑ:] I see many stars.|我看见很多星星。#The shooting star streaked across the night sky.|流星划过夜空。
+cloud 云[klaud] The clouds are white.|云是白色的。#Dark clouds gathered before the storm.|暴风雨前乌云密布。
+rain 雨[rein] It's raining now.|现在在下雨。#The gentle rain helped the flowers grow.|温和的雨水帮助花朵生长。
+snow 雪[snəu] I love snow.|我喜欢雪。#Fresh snow covered the mountain peaks.|新雪覆盖着山峰。
+wind 风[wind] The wind is strong.|风很大。#The autumn wind scattered leaves everywhere.|秋风把落叶吹得到处都是。
+mountain 山[ˈmauntin] The mountain is high.|山很高。#The snow-capped mountain drew many climbers.|这座雪山吸引了很多登山者。
+river 河流[ˈrivə] The river is long.|河流很长。#The mighty river flowed through the valley.|大河流经山谷。
+lake 湖[leik] The lake is deep.|湖很深。#The calm lake reflected the surrounding mountains.|平静的湖面倒映着周围的群山。
+sea 海[si:] The sea is blue.|海是蓝色的。#The vast sea stretched to the horizon.|浩瀚的大海延伸到地平线。
+beach 海滩[bi:tʃ] I love the beach.|我喜欢海滩。#The sandy beach attracted many tourists.|沙滩吸引了许多游客。
+forest 森林[ˈfɔrist] The forest is green.|森林是绿色的。#The ancient forest contained many rare species.|这片古老的森林中有许多珍稀物种。
+grass 草[ɡrɑ:s] The grass is soft.|草很软。#The green grass covered the entire meadow.|绿草覆盖着整片草地。
+tree 树[tri:] The tree is tall.|树很高。#The old tree provided shade for the park.|这棵老树为公园提供遮荫。
+flower 花[ˈflauə] The flower is pretty.|花很漂亮。#The colorful flowers bloomed in the garden.|五彩缤纷的花朵在花园里绽放。
+spring 春天[spriŋ] Spring is warm.|春天很暖和。#The flowers bloom in spring.|花朵在春天绽放。
+summer 夏天[ˈsʌmə] Summer is hot.|夏天很热。#Children enjoy swimming in summer.|孩子们喜欢在夏天游泳。
+autumn 秋天[ˈɔ:təm] Autumn is cool.|秋天很凉爽。#The leaves turn red in autumn.|树叶在秋天变红。
+winter 冬天[ˈwintə] Winter is cold.|冬天很冷。#The lake freezes in winter.|湖水在冬天结冰。
+morning 早上[ˈmɔ:niŋ] Good morning.|早上好。#The morning sun brightened the whole room.|晨光照亮了整个房间。
+noon 中午[nu:n] It's noon now.|现在是中午。#The sun was directly overhead at noon.|中午时分太阳正好在头顶。
+evening 晚上[ˈi:vniŋ] Good evening.|晚上好。#The family gathered for dinner in the evening.|一家人晚上聚在一起吃晚饭。
+night 夜晚[nait] Good night.|晚安。#The stars shone brightly in the night sky.|星星在夜空中明亮地闪烁。
+happy 快乐的[ˈhæpi] I am happy.|我很快乐。#The children were happy playing in the park.|孩子们在公园玩耍很开心。
+sad 伤心的[sæd] He looks sad.|他看起来很伤心。#The sad news brought tears to everyone's eyes.|这个悲伤的消息让每个人都流下了眼泪。
+tired 疲倦的[ˈtaiəd] I am tired.|我很累。#The marathon runners were tired but satisfied.|马拉松运动员虽然疲惫但很满足。
+hungry 饿的[ˈhʌŋɡri] I am hungry.|我很饿。#The hungry children eagerly ate their lunch.|饥饿的孩子们急切地吃着午饭。
+thirsty 渴的[ˈθə:sti] I am thirsty.|我很渴。#The thirsty runners grabbed water bottles.|口渴的跑步者抓起水瓶。
+busy 忙的[ˈbizi] I am busy.|我很忙。#The busy chef prepared multiple dishes at once.|忙碌的厨师同时准备多道菜。
+lazy 懒的[ˈleizi] Don't be lazy.|别偷懒。#The lazy cat slept in the sun all day.|懒猫整天在阳光下睡觉。
+tall 高的[tɔ:l] He is tall.|他很高。#The tall building dominated the city skyline.|这座高楼主导了城市的天际线。
+short 矮的[ʃɔ:t] The tree is short.|这棵树很矮。#The short path led directly to the garden.|这条短路直接通向花园。
+big 大的[biɡ] The house is big.|房子很大。#The big elephant sprayed water with its trunk.|大象用鼻子喷水。
+small 小的[smɔ:l] The cat is small.|猫很小。#The small bird built a nest in the tree.|小鸟在树上筑巢。
+hot 热的[hɔt] The soup is hot.|汤很热。#The hot summer day made everyone sweat.|炎热的夏日让每个人都出汗。
+cold 冷的[kəuld] The ice is cold.|冰很冷。#The cold winter wind chilled us to the bone.|寒冷的冬风让我们冷到骨子里。
+clean 干净的[kli:n] The room is clean.|房间很干净。#The clean windows sparkled in the sunlight.|干净的窗户在阳光下闪闪发亮。
+dirty 脏的[ˈdə:ti] My hands are dirty.|我的手很脏。#The dirty car needed a thorough wash.|脏车需要彻底清洗。
+new 新的[nju:] I have a new book.|我有一本新书。#The new computer worked perfectly.|新电脑运行得很完美。
+old 旧的[əuld] This is an old house.|这是一座旧房子。#The old clock still keeps perfect time.|这个旧钟依然走时准确。
+run 跑[rʌn] I run every day.|我每天跑步。#The children run happily in the playground.|孩子们在操场上快乐地跑步。
+walk 走[wɔ:k] I walk to school.|我走路去学校。#The elderly couple walked slowly in the park.|老年夫妇在公园里慢慢走着。
+jump 跳[dʒʌmp] The cat can jump.|猫会跳。#The athlete jumped over the high bar.|运动员跳过了高杆。
+sing 唱[siŋ] I like to sing.|我喜欢唱歌。#The birds sing sweetly in the morning.|鸟儿在早晨甜美地歌唱。
+dance 跳舞[dɑ:ns] She likes to dance.|她喜欢跳舞。#The couple danced gracefully at their wedding.|这对夫妇在婚礼上优雅地跳舞。
+read 读[ri:d] I read books.|我读书。#The student read the entire novel in one day.|这个学生一天就读完了整本小说。
+write 写[rait] I write letters.|我写信。#The author wrote stories for children.|这位作家为儿童写故事。
+speak 说[spi:k] I speak English.|我说英语。#The professor spoke clearly during the lecture.|教授在讲座中讲得很清楚。
+sleep 睡觉[sli:p] I need to sleep.|我需要睡觉。#The baby slept peacefully in the crib.|婴儿在婴儿床上安睡。
+eat 吃[i:t] I eat breakfast.|我吃早餐。#The family ate dinner together every evening.|这家人每天晚上一起吃晚餐。
+drink 喝[driŋk] I drink water.|我喝水。#The athletes drink water after exercise.|运动员运动后喝水。
+cook 烹饪[kuk] I can cook.|我会做饭。#The chef cooked a delicious meal.|厨师烹饪了一顿美味的饭菜。
+study 学习[ˈstʌdi] I study hard.|我努力学习。#The students studied together in the library.|学生们在图书馆一起学习。
+work 工作[wə:k] I work hard.|我努力工作。#The programmer worked late into the night.|程序员工作到深夜。
+help 帮助[help] I help others.|我帮助他人。#The volunteer helped elderly people cross the street.|志愿者帮助老人过马路。
+listen 听[ˈlisn] Please listen carefully.|请仔细听。#The audience listened attentively to the music.|观众专注地听着音乐。
+watch 看[wɔtʃ] I watch TV.|我看电视。#The fans watched the game excitedly.|球迷兴奋地观看比赛。
+buy 买[bai] I buy food.|我买食物。#She bought a new dress for the party.|她为派对买了一件新裙子。
+sell 卖[sel] They sell books.|他们卖书。#The shop sells fresh vegetables daily.|这家商店每天卖新鲜蔬菜。
+open 开[ˈəupən] Please open the door.|请开门。#The store opens early in the morning.|商店一大早就开门。
+close 关[kləuz] Please close the window.|请关窗。#The library closes at nine o'clock.|图书馆九点关门。
+come 来[kʌm] Please come here.|请过来。#Many tourists come to this city every year.|每年很多游客来这个城市。
+go 去[ɡəu] I go to work.|我去工作。#The children went to school by bus.|孩子们坐公交车去学校。
+like 喜欢[laik] I like music.|我喜欢音乐。#Most people like watching movies.|大多数人喜欢看电影。
+love 爱[lʌv] I love my family.|我爱我的家人。#The mother loves her children deeply.|母亲深深地爱着她的孩子。
+thank 感谢[θæŋk] Thank you very much.|非常感谢你。#The students thanked their teacher for the help.|学生们感谢老师的帮助。
+sorry 抱歉[ˈsɔri] I am sorry.|我很抱歉。#He felt sorry for his mistake.|他为自己的错误感到抱歉。
+hello 你好[həˈləu] Hello, everyone.|大家好。#She said hello to her neighbors every morning.|她每天早上向邻居问好。
+goodbye 再见[ˈɡudˈbai] Goodbye, friends.|再见，朋友们。#The students said goodbye to their teacher.|学生们向老师道别。
+please 请[pli:z] Please help me.|请帮助我。#Please pass me the salt, she asked politely.|她礼貌地说，请把盐递给我。
+welcome 欢迎[ˈwelkəm] Welcome to China.|欢迎来到中国。#The hotel staff welcomed guests with warm smiles.|酒店员工面带温暖的笑容欢迎客人。
+excuse 原谅[ikˈskju:z] Excuse me.|对不起。#He asked to be excused from the meeting.|他请求从会议中离席。
+okay 好的[ˈəukei] Okay, I agree.|好的，我同意。#Everything will be okay, don't worry.|一切都会好的，别担心。
+long 长的[lɔŋ] The road is long.|这条路很长。#The long journey finally came to an end.|漫长的旅程终于结束了。
+young 年轻的[jʌŋ] She is young.|她很年轻。#The young teacher was passionate about teaching.|年轻的老师对教学充满热情。
+thin 瘦的[θin] He is thin.|他很瘦。#The thin cat squeezed through the narrow gap.|瘦猫挤过狭窄的缝隙。
+active 积极的[ˈæktiv] He is very active.|他很活跃。#The active student participated in many school activities.|这个活跃的学生参加了很多学校活动。
+quiet 安静的[ˈkwaiət] Please be quiet.|请保持安静。#The library remained quiet during study hours.|图书馆在学习时间保持安静。
+nice 好看的[nais] This is a nice dress.|这是一件好看的裙子。#The nice weather made everyone feel cheerful.|好天气让每个人都感到愉快。
+kind 和蔼的[kaind] She is very kind.|她很和蔼。#The kind neighbor helped us move furniture.|热心的邻居帮我们搬家具。
+strict 严格的[strikt] The teacher is strict.|老师很严格。#The strict rules helped maintain order.|严格的规定帮助维持秩序。
+smart 聪明的[smɑːt] You are smart.|你很聪明。#The smart solution saved both time and money.|聪明的解决方案节省了时间和金钱。
+funny 有趣的[ˈfʌni] The movie is funny.|这部电影很有趣。#The funny joke made everyone laugh.|这个有趣的笑话让大家都笑了。
+tasty 美味的[ˈteisti] The food is tasty.|这食物很美味。#The tasty meal was prepared with fresh ingredients.|这顿美味的饭是用新鲜食材准备的。
+salty 咸的[ˈsɔːlti] The soup is salty.|汤很咸。#The salty snacks made him thirsty.|咸的零食让他感到口渴。
+sour 酸的[ˈsauə] The lemon is sour.|柠檬是酸的。#The sour taste of the unripe fruit surprised her.|未熟水果的酸味让她吃惊。
+excited 兴奋的[ikˈsaitid] I am excited.|我很兴奋。#The excited children couldn't wait to open their presents.|兴奋的孩子们迫不及待要打开礼物。
+angry 生气的[ˈæŋɡri] Don't be angry.|别生气。#The angry customer demanded a refund.|愤怒的顾客要求退款。
+bored 无聊的[bɔːd] I am bored.|我很无聊。#The bored students stared out the window.|无聊的学生们望着窗外。
+twenty 二十[ˈtwenti] I am twenty.|我二十岁。#Twenty students joined the science club.|二十名学生加入了科学俱乐部。
+thirty 三十[ˈθəːti] It costs thirty dollars.|这要三十美元。#Thirty minutes passed quickly.|三十分钟快速过去。
+hundred 百[ˈhʌndrəd] I have a hundred books.|我有一百本书。#A hundred people attended the concert.|一百人参加了音乐会。
+first 第一[fəːst] He finished first.|他第一个完成。#This is my first time in Beijing.|这是我第一次来北京。
+second 第二[ˈsekənd] She came second.|她第二个到。#The second floor is quiet.|二楼很安静。
+third 第三[θəːd] He lives on the third floor.|他住在三楼。#This is my third visit here.|这是我第三次来这里。
+ability 能力[əˈbɪlətɪ] I have the ability.|我有这个能力。#Her ability to learn languages is impressive.|她学习语言的能力令人印象深刻。
+
+advice 建议[ədˈvaɪs] Can you give me some advice?|你能给我一些建议吗？#His advice helped me solve the problem.|他的建议帮我解决了问题。
+
+among 在...之中[əˈmʌŋ] The book is among others.|这本书在其他书中间。#She was popular among her classmates.|她在同学中很受欢迎。
+
+arrive 到达[əˈraɪv] When will you arrive?|你什么时候到达？#The train arrived on time.|火车准时到达。
+
+between 在...之间[bɪˈtwiːn] The book is between two notebooks.|这本书在两个笔记本之间。#Choose between the red one and the blue one.|在红色和蓝色之间选择。
+
+change 改变[tʃeɪndʒ] The weather will change.|天气会改变。#Please change your wet clothes.|请换掉你的湿衣服。
+
+decide 决定[dɪˈsaɪd] I will decide tomorrow.|我明天再决定。#She decided to study harder.|她决定更加用功学习。
+
+different 不同的[ˈdɪfrənt] These are different books.|这些是不同的书。#Every student has a different answer.|每个学生都有不同的答案。
+
+distance 距离[ˈdɪstəns] The distance is too far.|距离太远了。#What's the distance between the two cities?|这两个城市之间的距离是多少？
+
+during 在...期间[ˈdjʊərɪŋ] I studied during the holiday.|我在假期期间学习。#Stay quiet during the class.|在课堂期间保持安静。
+
+education 教育[ˌedʒuˈkeɪʃn] Education is important.|教育很重要。#A good education can change your life.|良好的教育能改变你的人生。
+
+environment 环境[ɪnˈvaɪrənmənt] We should protect our environment.|我们应该保护环境。#The learning environment is excellent.|学习环境很好。
+
+experience 经验[ɪkˈspɪəriəns] I have no experience.|我没有经验。#Work experience is very important.|工作经验很重要。
+
+follow 跟随[ˈfɒləʊ] Please follow me.|请跟我来。#Follow the instructions carefully.|请仔细遵循说明。
+
+future 未来[ˈfjuːtʃə] What's your future plan?|你的未来计划是什么？#The future looks bright.|未来一片光明。
+physics 物理[ˈfɪzɪks] I study physics.|我学习物理。#Physics is her favorite subject.|物理是她最喜欢的科目。
+
+chemistry 化学[ˈkemɪstri] Chemistry is interesting.|化学很有趣。#We had a chemistry experiment today.|我们今天做了化学实验。
+
+biology 生物[baɪˈɒlədʒi] Biology is about life.|生物是关于生命的。#The biology teacher showed us a microscope.|生物老师给我们展示了显微镜。
+
+geography 地理[dʒiˈɒɡrəfi] I love geography.|我喜欢地理。#We learned world geography in class.|我们在课堂上学习世界地理。
+
+history 历史[ˈhɪstri] History tells us about the past.|历史告诉我们过去的事。#Chinese history is very long.|中国历史很悠久。
+
+literature 文学[ˈlɪtrətʃə] We study literature in class.|我们在课堂上学习文学。#She loves reading literature.|她喜欢阅读文学作品。
+
+laboratory 实验室[ləˈbɒrətri] The laboratory is clean.|实验室很干净。#Students work in the laboratory.|学生们在实验室工作。
+
+calculation 计算[ˌkælkjuˈleɪʃn] The calculation is correct.|计算是正确的。#This calculation is quite difficult.|这个计算很难。
+
+equation 方程[ɪˈkweɪʒn] Solve this equation.|解这个方程。#The math equation looks complicated.|这个数学方程看起来很复杂。
+
+experiment 实验[ɪkˈsperɪmənt] The experiment was successful.|实验很成功。#We did an interesting experiment today.|我们今天做了一个有趣的实验。
+apartment 公寓[əˈpɑːtmənt] This is my apartment.|这是我的公寓。#The apartment has three bedrooms.|这个公寓有三个卧室。
+
+breakfast 早餐[ˈbrekfəst] Did you have breakfast?|你吃早餐了吗？#A good breakfast is important.|一顿好的早餐很重要。
+
+furniture 家具[ˈfɜːnɪtʃə] The furniture is new.|家具是新的。#They bought some new furniture.|他们买了一些新家具。
+
+supermarket 超市[ˈsuːpəmɑːkɪt] I shop at the supermarket.|我在超市购物。#The supermarket is open 24 hours.|这个超市24小时营业。
+
+traffic 交通[ˈtræfɪk] The traffic is heavy.|交通很拥堵。#There's heavy traffic in the morning.|早上交通很拥挤。
+
+transportation 交通工具[ˌtrænspɔːˈteɪʃn] Public transportation is convenient.|公共交通很方便。#What's your main transportation?|你主要的交通工具是什么？
+
+appointment 预约[əˈpɔɪntmənt] I have an appointment.|我有个预约。#Make an appointment with the doctor.|和医生预约。
+
+emergency 紧急情况[iˈmɜːdʒənsi] This is an emergency.|这是紧急情况。#Call 120 in case of emergency.|遇到紧急情况就打120。
+anxious 焦虑的[ˈæŋkʃəs] Don't be anxious.|别焦虑。#She felt anxious before the exam.|她考试前感到焦虑。
+
+confident 自信的[ˈkɒnfɪdənt] Be confident in yourself.|对自己要自信。#He is confident about the future.|他对未来很自信。
+
+disappointed 失望的[ˌdɪsəˈpɔɪntɪd] I feel disappointed.|我感到失望。#She was disappointed with her score.|她对自己的分数感到失望。
+
+grateful 感激的[ˈɡreɪtfl] I am grateful for your help.|我很感激你的帮助。#We are grateful to our teachers.|我们感激我们的老师。
+
+nervous 紧张的[ˈnɜːvəs] Don't be nervous.|别紧张。#Students feel nervous before exams.|学生们考试前感到紧张。
+
+proud 自豪的[praʊd] I am proud of you.|我为你感到骄傲。#Parents are proud of their children.|父母为孩子感到骄傲。
+success 成功[səkˈses] Success comes from hard work.|成功源于努力。#What's the secret of success?|成功的秘诀是什么？
+
+freedom 自由[ˈfriːdəm] Freedom is important.|自由很重要。#Everyone wants freedom.|每个人都想要自由。
+
+responsibility 责任[rɪˌspɒnsəˈbɪləti] This is my responsibility.|这是我的责任。#We all have responsibilities.|我们都有责任。
+
+opportunity 机会[ˌɒpəˈtjuːnəti] This is a good opportunity.|这是一个好机会。#Don't miss this opportunity.|别错过这个机会。
+
+knowledge 知识[ˈnɒlɪdʒ] Knowledge is power.|知识就是力量。#We gain knowledge from books.|我们从书本中获取知识。
+
+courage 勇气[ˈkʌrɪdʒ] Have courage.|要有勇气。#It takes courage to try new things.|尝试新事物需要勇气。
+
+progress 进步[ˈprəʊɡres] You made progress.|你有进步。#The student showed great progress.|这个学生表现出很大的进步。
+
+truth 真相[truːθ] Tell me the truth.|告诉我真相。#The truth finally came out.|真相终于大白。
+research 研究[rɪˈsɜːtʃ] Scientists do research.|科学家做研究。#The research shows interesting results.|研究显示出有趣的结果。
+
+theory 理论[ˈθɪəri] This is Einstein's theory.|这是爱因斯坦的理论。#The theory needs to be proved.|这个理论需要被证实。
+
+data 数据[ˈdeɪtə] The data is important.|这些数据很重要。#Scientists collect data from experiments.|科学家从实验中收集数据。
+
+hypothesis 假设[haɪˈpɒθəsɪs] This is my hypothesis.|这是我的假设。#We need to test the hypothesis.|我们需要检验这个假设。
+
+element 元素[ˈelɪmənt] Gold is an element.|金是一种元素。#There are many elements in nature.|自然界有很多元素。
+
+molecule 分子[ˈmɒlɪkjuːl] Water molecules are everywhere.|水分子无处不在。#A molecule is made of atoms.|分子由原子构成。
+
+atom 原子[ˈætəm] An atom is very small.|原子非常小。#Atoms are the building blocks of matter.|原子是物质的基本构成单位。
+
+energy 能量[ˈenədʒi] Solar energy is clean.|太阳能是清洁的。#We need to save energy.|我们需要节约能源。
+technology 技术[tekˈnɒlədʒi] Technology changes fast.|技术变化很快。#Modern technology makes life easier.|现代技术使生活更容易。
+
+digital 数字的[ˈdɪdʒɪtl] This is a digital camera.|这是一台数码相机。#We live in a digital age.|我们生活在数字时代。
+
+internet 互联网[ˈɪntənet] The internet is useful.|互联网很有用。#We can learn online through the internet.|我们可以通过互联网在线学习。
+
+software 软件[ˈsɒftweə] This software is free.|这个软件是免费的。#We need to update the software.|我们需要更新软件。
+
+hardware 硬件[ˈhɑːdweə] The hardware needs repair.|硬件需要修理。#Computer hardware is expensive.|电脑硬件很贵。
+
+artificial 人工的[ˌɑːtɪˈfɪʃl] This is artificial intelligence.|这是人工智能。#Artificial light can help plants grow.|人工照明可以帮助植物生长。
+
+robot 机器人[ˈrəʊbɒt] The robot can dance.|这个机器人会跳舞。#Robots help in factories.|机器人在工厂里帮忙。
+
+database 数据库[ˈdeɪtəbeɪs] The database is huge.|数据库很大。#All information is stored in the database.|所有信息都储存在数据库中。
+calligraphy 书法[kəˈlɪɡrəfi] Chinese calligraphy is beautiful.|中国书法很美。#He practices calligraphy every day.|他每天练习书法。
+
+dragon 龙[ˈdræɡən] The dragon is a Chinese symbol.|龙是中国的象征。#Dragons appear in many Chinese stories.|龙在很多中国故事中出现。
+
+festival 节日[ˈfestɪvl] Spring Festival is important.|春节很重要。#We celebrate traditional festivals.|我们庆祝传统节日。
+
+lantern 灯笼[ˈlæntən] Red lanterns are lucky.|红灯笼带来好运。#The Lantern Festival is beautiful.|元宵节很美。
+
+chopsticks 筷子[ˈtʃɒpstɪks] Use chopsticks to eat.|用筷子吃饭。#Learning to use chopsticks takes practice.|学习使用筷子需要练习。
+
+tea ceremony 茶道[tiː ˈserəməni] The tea ceremony is traditional.|茶道很传统。#She learned the tea ceremony.|她学习了茶道。
+
+kung fu 功夫[ˌkʌŋˈfuː] Kung fu needs practice.|功夫需要练习。#Chinese kung fu is famous worldwide.|中国功夫举世闻名。
+
+opera 戏曲[ˈɒpərə] Beijing opera is unique.|京剧很独特。#Chinese opera has a long history.|中国戏曲有着悠久的历史。
+
+zodiac 生肖[ˈzəʊdiæk] What's your zodiac animal?|你的生肖是什么？#The zodiac has twelve animals.|生肖有十二种动物。
+
+silk 丝绸[sɪlk] Chinese silk is famous.|中国丝绸很有名。#She wore a silk dress.|她穿着丝绸连衣裙。
+
+bamboo 竹子[bæmˈbuː] Bamboo grows quickly.|竹子长得很快。#Pandas eat bamboo.|熊猫吃竹子。
+
+dynasty 朝代[ˈdɪnəsti] The Tang Dynasty was powerful.|唐朝很强大。#Different dynasties had different cultures.|不同朝代有不同的文化。
+innovation 创新[ˌɪnəˈveɪʃn] Innovation is important.|创新很重要。#This company encourages innovation.|这家公司鼓励创新。
+
+sustainable 可持续的[səˈsteɪnəbl] We need sustainable development.|我们需要可持续发展。#Sustainable energy is the future.|可持续能源是未来。
+
+civilization 文明[ˌsɪvəlaɪˈzeɪʃn] Chinese civilization is ancient.|中国文明很古老。#Different civilizations learn from each other.|不同文明互相学习。
+
+heritage 遗产[ˈherɪtɪdʒ] Cultural heritage is precious.|文化遗产很珍贵。#We must protect our heritage.|我们必须保护我们的遗产。
+artificial intelligence (AI) 人工智能[ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns] AI is changing our world.|人工智能正在改变我们的世界。#AI technology develops rapidly.|人工智能技术发展迅速。
+
+machine learning 机器学习[məˈʃiːn ˈlɜːnɪŋ] Machine learning is part of AI.|机器学习是人工智能的一部分。#The computer uses machine learning to improve.|计算机使用机器学习来提升。
+
+deep learning 深度学习[diːp ˈlɜːnɪŋ] Deep learning helps computers think.|深度学习帮助计算机思考。#Deep learning requires big data.|深度学习需要大数据。
+
+neural network 神经网络[ˈnjʊərəl ˈnetwɜːk] The neural network processes data.|神经网络处理数据。#Neural networks mimic human brains.|神经网络模仿人类大脑。
+
+algorithm 算法[ˈælɡərɪðəm] This algorithm is efficient.|这个算法很高效。#Algorithms solve complex problems.|算法解决复杂问题。
+
+dataset 数据集[ˈdeɪtəset] We need a large dataset.|我们需要一个大型数据集。#The dataset contains images.|数据集包含图像。
+
+automation 自动化[ˌɔːtəˈmeɪʃn] Automation improves efficiency.|自动化提高效率。#Factory automation saves labor.|工厂自动化节省人力。
+
+recognition 识别[ˌrekəɡˈnɪʃn] Face recognition is common.|人脸识别很普遍。#Speech recognition helps translation.|语音识别帮助翻译。
+
+chatbot 聊天机器人[ˈtʃætbɒt] The chatbot answers questions.|聊天机器人回答问题。#Chatbots provide customer service.|聊天机器人提供客户服务。
+
+virtual reality (VR) 虚拟现实[ˈvɜːtʃuəl riˈæləti] VR games are fun.|虚拟现实游戏很有趣。#VR technology creates new worlds.|虚拟现实技术创造新世界。
+
+augmented reality (AR) 增强现实[ɔːɡˈmentɪd riˈæləti] AR adds digital elements.|增强现实添加数字元素。#AR helps in education.|增强现实帮助教育。
+
+voice assistant 语音助手[vɔɪs əˈsɪstənt] Voice assistants are helpful.|语音助手很有帮助。#Many phones have voice assistants.|许多手机都有语音助手。
+
+autonomous 自主的[ɔːˈtɒnəməs] Autonomous cars drive themselves.|自动驾驶汽车自己开。#Robots become more autonomous.|机器人变得更加自主。
+
+smart device 智能设备[smɑːt dɪˈvaɪs] This is a smart device.|这是一个智能设备。#Smart devices make life easier.|智能设备使生活更容易。
+
+data mining 数据挖掘[ˈdeɪtə ˈmaɪnɪŋ] Data mining finds patterns.|数据挖掘发现模式。#Companies use data mining.|公司使用数据挖掘。
+
+cloud computing 云计算[klaʊd kəmˈpjuːtɪŋ] Cloud computing saves space.|云计算节省空间。#Many services use cloud computing.|许多服务使用云计算。
+
+machine vision 机器视觉[məˈʃiːn ˈvɪʒn] Machine vision checks quality.|机器视觉检查质量。#Machine vision helps robots see.|机器视觉帮助机器人看见。
+
+natural language processing (NLP) 自然语言处理[ˈnætʃrəl ˈlæŋɡwɪdʒ ˈprəʊsesɪŋ] NLP helps computers understand language.|自然语言处理帮助计算机理解语言。#Translation uses NLP.|翻译使用自然语言处理。
+prediction 预测[prɪˈdɪkʃn] AI makes predictions.|人工智能进行预测。#Weather prediction becomes more accurate.|天气预测变得更准确。
+
+recommendation 推荐[ˌrekəmenˈdeɪʃn] AI gives recommendations.|人工智能给出推荐。#The app recommends movies.|应用推荐电影。
+
+optimization 优化[ˌɒptɪmaɪˈzeɪʃn] AI helps optimization.|人工智能帮助优化。#System optimization improves performance.|系统优化提高性能。

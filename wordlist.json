@@ -1,0 +1,5987 @@
+{
+  "default": {
+    "name": "词汇表",
+    "words": [
+      {
+        "english": "friend",
+        "chinese": "朋友[frend]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is friend.",
+          "chinese": "这是朋友[frend]。"
+        }
+      },
+      {
+        "english": "boy",
+        "chinese": "男孩[bɔi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is boy.",
+          "chinese": "这是男孩[bɔi]。"
+        }
+      },
+      {
+        "english": "girl",
+        "chinese": "女孩[ɡə:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is girl.",
+          "chinese": "这是女孩[ɡə:l]。"
+        }
+      },
+      {
+        "english": "mother",
+        "chinese": "母亲['mʌðə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is mother.",
+          "chinese": "这是母亲['mʌðə]。"
+        }
+      },
+      {
+        "english": "father",
+        "chinese": "父亲['fɑ:ðə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is father.",
+          "chinese": "这是父亲['fɑ:ðə]。"
+        }
+      },
+      {
+        "english": "sister",
+        "chinese": "姐妹['sistə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sister.",
+          "chinese": "这是姐妹['sistə]。"
+        }
+      },
+      {
+        "english": "brother",
+        "chinese": "兄弟['brʌðə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is brother.",
+          "chinese": "这是兄弟['brʌðə]。"
+        }
+      },
+      {
+        "english": "uncle",
+        "chinese": "叔叔；舅舅['ʌŋkl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is uncle.",
+          "chinese": "这是叔叔；舅舅['ʌŋkl]。"
+        }
+      },
+      {
+        "english": "man",
+        "chinese": "男人[mæn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is man.",
+          "chinese": "这是男人[mæn]。"
+        }
+      },
+      {
+        "english": "woman",
+        "chinese": "女人['wumən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is woman.",
+          "chinese": "这是女人['wumən]。"
+        }
+      },
+      {
+        "english": "Miss",
+        "chinese": "小姐[mis] Mr.先生",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Miss.",
+          "chinese": "这是小姐[mis] Mr.先生。"
+        }
+      },
+      {
+        "english": "lady",
+        "chinese": "女⼠；小姐['leidi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is lady.",
+          "chinese": "这是女⼠；小姐['leidi]。"
+        }
+      },
+      {
+        "english": "mom",
+        "chinese": "妈妈[mɔm]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is mom.",
+          "chinese": "这是妈妈[mɔm]。"
+        }
+      },
+      {
+        "english": "dada",
+        "chinese": "爸爸[dæd, 'dɑ:dɑ:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is dada.",
+          "chinese": "这是爸爸[dæd, 'dɑ:dɑ:]。"
+        }
+      },
+      {
+        "english": "parents",
+        "chinese": "父母 parent",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is parents.",
+          "chinese": "这是父母 parent。"
+        }
+      },
+      {
+        "english": "grandparents",
+        "chinese": "祖父母",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is grandparents.",
+          "chinese": "这是祖父母。"
+        }
+      },
+      {
+        "english": "aunt",
+        "chinese": "姑姑[ɑ:nt, ænt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is aunt.",
+          "chinese": "这是姑姑[ɑ:nt, ænt]。"
+        }
+      },
+      {
+        "english": "cousin",
+        "chinese": "堂兄弟；堂姐妹['kʌzən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cousin.",
+          "chinese": "这是堂兄弟；堂姐妹['kʌzən]。"
+        }
+      },
+      {
+        "english": "son",
+        "chinese": "儿子[sʌn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is son.",
+          "chinese": "这是儿子[sʌn]。"
+        }
+      },
+      {
+        "english": "daughter",
+        "chinese": "女儿['dɔ:tə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is daughter.",
+          "chinese": "这是女儿['dɔ:tə]。"
+        }
+      },
+      {
+        "english": "baby",
+        "chinese": "婴儿['beibi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is baby.",
+          "chinese": "这是婴儿['beibi]。"
+        }
+      },
+      {
+        "english": "kid",
+        "chinese": "小孩[kid]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is kid.",
+          "chinese": "这是小孩[kid]。"
+        }
+      },
+      {
+        "english": "classmate",
+        "chinese": "同学['klɑ:smeit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is classmate.",
+          "chinese": "这是同学['klɑ:smeit]。"
+        }
+      },
+      {
+        "english": "queen",
+        "chinese": "女王[kwi:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is queen.",
+          "chinese": "这是女王[kwi:n]。"
+        }
+      },
+      {
+        "english": "visitor",
+        "chinese": "参观者['vizitə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is visitor.",
+          "chinese": "这是参观者['vizitə]。"
+        }
+      },
+      {
+        "english": "neighbour",
+        "chinese": "邻居['neibə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is neighbour.",
+          "chinese": "这是邻居['neibə]。"
+        }
+      },
+      {
+        "english": "principal",
+        "chinese": "校长['prinsəpəl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is principal.",
+          "chinese": "这是校长['prinsəpəl]。"
+        }
+      },
+      {
+        "english": "university",
+        "chinese": "student 大学生",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is university.",
+          "chinese": "这是student 大学生。"
+        }
+      },
+      {
+        "english": "pen",
+        "chinese": "pal 笔友[pen-pæl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pen.",
+          "chinese": "这是pal 笔友[pen-pæl]。"
+        }
+      },
+      {
+        "english": "tourist",
+        "chinese": "旅⾏者['tuərist]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tourist.",
+          "chinese": "这是旅⾏者['tuərist]。"
+        }
+      },
+      {
+        "english": "people",
+        "chinese": "人物['pi:pl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is people.",
+          "chinese": "这是人物['pi:pl]。"
+        }
+      },
+      {
+        "english": "robot",
+        "chinese": "机器人",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is robot.",
+          "chinese": "这是机器人。"
+        }
+      },
+      {
+        "english": "jacket",
+        "chinese": "夹克衫['dʒækit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is jacket.",
+          "chinese": "这是夹克衫['dʒækit]。"
+        }
+      },
+      {
+        "english": "shirt",
+        "chinese": "衬衫[ʃə:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is shirt.",
+          "chinese": "这是衬衫[ʃə:t]。"
+        }
+      },
+      {
+        "english": "T-shirt",
+        "chinese": "丅恤衫",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is T-shirt.",
+          "chinese": "这是丅恤衫。"
+        }
+      },
+      {
+        "english": "skirt",
+        "chinese": "短裙[skə:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is skirt.",
+          "chinese": "这是短裙[skə:t]。"
+        }
+      },
+      {
+        "english": "dress",
+        "chinese": "连⾐裙[dres]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is dress.",
+          "chinese": "这是连⾐裙[dres]。"
+        }
+      },
+      {
+        "english": "jeans",
+        "chinese": "⽜仔裤[dʒi:n, dʒein]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is jeans.",
+          "chinese": "这是⽜仔裤[dʒi:n, dʒein]。"
+        }
+      },
+      {
+        "english": "pants",
+        "chinese": "长裤[pænts]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pants.",
+          "chinese": "这是长裤[pænts]。"
+        }
+      },
+      {
+        "english": "socks",
+        "chinese": "袜子[sɔk]s",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is socks.",
+          "chinese": "这是袜子[sɔk]s。"
+        }
+      },
+      {
+        "english": "shoes",
+        "chinese": "鞋子[ʃu:]s",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is shoes.",
+          "chinese": "这是鞋子[ʃu:]s。"
+        }
+      },
+      {
+        "english": "sweater",
+        "chinese": "⽑⾐['swetə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sweater.",
+          "chinese": "这是⽑⾐['swetə]。"
+        }
+      },
+      {
+        "english": "coat",
+        "chinese": "上⾐[kəut]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is coat.",
+          "chinese": "这是上⾐[kəut]。"
+        }
+      },
+      {
+        "english": "raincoat",
+        "chinese": "⾬⾐['reinkəut]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is raincoat.",
+          "chinese": "这是⾬⾐['reinkəut]。"
+        }
+      },
+      {
+        "english": "shorts",
+        "chinese": "短裤 [ʃɔ:t]s",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is shorts.",
+          "chinese": "这是短裤 [ʃɔ:t]s。"
+        }
+      },
+      {
+        "english": "sneakers",
+        "chinese": "⽹球鞋['sni:kə] s",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sneakers.",
+          "chinese": "这是⽹球鞋['sni:kə] s。"
+        }
+      },
+      {
+        "english": "slippers",
+        "chinese": "拖鞋['slipə]s",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is slippers.",
+          "chinese": "这是拖鞋['slipə]s。"
+        }
+      },
+      {
+        "english": "sandals",
+        "chinese": "凉鞋['sædəl]s",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sandals.",
+          "chinese": "这是凉鞋['sædəl]s。"
+        }
+      },
+      {
+        "english": "boots",
+        "chinese": "靴子[bu:ts]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is boots.",
+          "chinese": "这是靴子[bu:ts]。"
+        }
+      },
+      {
+        "english": "cap",
+        "chinese": "便帽[kæp]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cap.",
+          "chinese": "这是便帽[kæp]。"
+        }
+      },
+      {
+        "english": "sunglasses",
+        "chinese": "太阳镜",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sunglasses.",
+          "chinese": "这是太阳镜。"
+        }
+      },
+      {
+        "english": "tie",
+        "chinese": "领带[tai]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tie.",
+          "chinese": "这是领带[tai]。"
+        }
+      },
+      {
+        "english": "scarf",
+        "chinese": "围⼱[skɑ:f]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is scarf.",
+          "chinese": "这是围⼱[skɑ:f]。"
+        }
+      },
+      {
+        "english": "gloves",
+        "chinese": "手套[ɡlʌv]s",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is gloves.",
+          "chinese": "这是手套[ɡlʌv]s。"
+        }
+      },
+      {
+        "english": "Pen",
+        "chinese": "钢笔[pen]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Pen.",
+          "chinese": "这是钢笔[pen]。"
+        }
+      },
+      {
+        "english": "Pencil",
+        "chinese": "铅笔['pensəl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Pencil.",
+          "chinese": "这是铅笔['pensəl]。"
+        }
+      },
+      {
+        "english": "pencil-case",
+        "chinese": "铅笔['pensəl-keis]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pencil-case.",
+          "chinese": "这是铅笔['pensəl-keis]。"
+        }
+      },
+      {
+        "english": "ruler",
+        "chinese": "尺子['ru:lə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ruler.",
+          "chinese": "这是尺子['ru:lə]。"
+        }
+      },
+      {
+        "english": "book",
+        "chinese": "书[buk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is book.",
+          "chinese": "这是书[buk]。"
+        }
+      },
+      {
+        "english": "bag",
+        "chinese": "包[bæɡ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bag.",
+          "chinese": "这是包[bæɡ]。"
+        }
+      },
+      {
+        "english": "comic",
+        "chinese": "book 漫画['kɔmik-buk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is comic.",
+          "chinese": "这是book 漫画['kɔmik-buk]。"
+        }
+      },
+      {
+        "english": "post",
+        "chinese": "card 明信⽚[pəust-kɑ:d]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is post.",
+          "chinese": "这是card 明信⽚[pəust-kɑ:d]。"
+        }
+      },
+      {
+        "english": "schoolbag",
+        "chinese": "书包['sku:lbæɡ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is schoolbag.",
+          "chinese": "这是书包['sku:lbæɡ]。"
+        }
+      },
+      {
+        "english": "newspaper",
+        "chinese": "报纸",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is newspaper.",
+          "chinese": "这是报纸。"
+        }
+      },
+      {
+        "english": "eraser",
+        "chinese": "橡⽪[i'reizə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eraser.",
+          "chinese": "这是橡⽪[i'reizə]。"
+        }
+      },
+      {
+        "english": "crayon",
+        "chinese": "蜡笔['kreiən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is crayon.",
+          "chinese": "这是蜡笔['kreiən]。"
+        }
+      },
+      {
+        "english": "sharpener",
+        "chinese": "卷笔⼑",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sharpener.",
+          "chinese": "这是卷笔⼑。"
+        }
+      },
+      {
+        "english": "story-book",
+        "chinese": "故事['stɔ:ri-buk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is story-book.",
+          "chinese": "这是故事['stɔ:ri-buk]。"
+        }
+      },
+      {
+        "english": "notebook",
+        "chinese": "笔记本['nəutbuk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is notebook.",
+          "chinese": "这是笔记本['nəutbuk]。"
+        }
+      },
+      {
+        "english": "Chinese",
+        "chinese": "book 语⽂书",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Chinese.",
+          "chinese": "这是book 语⽂书。"
+        }
+      },
+      {
+        "english": "English",
+        "chinese": "book 英语书",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is English.",
+          "chinese": "这是book 英语书。"
+        }
+      },
+      {
+        "english": "math",
+        "chinese": "book 数学书",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is math.",
+          "chinese": "这是book 数学书。"
+        }
+      },
+      {
+        "english": "magazine",
+        "chinese": "杂志[,mæɡə'zi:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is magazine.",
+          "chinese": "这是杂志[,mæɡə'zi:n]。"
+        }
+      },
+      {
+        "english": "dictionary",
+        "chinese": "词典['dikʃənəri]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is dictionary.",
+          "chinese": "这是词典['dikʃənəri]。"
+        }
+      },
+      {
+        "english": "cat",
+        "chinese": "猫[kæt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cat.",
+          "chinese": "这是猫[kæt]。"
+        }
+      },
+      {
+        "english": "dog",
+        "chinese": "狗[dɔɡ, dɔ:ɡ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is dog.",
+          "chinese": "这是狗[dɔɡ, dɔ:ɡ]。"
+        }
+      },
+      {
+        "english": "pig",
+        "chinese": "猪[piɡ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pig.",
+          "chinese": "这是猪[piɡ]。"
+        }
+      },
+      {
+        "english": "duck",
+        "chinese": "鸭[dʌk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is duck.",
+          "chinese": "这是鸭[dʌk]。"
+        }
+      },
+      {
+        "english": "rabbit",
+        "chinese": "兔['ræbit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is rabbit.",
+          "chinese": "这是兔['ræbit]。"
+        }
+      },
+      {
+        "english": "horse",
+        "chinese": "⻢[hɔ:s]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is horse.",
+          "chinese": "这是⻢[hɔ:s]。"
+        }
+      },
+      {
+        "english": "elephant",
+        "chinese": "大象['elifənt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is elephant.",
+          "chinese": "这是大象['elifənt]。"
+        }
+      },
+      {
+        "english": "ant",
+        "chinese": "蚂蚁[ænt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ant.",
+          "chinese": "这是蚂蚁[ænt]。"
+        }
+      },
+      {
+        "english": "fish",
+        "chinese": "⻥[fiʃ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fish.",
+          "chinese": "这是⻥[fiʃ]。"
+        }
+      },
+      {
+        "english": "bird",
+        "chinese": "⻦[bə:d]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bird.",
+          "chinese": "这是⻦[bə:d]。"
+        }
+      },
+      {
+        "english": "eagle",
+        "chinese": "鹰['i:ɡl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eagle.",
+          "chinese": "这是鹰['i:ɡl]。"
+        }
+      },
+      {
+        "english": "beaver",
+        "chinese": "海狸['bi:və]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is beaver.",
+          "chinese": "这是海狸['bi:və]。"
+        }
+      },
+      {
+        "english": "snake",
+        "chinese": "蛇[sneik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is snake.",
+          "chinese": "这是蛇[sneik]。"
+        }
+      },
+      {
+        "english": "mouse",
+        "chinese": "⽼⿏[maus, mauz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is mouse.",
+          "chinese": "这是⽼⿏[maus, mauz]。"
+        }
+      },
+      {
+        "english": "squirrel",
+        "chinese": "松⿏['skwə:rəl,",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is squirrel.",
+          "chinese": "这是松⿏['skwə:rəl,。"
+        }
+      },
+      {
+        "english": "kangaroo",
+        "chinese": "袋⿏[,kænɡə'ru:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is kangaroo.",
+          "chinese": "这是袋⿏[,kænɡə'ru:]。"
+        }
+      },
+      {
+        "english": "monkey",
+        "chinese": "猴['mʌŋki]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is monkey.",
+          "chinese": "这是猴['mʌŋki]。"
+        }
+      },
+      {
+        "english": "panda",
+        "chinese": "熊猫['pændə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is panda.",
+          "chinese": "这是熊猫['pændə]。"
+        }
+      },
+      {
+        "english": "bear",
+        "chinese": "熊[bεə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bear.",
+          "chinese": "这是熊[bεə]。"
+        }
+      },
+      {
+        "english": "lion",
+        "chinese": "狮子['laiən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is lion.",
+          "chinese": "这是狮子['laiən]。"
+        }
+      },
+      {
+        "english": "tiger",
+        "chinese": "⽼虎['taiɡə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tiger.",
+          "chinese": "这是⽼虎['taiɡə]。"
+        }
+      },
+      {
+        "english": "fox",
+        "chinese": "狐狸[fɔks]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fox.",
+          "chinese": "这是狐狸[fɔks]。"
+        }
+      },
+      {
+        "english": "zebra",
+        "chinese": "斑⻢['zi:brə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is zebra.",
+          "chinese": "这是斑⻢['zi:brə]。"
+        }
+      },
+      {
+        "english": "deer",
+        "chinese": "⿅[diə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is deer.",
+          "chinese": "这是⿅[diə]。"
+        }
+      },
+      {
+        "english": "giraffe",
+        "chinese": "长颈⿅[dʒi'rɑ:f]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is giraffe.",
+          "chinese": "这是长颈⿅[dʒi'rɑ:f]。"
+        }
+      },
+      {
+        "english": "goose",
+        "chinese": "鹅[ɡu:s]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is goose.",
+          "chinese": "这是鹅[ɡu:s]。"
+        }
+      },
+      {
+        "english": "hen",
+        "chinese": "母鸡[hen]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hen.",
+          "chinese": "这是母鸡[hen]。"
+        }
+      },
+      {
+        "english": "turkey",
+        "chinese": "⽕鸡['tə:ki]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is turkey.",
+          "chinese": "这是⽕鸡['tə:ki]。"
+        }
+      },
+      {
+        "english": "lamb",
+        "chinese": "小⽺[læm]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is lamb.",
+          "chinese": "这是小⽺[læm]。"
+        }
+      },
+      {
+        "english": "sheep",
+        "chinese": "绵⽺[ʃip]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sheep.",
+          "chinese": "这是绵⽺[ʃip]。"
+        }
+      },
+      {
+        "english": "goat",
+        "chinese": "山⽺[ɡəut]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is goat.",
+          "chinese": "这是山⽺[ɡəut]。"
+        }
+      },
+      {
+        "english": "cow",
+        "chinese": "奶⽜[kau]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cow.",
+          "chinese": "这是奶⽜[kau]。"
+        }
+      },
+      {
+        "english": "donkey",
+        "chinese": "驴['dɔŋki]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is donkey.",
+          "chinese": "这是驴['dɔŋki]。"
+        }
+      },
+      {
+        "english": "squid",
+        "chinese": "鱿⻥[skwid]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is squid.",
+          "chinese": "这是鱿⻥[skwid]。"
+        }
+      },
+      {
+        "english": "lobster",
+        "chinese": "⻰虾['lɔbstə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is lobster.",
+          "chinese": "这是⻰虾['lɔbstə]。"
+        }
+      },
+      {
+        "english": "shark",
+        "chinese": "鲨⻥[ʃɑ:k]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is shark.",
+          "chinese": "这是鲨⻥[ʃɑ:k]。"
+        }
+      },
+      {
+        "english": "seal",
+        "chinese": "海豹[si:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is seal.",
+          "chinese": "这是海豹[si:l]。"
+        }
+      },
+      {
+        "english": "Sperm",
+        "chinese": "whale 抹⾹鲸",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Sperm.",
+          "chinese": "这是whale 抹⾹鲸。"
+        }
+      },
+      {
+        "english": "killer",
+        "chinese": "whale 虎鲸['kilə- hweil]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is killer.",
+          "chinese": "这是whale 虎鲸['kilə- hweil]。"
+        }
+      },
+      {
+        "english": "teacher",
+        "chinese": "教师['ti:tʃə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is teacher.",
+          "chinese": "这是教师['ti:tʃə]。"
+        }
+      },
+      {
+        "english": "student",
+        "chinese": "学生['stju:dənt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is student.",
+          "chinese": "这是学生['stju:dənt]。"
+        }
+      },
+      {
+        "english": "doctor",
+        "chinese": "医生[dɔktə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is doctor.",
+          "chinese": "这是医生[dɔktə]。"
+        }
+      },
+      {
+        "english": "nurse",
+        "chinese": "护⼠[nə:s]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is nurse.",
+          "chinese": "这是护⼠[nə:s]。"
+        }
+      },
+      {
+        "english": "driver",
+        "chinese": "司机[nə:s]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is driver.",
+          "chinese": "这是司机[nə:s]。"
+        }
+      },
+      {
+        "english": "farmer",
+        "chinese": "农⺠['fɑ:mə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is farmer.",
+          "chinese": "这是农⺠['fɑ:mə]。"
+        }
+      },
+      {
+        "english": "singer",
+        "chinese": "歌唱家['siŋə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is singer.",
+          "chinese": "这是歌唱家['siŋə]。"
+        }
+      },
+      {
+        "english": "writer",
+        "chinese": "作家['raitə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is writer.",
+          "chinese": "这是作家['raitə]。"
+        }
+      },
+      {
+        "english": "actor",
+        "chinese": "男演员['æktə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is actor.",
+          "chinese": "这是男演员['æktə]。"
+        }
+      },
+      {
+        "english": "actress",
+        "chinese": "女演员['æktris]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is actress.",
+          "chinese": "这是女演员['æktris]。"
+        }
+      },
+      {
+        "english": "artist",
+        "chinese": "画家['ɑ:tist]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is artist.",
+          "chinese": "这是画家['ɑ:tist]。"
+        }
+      },
+      {
+        "english": "TV",
+        "chinese": "reporter 电视台记者[ri'pɔ:tə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is TV.",
+          "chinese": "这是reporter 电视台记者[ri'pɔ:tə]。"
+        }
+      },
+      {
+        "english": "engineer",
+        "chinese": "⼯程师[,endʒi'niə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is engineer.",
+          "chinese": "这是⼯程师[,endʒi'niə]。"
+        }
+      },
+      {
+        "english": "accountant",
+        "chinese": "会计[ə'kauntənt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is accountant.",
+          "chinese": "这是会计[ə'kauntənt]。"
+        }
+      },
+      {
+        "english": "salesperson",
+        "chinese": "销售员",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is salesperson.",
+          "chinese": "这是销售员。"
+        }
+      },
+      {
+        "english": "cleaner",
+        "chinese": "清洁⼯",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cleaner.",
+          "chinese": "这是清洁⼯。"
+        }
+      },
+      {
+        "english": "baseball",
+        "chinese": "player 棒球运动员",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is baseball.",
+          "chinese": "这是player 棒球运动员。"
+        }
+      },
+      {
+        "english": "assistant",
+        "chinese": "售货员",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is assistant.",
+          "chinese": "这是售货员。"
+        }
+      },
+      {
+        "english": "police",
+        "chinese": "警察[pə'li:s]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is police.",
+          "chinese": "这是警察[pə'li:s]。"
+        }
+      },
+      {
+        "english": "rice",
+        "chinese": "⽶饭[rais]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is rice.",
+          "chinese": "这是⽶饭[rais]。"
+        }
+      },
+      {
+        "english": "bread",
+        "chinese": "⾯包[bred]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bread.",
+          "chinese": "这是⾯包[bred]。"
+        }
+      },
+      {
+        "english": "beef",
+        "chinese": "⽜⾁[bi:f]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is beef.",
+          "chinese": "这是⽜⾁[bi:f]。"
+        }
+      },
+      {
+        "english": "milk",
+        "chinese": "⽜奶[milk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is milk.",
+          "chinese": "这是⽜奶[milk]。"
+        }
+      },
+      {
+        "english": "water",
+        "chinese": "⽔['wɔ:tə, 'wɔ-]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is water.",
+          "chinese": "这是⽔['wɔ:tə, 'wɔ-]。"
+        }
+      },
+      {
+        "english": "egg",
+        "chinese": "蛋[eɡ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is egg.",
+          "chinese": "这是蛋[eɡ]。"
+        }
+      },
+      {
+        "english": "fish",
+        "chinese": "⻥[fiʃ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fish.",
+          "chinese": "这是⻥[fiʃ]。"
+        }
+      },
+      {
+        "english": "tofu",
+        "chinese": "⾖腐['təufu:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tofu.",
+          "chinese": "这是⾖腐['təufu:]。"
+        }
+      },
+      {
+        "english": "cake",
+        "chinese": "蛋糕[keik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cake.",
+          "chinese": "这是蛋糕[keik]。"
+        }
+      },
+      {
+        "english": "hot",
+        "chinese": "dog 热狗[hɔt-[dɔɡ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hot.",
+          "chinese": "这是dog 热狗[hɔt-[dɔɡ]。"
+        }
+      },
+      {
+        "english": "hamburger",
+        "chinese": "汉堡包",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hamburger.",
+          "chinese": "这是汉堡包。"
+        }
+      },
+      {
+        "english": "French",
+        "chinese": "fries 炸薯条[fraids]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is French.",
+          "chinese": "这是fries 炸薯条[fraids]。"
+        }
+      },
+      {
+        "english": "cookie",
+        "chinese": "曲奇['kuki]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cookie.",
+          "chinese": "这是曲奇['kuki]。"
+        }
+      },
+      {
+        "english": "biscuit",
+        "chinese": "饼干['biskit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is biscuit.",
+          "chinese": "这是饼干['biskit]。"
+        }
+      },
+      {
+        "english": "jam",
+        "chinese": "果酱[dʒæm]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is jam.",
+          "chinese": "这是果酱[dʒæm]。"
+        }
+      },
+      {
+        "english": "noodles",
+        "chinese": "⾯条['nu:dl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is noodles.",
+          "chinese": "这是⾯条['nu:dl]。"
+        }
+      },
+      {
+        "english": "meat",
+        "chinese": "⾁[mi:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is meat.",
+          "chinese": "这是⾁[mi:t]。"
+        }
+      },
+      {
+        "english": "chicken",
+        "chinese": "鸡⾁['tʃikin]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is chicken.",
+          "chinese": "这是鸡⾁['tʃikin]。"
+        }
+      },
+      {
+        "english": "pork",
+        "chinese": "猪⾁ [pɔ:k]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pork.",
+          "chinese": "这是猪⾁ [pɔ:k]。"
+        }
+      },
+      {
+        "english": "mutton",
+        "chinese": "⽺⾁['mʌtən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is mutton.",
+          "chinese": "这是⽺⾁['mʌtən]。"
+        }
+      },
+      {
+        "english": "vegetable",
+        "chinese": "蔬菜['vedʒitəbl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is vegetable.",
+          "chinese": "这是蔬菜['vedʒitəbl]。"
+        }
+      },
+      {
+        "english": "salad",
+        "chinese": "沙拉['sæləd]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is salad.",
+          "chinese": "这是沙拉['sæləd]。"
+        }
+      },
+      {
+        "english": "soup",
+        "chinese": "汤[su:p]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is soup.",
+          "chinese": "这是汤[su:p]。"
+        }
+      },
+      {
+        "english": "ice",
+        "chinese": "冰[ais]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ice.",
+          "chinese": "这是冰[ais]。"
+        }
+      },
+      {
+        "english": "ice-cream",
+        "chinese": "冰淇淋['aiskri:m]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ice-cream.",
+          "chinese": "这是冰淇淋['aiskri:m]。"
+        }
+      },
+      {
+        "english": "Coke",
+        "chinese": "可乐",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Coke.",
+          "chinese": "这是可乐。"
+        }
+      },
+      {
+        "english": "juice",
+        "chinese": "果汁[dʒu:s]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is juice.",
+          "chinese": "这是果汁[dʒu:s]。"
+        }
+      },
+      {
+        "english": "tea",
+        "chinese": "茶 [ti:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tea.",
+          "chinese": "这是茶 [ti:]。"
+        }
+      },
+      {
+        "english": "coffee",
+        "chinese": "咖啡['kɔfi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is coffee.",
+          "chinese": "这是咖啡['kɔfi]。"
+        }
+      },
+      {
+        "english": "breakfast",
+        "chinese": "早餐",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is breakfast.",
+          "chinese": "这是早餐。"
+        }
+      },
+      {
+        "english": "lunch",
+        "chinese": "午餐[lʌntʃ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is lunch.",
+          "chinese": "这是午餐[lʌntʃ]。"
+        }
+      },
+      {
+        "english": "meal",
+        "chinese": "⼀餐 [mi:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is meal.",
+          "chinese": "这是⼀餐 [mi:l]。"
+        }
+      },
+      {
+        "english": "apple",
+        "chinese": "苹果['æpl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is apple.",
+          "chinese": "这是苹果['æpl]。"
+        }
+      },
+      {
+        "english": "banana",
+        "chinese": "⾹蕉",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is banana.",
+          "chinese": "这是⾹蕉。"
+        }
+      },
+      {
+        "english": "pear",
+        "chinese": "梨[pεə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pear.",
+          "chinese": "这是梨[pεə]。"
+        }
+      },
+      {
+        "english": "orange",
+        "chinese": "橙['ɔrindʒ, 'ɔ:-]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is orange.",
+          "chinese": "这是橙['ɔrindʒ, 'ɔ:-]。"
+        }
+      },
+      {
+        "english": "watermelon",
+        "chinese": "西⽠",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is watermelon.",
+          "chinese": "这是西⽠。"
+        }
+      },
+      {
+        "english": "grape",
+        "chinese": "葡萄[ɡreip]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is grape.",
+          "chinese": "这是葡萄[ɡreip]。"
+        }
+      },
+      {
+        "english": "eggplant",
+        "chinese": "茄子['eɡplɑ:nt,-plænt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eggplant.",
+          "chinese": "这是茄子['eɡplɑ:nt,-plænt]。"
+        }
+      },
+      {
+        "english": "green",
+        "chinese": "beans 青⾖",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is green.",
+          "chinese": "这是beans 青⾖。"
+        }
+      },
+      {
+        "english": "tomato",
+        "chinese": "西红柿[tə'mɑ:təu]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tomato.",
+          "chinese": "这是西红柿[tə'mɑ:təu]。"
+        }
+      },
+      {
+        "english": "potato",
+        "chinese": "⼟⾖[pə'teitəu]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is potato.",
+          "chinese": "这是⼟⾖[pə'teitəu]。"
+        }
+      },
+      {
+        "english": "peach",
+        "chinese": "桃[pi:tʃ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is peach.",
+          "chinese": "这是桃[pi:tʃ]。"
+        }
+      },
+      {
+        "english": "strawberry",
+        "chinese": "草莓['strɔ:bəri]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is strawberry.",
+          "chinese": "这是草莓['strɔ:bəri]。"
+        }
+      },
+      {
+        "english": "cucumber",
+        "chinese": "⻩⽠",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cucumber.",
+          "chinese": "这是⻩⽠。"
+        }
+      },
+      {
+        "english": "onion",
+        "chinese": "洋葱['ʌnjən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is onion.",
+          "chinese": "这是洋葱['ʌnjən]。"
+        }
+      },
+      {
+        "english": "carrot",
+        "chinese": "胡萝⼘['kærət]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is carrot.",
+          "chinese": "这是胡萝⼘['kærət]。"
+        }
+      },
+      {
+        "english": "cabbage",
+        "chinese": "卷心菜['kæbidʒ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cabbage.",
+          "chinese": "这是卷心菜['kæbidʒ]。"
+        }
+      },
+      {
+        "english": "bike",
+        "chinese": "⾃⾏⻋[baik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bike.",
+          "chinese": "这是⾃⾏⻋[baik]。"
+        }
+      },
+      {
+        "english": "bus",
+        "chinese": "公共汽⻋[bʌs]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bus.",
+          "chinese": "这是公共汽⻋[bʌs]。"
+        }
+      },
+      {
+        "english": "train",
+        "chinese": "⽕⻋[trein]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is train.",
+          "chinese": "这是⽕⻋[trein]。"
+        }
+      },
+      {
+        "english": "boat",
+        "chinese": "小船[bəut]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is boat.",
+          "chinese": "这是小船[bəut]。"
+        }
+      },
+      {
+        "english": "ship",
+        "chinese": "轮船[ʃip]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ship.",
+          "chinese": "这是轮船[ʃip]。"
+        }
+      },
+      {
+        "english": "yacht",
+        "chinese": "快艇[jɔt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is yacht.",
+          "chinese": "这是快艇[jɔt]。"
+        }
+      },
+      {
+        "english": "car",
+        "chinese": "小汽⻋[kɑ:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is car.",
+          "chinese": "这是小汽⻋[kɑ:]。"
+        }
+      },
+      {
+        "english": "taxi",
+        "chinese": "出租⻋['tæksi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is taxi.",
+          "chinese": "这是出租⻋['tæksi]。"
+        }
+      },
+      {
+        "english": "jeep",
+        "chinese": "吉普⻋[dʒi:p]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is jeep.",
+          "chinese": "这是吉普⻋[dʒi:p]。"
+        }
+      },
+      {
+        "english": "van",
+        "chinese": "小货⻋；⾯包⻋[væn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is van.",
+          "chinese": "这是小货⻋；⾯包⻋[væn]。"
+        }
+      },
+      {
+        "english": "window",
+        "chinese": "窗⼾['windəu]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is window.",
+          "chinese": "这是窗⼾['windəu]。"
+        }
+      },
+      {
+        "english": "door",
+        "chinese": "⻔[dɔ:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is door.",
+          "chinese": "这是⻔[dɔ:]。"
+        }
+      },
+      {
+        "english": "desk",
+        "chinese": "课桌[desk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is desk.",
+          "chinese": "这是课桌[desk]。"
+        }
+      },
+      {
+        "english": "chair",
+        "chinese": "椅子[tʃεə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is chair.",
+          "chinese": "这是椅子[tʃεə]。"
+        }
+      },
+      {
+        "english": "bed",
+        "chinese": "床[bed]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bed.",
+          "chinese": "这是床[bed]。"
+        }
+      },
+      {
+        "english": "computer",
+        "chinese": "计算机[kəm'pju:tə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is computer.",
+          "chinese": "这是计算机[kəm'pju:tə]。"
+        }
+      },
+      {
+        "english": "board",
+        "chinese": "写字板[bɔ:d]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is board.",
+          "chinese": "这是写字板[bɔ:d]。"
+        }
+      },
+      {
+        "english": "fan",
+        "chinese": "⻛扇[fæn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fan.",
+          "chinese": "这是⻛扇[fæn]。"
+        }
+      },
+      {
+        "english": "light",
+        "chinese": "灯['lait]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is light.",
+          "chinese": "这是灯['lait]。"
+        }
+      },
+      {
+        "english": "picture",
+        "chinese": "图画；照⽚['piktʃə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is picture.",
+          "chinese": "这是图画；照⽚['piktʃə]。"
+        }
+      },
+      {
+        "english": "wall",
+        "chinese": "墙壁[wɔ:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is wall.",
+          "chinese": "这是墙壁[wɔ:l]。"
+        }
+      },
+      {
+        "english": "floor",
+        "chinese": "地板[flɔ:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is floor.",
+          "chinese": "这是地板[flɔ:]。"
+        }
+      },
+      {
+        "english": "curtain",
+        "chinese": "窗帘['kə:tən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is curtain.",
+          "chinese": "这是窗帘['kə:tən]。"
+        }
+      },
+      {
+        "english": "trash",
+        "chinese": "bin 垃圾箱[træʃ] [bin]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is trash.",
+          "chinese": "这是bin 垃圾箱[træʃ] [bin]。"
+        }
+      },
+      {
+        "english": "closet",
+        "chinese": "壁橱['klɔzit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is closet.",
+          "chinese": "这是壁橱['klɔzit]。"
+        }
+      },
+      {
+        "english": "mirror",
+        "chinese": "镜子['mirə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is mirror.",
+          "chinese": "这是镜子['mirə]。"
+        }
+      },
+      {
+        "english": "end",
+        "chinese": "table 床头柜[end-'teibl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is end.",
+          "chinese": "这是table 床头柜[end-'teibl]。"
+        }
+      },
+      {
+        "english": "present",
+        "chinese": "礼物",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is present.",
+          "chinese": "这是礼物。"
+        }
+      },
+      {
+        "english": "walkman",
+        "chinese": "随⾝听[wɔ:k-mæn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is walkman.",
+          "chinese": "这是随⾝听[wɔ:k-mæn]。"
+        }
+      },
+      {
+        "english": "lamp",
+        "chinese": "台灯[læmp]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is lamp.",
+          "chinese": "这是台灯[læmp]。"
+        }
+      },
+      {
+        "english": "phone",
+        "chinese": "电话[fəun]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is phone.",
+          "chinese": "这是电话[fəun]。"
+        }
+      },
+      {
+        "english": "sofa",
+        "chinese": "沙发['səufə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sofa.",
+          "chinese": "这是沙发['səufə]。"
+        }
+      },
+      {
+        "english": "shelf",
+        "chinese": "书架[ʃelf]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is shelf.",
+          "chinese": "这是书架[ʃelf]。"
+        }
+      },
+      {
+        "english": "fridge",
+        "chinese": "冰箱[fridʒ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fridge.",
+          "chinese": "这是冰箱[fridʒ]。"
+        }
+      },
+      {
+        "english": "table",
+        "chinese": "桌子['teibl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is table.",
+          "chinese": "这是桌子['teibl]。"
+        }
+      },
+      {
+        "english": "TV",
+        "chinese": "电视",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is TV.",
+          "chinese": "这是电视。"
+        }
+      },
+      {
+        "english": "air-conditioner",
+        "chinese": "空调[εə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is air-conditioner.",
+          "chinese": "这是空调[εə]。"
+        }
+      },
+      {
+        "english": "key",
+        "chinese": "钥匙 ki:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is key.",
+          "chinese": "这是钥匙 ki:]。"
+        }
+      },
+      {
+        "english": "lock",
+        "chinese": "锁 [lɔk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is lock.",
+          "chinese": "这是锁 [lɔk]。"
+        }
+      },
+      {
+        "english": "photo",
+        "chinese": "照⽚['fəutəu]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is photo.",
+          "chinese": "这是照⽚['fəutəu]。"
+        }
+      },
+      {
+        "english": "chart",
+        "chinese": "图表[tʃɑ:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is chart.",
+          "chinese": "这是图表[tʃɑ:t]。"
+        }
+      },
+      {
+        "english": "plate",
+        "chinese": "盘子[pleit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is plate.",
+          "chinese": "这是盘子[pleit]。"
+        }
+      },
+      {
+        "english": "knife",
+        "chinese": "⼑[naif]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is knife.",
+          "chinese": "这是⼑[naif]。"
+        }
+      },
+      {
+        "english": "fork",
+        "chinese": "叉[fɔ:k]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fork.",
+          "chinese": "这是叉[fɔ:k]。"
+        }
+      },
+      {
+        "english": "spoon",
+        "chinese": "勺子[spu:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is spoon.",
+          "chinese": "这是勺子[spu:n]。"
+        }
+      },
+      {
+        "english": "chopsticks",
+        "chinese": "筷子",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is chopsticks.",
+          "chinese": "这是筷子。"
+        }
+      },
+      {
+        "english": "pot",
+        "chinese": "锅[pɔt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pot.",
+          "chinese": "这是锅[pɔt]。"
+        }
+      },
+      {
+        "english": "gift",
+        "chinese": "礼物[ɡift]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is gift.",
+          "chinese": "这是礼物[ɡift]。"
+        }
+      },
+      {
+        "english": "toy",
+        "chinese": "玩具[tɔi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is toy.",
+          "chinese": "这是玩具[tɔi]。"
+        }
+      },
+      {
+        "english": "doll",
+        "chinese": "洋娃娃[dɔl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is doll.",
+          "chinese": "这是洋娃娃[dɔl]。"
+        }
+      },
+      {
+        "english": "ball",
+        "chinese": "球[bɔ:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ball.",
+          "chinese": "这是球[bɔ:l]。"
+        }
+      },
+      {
+        "english": "balloon",
+        "chinese": "⽓球[bə'lu:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is balloon.",
+          "chinese": "这是⽓球[bə'lu:n]。"
+        }
+      },
+      {
+        "english": "kite",
+        "chinese": "⻛筝[kait]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is kite.",
+          "chinese": "这是⻛筝[kait]。"
+        }
+      },
+      {
+        "english": "jigsaw",
+        "chinese": "puzzle 拼图游戏 ['dʒiɡ",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is jigsaw.",
+          "chinese": "这是puzzle 拼图游戏 ['dʒiɡ。"
+        }
+      },
+      {
+        "english": "box",
+        "chinese": "盒子[bɔks]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is box.",
+          "chinese": "这是盒子[bɔks]。"
+        }
+      },
+      {
+        "english": "umbrella",
+        "chinese": "伞 [ʌm'brelə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is umbrella.",
+          "chinese": "这是伞 [ʌm'brelə]。"
+        }
+      },
+      {
+        "english": "zipper",
+        "chinese": "拉链['zipə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is zipper.",
+          "chinese": "这是拉链['zipə]。"
+        }
+      },
+      {
+        "english": "violin",
+        "chinese": "小提琴[,vaiə'lin]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is violin.",
+          "chinese": "这是小提琴[,vaiə'lin]。"
+        }
+      },
+      {
+        "english": "yo-yo",
+        "chinese": "溜溜球",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is yo-yo.",
+          "chinese": "这是溜溜球。"
+        }
+      },
+      {
+        "english": "nest",
+        "chinese": "⻦窝[nest]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is nest.",
+          "chinese": "这是⻦窝[nest]。"
+        }
+      },
+      {
+        "english": "hole",
+        "chinese": "洞[həul]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hole.",
+          "chinese": "这是洞[həul]。"
+        }
+      },
+      {
+        "english": "tube",
+        "chinese": "管子[tju:b, tu:b]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tube.",
+          "chinese": "这是管子[tju:b, tu:b]。"
+        }
+      },
+      {
+        "english": "toothbrush",
+        "chinese": "⽛刷 ['tu:θbrʌʃ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is toothbrush.",
+          "chinese": "这是⽛刷 ['tu:θbrʌʃ]。"
+        }
+      },
+      {
+        "english": "menu",
+        "chinese": "菜单",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is menu.",
+          "chinese": "这是菜单。"
+        }
+      },
+      {
+        "english": "e-card",
+        "chinese": "电子卡⽚[kɑ:d]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is e-card.",
+          "chinese": "这是电子卡⽚[kɑ:d]。"
+        }
+      },
+      {
+        "english": "e-mail",
+        "chinese": "电子邮件[meil]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is e-mail.",
+          "chinese": "这是电子邮件[meil]。"
+        }
+      },
+      {
+        "english": "traffic",
+        "chinese": "light 交通灯",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is traffic.",
+          "chinese": "这是light 交通灯。"
+        }
+      },
+      {
+        "english": "money",
+        "chinese": "钱['mʌni]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is money.",
+          "chinese": "这是钱['mʌni]。"
+        }
+      },
+      {
+        "english": "medicine",
+        "chinese": "药['medisin]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is medicine.",
+          "chinese": "这是药['medisin]。"
+        }
+      },
+      {
+        "english": "home",
+        "chinese": "家[həum]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is home.",
+          "chinese": "这是家[həum]。"
+        }
+      },
+      {
+        "english": "room",
+        "chinese": "房间[ru:m, rum]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is room.",
+          "chinese": "这是房间[ru:m, rum]。"
+        }
+      },
+      {
+        "english": "bedroom",
+        "chinese": "卧室['bedru(:)m]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bedroom.",
+          "chinese": "这是卧室['bedru(:)m]。"
+        }
+      },
+      {
+        "english": "bathroom",
+        "chinese": "卫生间['bɑ:θrum]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bathroom.",
+          "chinese": "这是卫生间['bɑ:θrum]。"
+        }
+      },
+      {
+        "english": "living",
+        "chinese": "room 起居室",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is living.",
+          "chinese": "这是room 起居室。"
+        }
+      },
+      {
+        "english": "kitchen",
+        "chinese": "厨房['kitʃin]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is kitchen.",
+          "chinese": "这是厨房['kitʃin]。"
+        }
+      },
+      {
+        "english": "classroom",
+        "chinese": "教室['klɑ:srum]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is classroom.",
+          "chinese": "这是教室['klɑ:srum]。"
+        }
+      },
+      {
+        "english": "school",
+        "chinese": "学校[sku:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is school.",
+          "chinese": "这是学校[sku:l]。"
+        }
+      },
+      {
+        "english": "park",
+        "chinese": "公园[pɑ:k]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is park.",
+          "chinese": "这是公园[pɑ:k]。"
+        }
+      },
+      {
+        "english": "library",
+        "chinese": "图书馆['laibrəri]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is library.",
+          "chinese": "这是图书馆['laibrəri]。"
+        }
+      },
+      {
+        "english": "post",
+        "chinese": "office 邮局",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is post.",
+          "chinese": "这是office 邮局。"
+        }
+      },
+      {
+        "english": "police",
+        "chinese": "office 警察局",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is police.",
+          "chinese": "这是office 警察局。"
+        }
+      },
+      {
+        "english": "hospital",
+        "chinese": "医院 ['hɔspitəl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hospital.",
+          "chinese": "这是医院 ['hɔspitəl]。"
+        }
+      },
+      {
+        "english": "cinema",
+        "chinese": "电影院['sinəmə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cinema.",
+          "chinese": "这是电影院['sinəmə]。"
+        }
+      },
+      {
+        "english": "bookstore",
+        "chinese": "书店['bukstɔ:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bookstore.",
+          "chinese": "这是书店['bukstɔ:]。"
+        }
+      },
+      {
+        "english": "farm",
+        "chinese": "农场[fɑ:m]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is farm.",
+          "chinese": "这是农场[fɑ:m]。"
+        }
+      },
+      {
+        "english": "zoo",
+        "chinese": "动物园[zu:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is zoo.",
+          "chinese": "这是动物园[zu:]。"
+        }
+      },
+      {
+        "english": "garden",
+        "chinese": "花园['ɡɑ:dn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is garden.",
+          "chinese": "这是花园['ɡɑ:dn]。"
+        }
+      },
+      {
+        "english": "study",
+        "chinese": "书房['stʌdi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is study.",
+          "chinese": "这是书房['stʌdi]。"
+        }
+      },
+      {
+        "english": "playground",
+        "chinese": "操场",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is playground.",
+          "chinese": "这是操场。"
+        }
+      },
+      {
+        "english": "canteen",
+        "chinese": "⻝堂[kæn'ti:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is canteen.",
+          "chinese": "这是⻝堂[kæn'ti:n]。"
+        }
+      },
+      {
+        "english": "library",
+        "chinese": "图书馆['laibrəri]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is library.",
+          "chinese": "这是图书馆['laibrəri]。"
+        }
+      },
+      {
+        "english": "gym",
+        "chinese": "体育馆[dʒim]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is gym.",
+          "chinese": "这是体育馆[dʒim]。"
+        }
+      },
+      {
+        "english": "washroom",
+        "chinese": "卫生间['wɔʃrum]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is washroom.",
+          "chinese": "这是卫生间['wɔʃrum]。"
+        }
+      },
+      {
+        "english": "art",
+        "chinese": "room 绘画教室",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is art.",
+          "chinese": "这是room 绘画教室。"
+        }
+      },
+      {
+        "english": "computer",
+        "chinese": "room 计算机教室",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is computer.",
+          "chinese": "这是room 计算机教室。"
+        }
+      },
+      {
+        "english": "music",
+        "chinese": "room ⾳乐教室['mju:zik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is music.",
+          "chinese": "这是room ⾳乐教室['mju:zik]。"
+        }
+      },
+      {
+        "english": "TV",
+        "chinese": "room 电视机房[ru:m]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is TV.",
+          "chinese": "这是room 电视机房[ru:m]。"
+        }
+      },
+      {
+        "english": "flat",
+        "chinese": "公寓[flæt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is flat.",
+          "chinese": "这是公寓[flæt]。"
+        }
+      },
+      {
+        "english": "company",
+        "chinese": "公司['kɔmpəni]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is company.",
+          "chinese": "这是公司['kɔmpəni]。"
+        }
+      },
+      {
+        "english": "factory",
+        "chinese": "⼯⼚['fæktəri]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is factory.",
+          "chinese": "这是⼯⼚['fæktəri]。"
+        }
+      },
+      {
+        "english": "fruit",
+        "chinese": "stand ⽔果摊",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fruit.",
+          "chinese": "这是stand ⽔果摊。"
+        }
+      },
+      {
+        "english": "pet",
+        "chinese": "shop 宠物商店[pet] [ʃɔp]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pet.",
+          "chinese": "这是shop 宠物商店[pet] [ʃɔp]。"
+        }
+      },
+      {
+        "english": "nature",
+        "chinese": "park ⾃然公园 ['neitʃə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is nature.",
+          "chinese": "这是park ⾃然公园 ['neitʃə]。"
+        }
+      },
+      {
+        "english": "theme",
+        "chinese": "park 主题公园",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is theme.",
+          "chinese": "这是park 主题公园。"
+        }
+      },
+      {
+        "english": "science",
+        "chinese": "museum 科学博物馆",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is science.",
+          "chinese": "这是museum 科学博物馆。"
+        }
+      },
+      {
+        "english": "the",
+        "chinese": "Great Wall 长城",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is the.",
+          "chinese": "这是Great Wall 长城。"
+        }
+      },
+      {
+        "english": "supermarket",
+        "chinese": "超市",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is supermarket.",
+          "chinese": "这是超市。"
+        }
+      },
+      {
+        "english": "bank",
+        "chinese": "银⾏[bæŋk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bank.",
+          "chinese": "这是银⾏[bæŋk]。"
+        }
+      },
+      {
+        "english": "country",
+        "chinese": "国家['kʌntri]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is country.",
+          "chinese": "这是国家['kʌntri]。"
+        }
+      },
+      {
+        "english": "village",
+        "chinese": "乡村['vilidʒ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is village.",
+          "chinese": "这是乡村['vilidʒ]。"
+        }
+      },
+      {
+        "english": "city",
+        "chinese": "城市['siti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is city.",
+          "chinese": "这是城市['siti]。"
+        }
+      },
+      {
+        "english": "hometown",
+        "chinese": "家乡['həum'taun]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hometown.",
+          "chinese": "这是家乡['həum'taun]。"
+        }
+      },
+      {
+        "english": "bus",
+        "chinese": "stop 公交⻋站[bʌs] [stɔp]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bus.",
+          "chinese": "这是stop 公交⻋站[bʌs] [stɔp]。"
+        }
+      },
+      {
+        "english": "big",
+        "chinese": "大的[biɡ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is big.",
+          "chinese": "这是大的[biɡ]。"
+        }
+      },
+      {
+        "english": "small",
+        "chinese": "小的[smɔ:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is small.",
+          "chinese": "这是小的[smɔ:l]。"
+        }
+      },
+      {
+        "english": "long",
+        "chinese": "长的[lɔŋ, lɔ:ŋ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is long.",
+          "chinese": "这是长的[lɔŋ, lɔ:ŋ]。"
+        }
+      },
+      {
+        "english": "tall",
+        "chinese": "⾼的[tɔ:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tall.",
+          "chinese": "这是⾼的[tɔ:l]。"
+        }
+      },
+      {
+        "english": "short",
+        "chinese": "短的；矮的[ʃɔ:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is short.",
+          "chinese": "这是短的；矮的[ʃɔ:t]。"
+        }
+      },
+      {
+        "english": "young",
+        "chinese": "年轻的[jʌŋ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is young.",
+          "chinese": "这是年轻的[jʌŋ]。"
+        }
+      },
+      {
+        "english": "old",
+        "chinese": "旧的；⽼的[əuld]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is old.",
+          "chinese": "这是旧的；⽼的[əuld]。"
+        }
+      },
+      {
+        "english": "strong",
+        "chinese": "健壮的[strɔŋ,strɔ:ŋ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is strong.",
+          "chinese": "这是健壮的[strɔŋ,strɔ:ŋ]。"
+        }
+      },
+      {
+        "english": "thin",
+        "chinese": "瘦的[θin]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is thin.",
+          "chinese": "这是瘦的[θin]。"
+        }
+      },
+      {
+        "english": "active",
+        "chinese": "积极活跃的['æktiv]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is active.",
+          "chinese": "这是积极活跃的['æktiv]。"
+        }
+      },
+      {
+        "english": "quiet",
+        "chinese": "安静的['kwaiət]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is quiet.",
+          "chinese": "这是安静的['kwaiət]。"
+        }
+      },
+      {
+        "english": "nice",
+        "chinese": "好看的[nais]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is nice.",
+          "chinese": "这是好看的[nais]。"
+        }
+      },
+      {
+        "english": "kind",
+        "chinese": "和蔼亲切的[kaind]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is kind.",
+          "chinese": "这是和蔼亲切的[kaind]。"
+        }
+      },
+      {
+        "english": "strict",
+        "chinese": "严格的[strikt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is strict.",
+          "chinese": "这是严格的[strikt]。"
+        }
+      },
+      {
+        "english": "smart",
+        "chinese": "聪明的[smɑ:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is smart.",
+          "chinese": "这是聪明的[smɑ:t]。"
+        }
+      },
+      {
+        "english": "funny",
+        "chinese": "滑稽可笑的['fʌni]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is funny.",
+          "chinese": "这是滑稽可笑的['fʌni]。"
+        }
+      },
+      {
+        "english": "tasty",
+        "chinese": "好吃的['teisti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tasty.",
+          "chinese": "这是好吃的['teisti]。"
+        }
+      },
+      {
+        "english": "sweet",
+        "chinese": "甜的[swi:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sweet.",
+          "chinese": "这是甜的[swi:t]。"
+        }
+      },
+      {
+        "english": "salty",
+        "chinese": "咸的['sɔ:lti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is salty.",
+          "chinese": "这是咸的['sɔ:lti]。"
+        }
+      },
+      {
+        "english": "sour",
+        "chinese": "酸的['sauə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sour.",
+          "chinese": "这是酸的['sauə]。"
+        }
+      },
+      {
+        "english": "fresh",
+        "chinese": "新鲜的[freʃ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fresh.",
+          "chinese": "这是新鲜的[freʃ]。"
+        }
+      },
+      {
+        "english": "favourite",
+        "chinese": "最喜爱的['feivərit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is favourite.",
+          "chinese": "这是最喜爱的['feivərit]。"
+        }
+      },
+      {
+        "english": "clean",
+        "chinese": "干净的[kli:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is clean.",
+          "chinese": "这是干净的[kli:n]。"
+        }
+      },
+      {
+        "english": "tired",
+        "chinese": "疲劳的 ['taiə]d",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tired.",
+          "chinese": "这是疲劳的 ['taiə]d。"
+        }
+      },
+      {
+        "english": "excited",
+        "chinese": "兴奋的[ik'saitid]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is excited.",
+          "chinese": "这是兴奋的[ik'saitid]。"
+        }
+      },
+      {
+        "english": "angry",
+        "chinese": "生⽓的['æŋɡri]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is angry.",
+          "chinese": "这是生⽓的['æŋɡri]。"
+        }
+      },
+      {
+        "english": "happy",
+        "chinese": "⾼兴的['hæpi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is happy.",
+          "chinese": "这是⾼兴的['hæpi]。"
+        }
+      },
+      {
+        "english": "bored",
+        "chinese": "⽆聊的",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bored.",
+          "chinese": "这是⽆聊的。"
+        }
+      },
+      {
+        "english": "sad",
+        "chinese": "忧愁的[sæd]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sad.",
+          "chinese": "这是忧愁的[sæd]。"
+        }
+      },
+      {
+        "english": "taller",
+        "chinese": "更⾼的[tɔ:l] ə",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is taller.",
+          "chinese": "这是更⾼的[tɔ:l] ə。"
+        }
+      },
+      {
+        "english": "shorter",
+        "chinese": "更矮的[ʃɔ:t] ə",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is shorter.",
+          "chinese": "这是更矮的[ʃɔ:t] ə。"
+        }
+      },
+      {
+        "english": "stronger",
+        "chinese": "更强壮的",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is stronger.",
+          "chinese": "这是更强壮的。"
+        }
+      },
+      {
+        "english": "older",
+        "chinese": "年龄更大的['əuldə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is older.",
+          "chinese": "这是年龄更大的['əuldə]。"
+        }
+      },
+      {
+        "english": "younger",
+        "chinese": "更年轻的",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is younger.",
+          "chinese": "这是更年轻的。"
+        }
+      },
+      {
+        "english": "bigger",
+        "chinese": "更大的[biɡə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bigger.",
+          "chinese": "这是更大的[biɡə]。"
+        }
+      },
+      {
+        "english": "heavier",
+        "chinese": "更重的['lɔŋɡə, 'lɔ:ŋ-]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is heavier.",
+          "chinese": "这是更重的['lɔŋɡə, 'lɔ:ŋ-]。"
+        }
+      },
+      {
+        "english": "longer",
+        "chinese": "更长的['lɔŋɡə, 'lɔ:ŋ-]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is longer.",
+          "chinese": "这是更长的['lɔŋɡə, 'lɔ:ŋ-]。"
+        }
+      },
+      {
+        "english": "thinner",
+        "chinese": "更瘦的",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is thinner.",
+          "chinese": "这是更瘦的。"
+        }
+      },
+      {
+        "english": "smaller",
+        "chinese": "更小的[smɔ:lə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is smaller.",
+          "chinese": "这是更小的[smɔ:lə]。"
+        }
+      },
+      {
+        "english": "good",
+        "chinese": "好的[ɡud]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is good.",
+          "chinese": "这是好的[ɡud]。"
+        }
+      },
+      {
+        "english": "fine",
+        "chinese": "好的[fain]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fine.",
+          "chinese": "这是好的[fain]。"
+        }
+      },
+      {
+        "english": "great",
+        "chinese": "很好的[ɡreit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is great.",
+          "chinese": "这是很好的[ɡreit]。"
+        }
+      },
+      {
+        "english": "heavy",
+        "chinese": "重的['hevi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is heavy.",
+          "chinese": "这是重的['hevi]。"
+        }
+      },
+      {
+        "english": "new",
+        "chinese": "新的[nju:, nu:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is new.",
+          "chinese": "这是新的[nju:, nu:]。"
+        }
+      },
+      {
+        "english": "fat",
+        "chinese": "胖的[fæt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fat.",
+          "chinese": "这是胖的[fæt]。"
+        }
+      },
+      {
+        "english": "right",
+        "chinese": "对的[rait]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is right.",
+          "chinese": "这是对的[rait]。"
+        }
+      },
+      {
+        "english": "hungry",
+        "chinese": "饥饿的['hʌŋɡri]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hungry.",
+          "chinese": "这是饥饿的['hʌŋɡri]。"
+        }
+      },
+      {
+        "english": "cute",
+        "chinese": "逗人喜爱的[kju:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cute.",
+          "chinese": "这是逗人喜爱的[kju:t]。"
+        }
+      },
+      {
+        "english": "little",
+        "chinese": "小的['litl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is little.",
+          "chinese": "这是小的['litl]。"
+        }
+      },
+      {
+        "english": "lovely",
+        "chinese": "可爱的['lʌvli]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is lovely.",
+          "chinese": "这是可爱的['lʌvli]。"
+        }
+      },
+      {
+        "english": "beautiful",
+        "chinese": "漂亮的['bju:tiful]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is beautiful.",
+          "chinese": "这是漂亮的['bju:tiful]。"
+        }
+      },
+      {
+        "english": "colourful",
+        "chinese": "⾊彩鲜艳的['kʌləful]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is colourful.",
+          "chinese": "这是⾊彩鲜艳的['kʌləful]。"
+        }
+      },
+      {
+        "english": "pretty",
+        "chinese": "漂亮的['priti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pretty.",
+          "chinese": "这是漂亮的['priti]。"
+        }
+      },
+      {
+        "english": "cheap",
+        "chinese": "便宜的[tʃi:p]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cheap.",
+          "chinese": "这是便宜的[tʃi:p]。"
+        }
+      },
+      {
+        "english": "expensive",
+        "chinese": "昂贵的[ik'spensiv]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is expensive.",
+          "chinese": "这是昂贵的[ik'spensiv]。"
+        }
+      },
+      {
+        "english": "juicy",
+        "chinese": "多汁的['dʒu:si]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is juicy.",
+          "chinese": "这是多汁的['dʒu:si]。"
+        }
+      },
+      {
+        "english": "tender",
+        "chinese": "嫩的['tendə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is tender.",
+          "chinese": "这是嫩的['tendə]。"
+        }
+      },
+      {
+        "english": "healthy",
+        "chinese": "健康的['helθi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is healthy.",
+          "chinese": "这是健康的['helθi]。"
+        }
+      },
+      {
+        "english": "ill",
+        "chinese": "有病的[il]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ill.",
+          "chinese": "这是有病的[il]。"
+        }
+      },
+      {
+        "english": "helpful",
+        "chinese": "有帮助的['helpful]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is helpful.",
+          "chinese": "这是有帮助的['helpful]。"
+        }
+      },
+      {
+        "english": "high",
+        "chinese": "⾼的[hai]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is high.",
+          "chinese": "这是⾼的[hai]。"
+        }
+      },
+      {
+        "english": "easy",
+        "chinese": "简单的['i:zi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is easy.",
+          "chinese": "这是简单的['i:zi]。"
+        }
+      },
+      {
+        "english": "proud",
+        "chinese": "骄傲的[praud]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is proud.",
+          "chinese": "这是骄傲的[praud]。"
+        }
+      },
+      {
+        "english": "sick",
+        "chinese": "有病的[sik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sick.",
+          "chinese": "这是有病的[sik]。"
+        }
+      },
+      {
+        "english": "better",
+        "chinese": "更好的[betə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is better.",
+          "chinese": "这是更好的[betə]。"
+        }
+      },
+      {
+        "english": "higher",
+        "chinese": "更⾼的[haiə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is higher.",
+          "chinese": "这是更⾼的[haiə]。"
+        }
+      },
+      {
+        "english": "one",
+        "chinese": "⼀ [wʌn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is one.",
+          "chinese": "这是⼀ [wʌn]。"
+        }
+      },
+      {
+        "english": "two",
+        "chinese": "⼆[tu:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is two.",
+          "chinese": "这是⼆[tu:]。"
+        }
+      },
+      {
+        "english": "three",
+        "chinese": "三[θri:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is three.",
+          "chinese": "这是三[θri:]。"
+        }
+      },
+      {
+        "english": "four",
+        "chinese": "四[fɔ:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is four.",
+          "chinese": "这是四[fɔ:]。"
+        }
+      },
+      {
+        "english": "five",
+        "chinese": "五[faiv]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is five.",
+          "chinese": "这是五[faiv]。"
+        }
+      },
+      {
+        "english": "six",
+        "chinese": "六[siks]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is six.",
+          "chinese": "这是六[siks]。"
+        }
+      },
+      {
+        "english": "seven",
+        "chinese": "七['sevən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is seven.",
+          "chinese": "这是七['sevən]。"
+        }
+      },
+      {
+        "english": "eight",
+        "chinese": "⼋[eit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eight.",
+          "chinese": "这是⼋[eit]。"
+        }
+      },
+      {
+        "english": "nine",
+        "chinese": "九[nain]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is nine.",
+          "chinese": "这是九[nain]。"
+        }
+      },
+      {
+        "english": "ten",
+        "chinese": "⼗[ten]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ten.",
+          "chinese": "这是⼗[ten]。"
+        }
+      },
+      {
+        "english": "eleven",
+        "chinese": "⼗⼀[i'levən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eleven.",
+          "chinese": "这是⼗⼀[i'levən]。"
+        }
+      },
+      {
+        "english": "twelve",
+        "chinese": "⼗⼆[twelv]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is twelve.",
+          "chinese": "这是⼗⼆[twelv]。"
+        }
+      },
+      {
+        "english": "thirteen",
+        "chinese": "⼗三['θə:'ti:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is thirteen.",
+          "chinese": "这是⼗三['θə:'ti:n]。"
+        }
+      },
+      {
+        "english": "fourteen",
+        "chinese": "⼗四['fɔ:'ti:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fourteen.",
+          "chinese": "这是⼗四['fɔ:'ti:n]。"
+        }
+      },
+      {
+        "english": "fifteen",
+        "chinese": "⼗五['fifti:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fifteen.",
+          "chinese": "这是⼗五['fifti:n]。"
+        }
+      },
+      {
+        "english": "sixteen",
+        "chinese": "⼗六['siks'ti:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sixteen.",
+          "chinese": "这是⼗六['siks'ti:n]。"
+        }
+      },
+      {
+        "english": "seventeen",
+        "chinese": "⼗七[,sevən'ti:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is seventeen.",
+          "chinese": "这是⼗七[,sevən'ti:n]。"
+        }
+      },
+      {
+        "english": "eighteen",
+        "chinese": "⼗⼋['ei'ti:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eighteen.",
+          "chinese": "这是⼗⼋['ei'ti:n]。"
+        }
+      },
+      {
+        "english": "nineteen",
+        "chinese": "⼗九[,nain'ti:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is nineteen.",
+          "chinese": "这是⼗九[,nain'ti:n]。"
+        }
+      },
+      {
+        "english": "twenty",
+        "chinese": "⼆⼗['twenti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is twenty.",
+          "chinese": "这是⼆⼗['twenti]。"
+        }
+      },
+      {
+        "english": "thirty",
+        "chinese": "三⼗['θə:ti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is thirty.",
+          "chinese": "这是三⼗['θə:ti]。"
+        }
+      },
+      {
+        "english": "forty",
+        "chinese": "四⼗['fɔ:ti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is forty.",
+          "chinese": "这是四⼗['fɔ:ti]。"
+        }
+      },
+      {
+        "english": "fifty",
+        "chinese": "五⼗['fifti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fifty.",
+          "chinese": "这是五⼗['fifti]。"
+        }
+      },
+      {
+        "english": "sixty",
+        "chinese": "六⼗['siksti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sixty.",
+          "chinese": "这是六⼗['siksti]。"
+        }
+      },
+      {
+        "english": "seventy",
+        "chinese": "七⼗['sevənti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is seventy.",
+          "chinese": "这是七⼗['sevənti]。"
+        }
+      },
+      {
+        "english": "eighty",
+        "chinese": "⼋⼗['eiti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eighty.",
+          "chinese": "这是⼋⼗['eiti]。"
+        }
+      },
+      {
+        "english": "ninety",
+        "chinese": "九⼗['nainti]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ninety.",
+          "chinese": "这是九⼗['nainti]。"
+        }
+      },
+      {
+        "english": "forty-two",
+        "chinese": "四⼗⼆['fɔ:ti- tu:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is forty-two.",
+          "chinese": "这是四⼗⼆['fɔ:ti- tu:]。"
+        }
+      },
+      {
+        "english": "hundred",
+        "chinese": "百['hʌndrəd]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hundred.",
+          "chinese": "这是百['hʌndrəd]。"
+        }
+      },
+      {
+        "english": "first",
+        "chinese": "第⼀[fə:st]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is first.",
+          "chinese": "这是第⼀[fə:st]。"
+        }
+      },
+      {
+        "english": "second",
+        "chinese": "第⼆['sekənd]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is second.",
+          "chinese": "这是第⼆['sekənd]。"
+        }
+      },
+      {
+        "english": "third",
+        "chinese": "第三[θə:d]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is third.",
+          "chinese": "这是第三[θə:d]。"
+        }
+      },
+      {
+        "english": "fourth",
+        "chinese": "第四[fɔ:θ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fourth.",
+          "chinese": "这是第四[fɔ:θ]。"
+        }
+      },
+      {
+        "english": "fifth",
+        "chinese": "第五[fifθ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fifth.",
+          "chinese": "这是第五[fifθ]。"
+        }
+      },
+      {
+        "english": "eighth",
+        "chinese": "第⼋[eitθ, eiθ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eighth.",
+          "chinese": "这是第⼋[eitθ, eiθ]。"
+        }
+      },
+      {
+        "english": "ninth",
+        "chinese": "第九[nainθ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ninth.",
+          "chinese": "这是第九[nainθ]。"
+        }
+      },
+      {
+        "english": "twelfth",
+        "chinese": "第⼗⼆[twelfθ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is twelfth.",
+          "chinese": "这是第⼗⼆[twelfθ]。"
+        }
+      },
+      {
+        "english": "twentieth",
+        "chinese": "第⼆⼗['twentiiθ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is twentieth.",
+          "chinese": "这是第⼆⼗['twentiiθ]。"
+        }
+      },
+      {
+        "english": "thirtieth",
+        "chinese": "第三⼗",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is thirtieth.",
+          "chinese": "这是第三⼗。"
+        }
+      },
+      {
+        "english": "fortieth",
+        "chinese": "第四⼗",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fortieth.",
+          "chinese": "这是第四⼗。"
+        }
+      },
+      {
+        "english": "fiftieth",
+        "chinese": "第五⼗['fiftiiθ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fiftieth.",
+          "chinese": "这是第五⼗['fiftiiθ]。"
+        }
+      },
+      {
+        "english": "sixtieth",
+        "chinese": "第六⼗['sikstiθ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sixtieth.",
+          "chinese": "这是第六⼗['sikstiθ]。"
+        }
+      },
+      {
+        "english": "seventieth",
+        "chinese": "第七⼗",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is seventieth.",
+          "chinese": "这是第七⼗。"
+        }
+      },
+      {
+        "english": "eightieth",
+        "chinese": "第⼋⼗",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eightieth.",
+          "chinese": "这是第⼋⼗。"
+        }
+      },
+      {
+        "english": "ninetieth",
+        "chinese": "第九⼗",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is ninetieth.",
+          "chinese": "这是第九⼗。"
+        }
+      },
+      {
+        "english": "fifty-sixth",
+        "chinese": "第五⼗六",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fifty-sixth.",
+          "chinese": "这是第五⼗六。"
+        }
+      },
+      {
+        "english": "sports",
+        "chinese": "体育运动[spɔ:ts]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sports.",
+          "chinese": "这是体育运动[spɔ:ts]。"
+        }
+      },
+      {
+        "english": "science",
+        "chinese": "科学['saiəns]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is science.",
+          "chinese": "这是科学['saiəns]。"
+        }
+      },
+      {
+        "english": "Moral",
+        "chinese": "Education",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Moral.",
+          "chinese": "这是Education。"
+        }
+      },
+      {
+        "english": "Social",
+        "chinese": "Studies 社会课 ['səuʃəl]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Social.",
+          "chinese": "这是Studies 社会课 ['səuʃəl]。"
+        }
+      },
+      {
+        "english": "Chinese",
+        "chinese": "语⽂",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Chinese.",
+          "chinese": "这是语⽂。"
+        }
+      },
+      {
+        "english": "math",
+        "chinese": "数学[mæθ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is math.",
+          "chinese": "这是数学[mæθ]。"
+        }
+      },
+      {
+        "english": "PE",
+        "chinese": "体育课",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is PE.",
+          "chinese": "这是体育课。"
+        }
+      },
+      {
+        "english": "English",
+        "chinese": "英语课",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is English.",
+          "chinese": "这是英语课。"
+        }
+      },
+      {
+        "english": "UK",
+        "chinese": "联合王国（United Kingdom）",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is UK.",
+          "chinese": "这是联合王国（United Kingdom）。"
+        }
+      },
+      {
+        "english": "England",
+        "chinese": "英国",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is England.",
+          "chinese": "这是英国。"
+        }
+      },
+      {
+        "english": "Australia",
+        "chinese": "澳大利亚",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Australia.",
+          "chinese": "这是澳大利亚。"
+        }
+      },
+      {
+        "english": "New",
+        "chinese": "York 纽约",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is New.",
+          "chinese": "这是York 纽约。"
+        }
+      },
+      {
+        "english": "London",
+        "chinese": "伦敦",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is London.",
+          "chinese": "这是伦敦。"
+        }
+      },
+      {
+        "english": "Sydney",
+        "chinese": "悉尼",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Sydney.",
+          "chinese": "这是悉尼。"
+        }
+      },
+      {
+        "english": "Moscow",
+        "chinese": "莫斯科",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Moscow.",
+          "chinese": "这是莫斯科。"
+        }
+      },
+      {
+        "english": "Cairo",
+        "chinese": "开罗",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Cairo.",
+          "chinese": "这是开罗。"
+        }
+      },
+      {
+        "english": "cold",
+        "chinese": "寒冷的[kəuld]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cold.",
+          "chinese": "这是寒冷的[kəuld]。"
+        }
+      },
+      {
+        "english": "warm",
+        "chinese": "温暖的[wɔ:m]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is warm.",
+          "chinese": "这是温暖的[wɔ:m]。"
+        }
+      },
+      {
+        "english": "cool",
+        "chinese": "凉爽的[ku:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cool.",
+          "chinese": "这是凉爽的[ku:l]。"
+        }
+      },
+      {
+        "english": "snowy",
+        "chinese": "下雪的['snəui]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is snowy.",
+          "chinese": "这是下雪的['snəui]。"
+        }
+      },
+      {
+        "english": "sunny",
+        "chinese": "晴朗的['sʌni]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sunny.",
+          "chinese": "这是晴朗的['sʌni]。"
+        }
+      },
+      {
+        "english": "hot",
+        "chinese": "炎热的[hɔt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hot.",
+          "chinese": "这是炎热的[hɔt]。"
+        }
+      },
+      {
+        "english": "rainy",
+        "chinese": "下⾬的['reini]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is rainy.",
+          "chinese": "这是下⾬的['reini]。"
+        }
+      },
+      {
+        "english": "windy",
+        "chinese": "有⻛的['windi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is windy.",
+          "chinese": "这是有⻛的['windi]。"
+        }
+      },
+      {
+        "english": "cloudy",
+        "chinese": "多云的['klaudi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cloudy.",
+          "chinese": "这是多云的['klaudi]。"
+        }
+      },
+      {
+        "english": "weather",
+        "chinese": "report",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is weather.",
+          "chinese": "这是report。"
+        }
+      },
+      {
+        "english": "river",
+        "chinese": "河流['rivə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is river.",
+          "chinese": "这是河流['rivə]。"
+        }
+      },
+      {
+        "english": "lake",
+        "chinese": "湖泊[leik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is lake.",
+          "chinese": "这是湖泊[leik]。"
+        }
+      },
+      {
+        "english": "stream",
+        "chinese": "河；溪[stri:m]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is stream.",
+          "chinese": "这是河；溪[stri:m]。"
+        }
+      },
+      {
+        "english": "forest",
+        "chinese": "森林['fɔrist]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is forest.",
+          "chinese": "这是森林['fɔrist]。"
+        }
+      },
+      {
+        "english": "path",
+        "chinese": "小道[pɑ:θ, pæθ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is path.",
+          "chinese": "这是小道[pɑ:θ, pæθ]。"
+        }
+      },
+      {
+        "english": "road",
+        "chinese": "公路[rəud]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is road.",
+          "chinese": "这是公路[rəud]。"
+        }
+      },
+      {
+        "english": "house",
+        "chinese": "房子[haus, hauz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is house.",
+          "chinese": "这是房子[haus, hauz]。"
+        }
+      },
+      {
+        "english": "bridge",
+        "chinese": "桥[bridʒ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bridge.",
+          "chinese": "这是桥[bridʒ]。"
+        }
+      },
+      {
+        "english": "building",
+        "chinese": "建筑物['bildiŋ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is building.",
+          "chinese": "这是建筑物['bildiŋ]。"
+        }
+      },
+      {
+        "english": "rain",
+        "chinese": "⾬[rein]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is rain.",
+          "chinese": "这是⾬[rein]。"
+        }
+      },
+      {
+        "english": "cloud",
+        "chinese": "云[klaud]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cloud.",
+          "chinese": "这是云[klaud]。"
+        }
+      },
+      {
+        "english": "sun",
+        "chinese": "太阳[sʌn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sun.",
+          "chinese": "这是太阳[sʌn]。"
+        }
+      },
+      {
+        "english": "mountain",
+        "chinese": "山['mauntin]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is mountain.",
+          "chinese": "这是山['mauntin]。"
+        }
+      },
+      {
+        "english": "sky",
+        "chinese": "天空[skai]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sky.",
+          "chinese": "这是天空[skai]。"
+        }
+      },
+      {
+        "english": "rainbow",
+        "chinese": "彩虹['reinbəu]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is rainbow.",
+          "chinese": "这是彩虹['reinbəu]。"
+        }
+      },
+      {
+        "english": "wind",
+        "chinese": "⻛[wind]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is wind.",
+          "chinese": "这是⻛[wind]。"
+        }
+      },
+      {
+        "english": "air",
+        "chinese": "空⽓[εə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is air.",
+          "chinese": "这是空⽓[εə]。"
+        }
+      },
+      {
+        "english": "moon",
+        "chinese": "⽉亮[mu:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is moon.",
+          "chinese": "这是⽉亮[mu:n]。"
+        }
+      },
+      {
+        "english": "flower",
+        "chinese": "花['flauə] grass 草[ɡrɑ:s, ɡræs] tree 树[tri:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is flower.",
+          "chinese": "这是花['flauə] grass 草[ɡrɑ:s, ɡræs] tree 树[tri:]。"
+        }
+      },
+      {
+        "english": "seed",
+        "chinese": "种子[si:d]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is seed.",
+          "chinese": "这是种子[si:d]。"
+        }
+      },
+      {
+        "english": "sprout",
+        "chinese": "苗[spraut]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is sprout.",
+          "chinese": "这是苗[spraut]。"
+        }
+      },
+      {
+        "english": "plant",
+        "chinese": "植物[plɑ:nt, plænt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is plant.",
+          "chinese": "这是植物[plɑ:nt, plænt]。"
+        }
+      },
+      {
+        "english": "rose",
+        "chinese": "玫瑰",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is rose.",
+          "chinese": "这是玫瑰。"
+        }
+      },
+      {
+        "english": "leaf",
+        "chinese": "叶子[li:f]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is leaf.",
+          "chinese": "这是叶子[li:f]。"
+        }
+      },
+      {
+        "english": "Monday",
+        "chinese": "星期⼀",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Monday.",
+          "chinese": "这是星期⼀。"
+        }
+      },
+      {
+        "english": "Tuesday",
+        "chinese": "星期⼆",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Tuesday.",
+          "chinese": "这是星期⼆。"
+        }
+      },
+      {
+        "english": "Wednesday",
+        "chinese": "星期三",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Wednesday.",
+          "chinese": "这是星期三。"
+        }
+      },
+      {
+        "english": "Thursday",
+        "chinese": "星期四",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Thursday.",
+          "chinese": "这是星期四。"
+        }
+      },
+      {
+        "english": "Friday",
+        "chinese": "星期五",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Friday.",
+          "chinese": "这是星期五。"
+        }
+      },
+      {
+        "english": "Saturday",
+        "chinese": "星期六",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Saturday.",
+          "chinese": "这是星期六。"
+        }
+      },
+      {
+        "english": "Sunday",
+        "chinese": "星期天",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is Sunday.",
+          "chinese": "这是星期天。"
+        }
+      },
+      {
+        "english": "weekend",
+        "chinese": "周 末 [,wi:k'end,",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is weekend.",
+          "chinese": "这是周 末 [,wi:k'end,。"
+        }
+      },
+      {
+        "english": "April",
+        "chinese": "四⽉",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is April.",
+          "chinese": "这是四⽉。"
+        }
+      },
+      {
+        "english": "May",
+        "chinese": "五⽉[mei]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is May.",
+          "chinese": "这是五⽉[mei]。"
+        }
+      },
+      {
+        "english": "June",
+        "chinese": "六⽉",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is June.",
+          "chinese": "这是六⽉。"
+        }
+      },
+      {
+        "english": "July",
+        "chinese": "七⽉",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is July.",
+          "chinese": "这是七⽉。"
+        }
+      },
+      {
+        "english": "spring",
+        "chinese": "春[spriŋ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is spring.",
+          "chinese": "这是春[spriŋ]。"
+        }
+      },
+      {
+        "english": "summer",
+        "chinese": "夏['sʌmə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is summer.",
+          "chinese": "这是夏['sʌmə]。"
+        }
+      },
+      {
+        "english": "winter",
+        "chinese": "冬['wintə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is winter.",
+          "chinese": "这是冬['wintə]。"
+        }
+      },
+      {
+        "english": "south",
+        "chinese": "南[sauθ, sauð]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is south.",
+          "chinese": "这是南[sauθ, sauð]。"
+        }
+      },
+      {
+        "english": "north",
+        "chinese": "北[nɔ:θ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is north.",
+          "chinese": "这是北[nɔ:θ]。"
+        }
+      },
+      {
+        "english": "east",
+        "chinese": "东[i:st]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is east.",
+          "chinese": "这是东[i:st]。"
+        }
+      },
+      {
+        "english": "west",
+        "chinese": "西[west]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is west.",
+          "chinese": "这是西[west]。"
+        }
+      },
+      {
+        "english": "left",
+        "chinese": "左边[left]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is left.",
+          "chinese": "这是左边[left]。"
+        }
+      },
+      {
+        "english": "right",
+        "chinese": "右边[rait]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is right.",
+          "chinese": "这是右边[rait]。"
+        }
+      },
+      {
+        "english": "up",
+        "chinese": "上[ʌp]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is up.",
+          "chinese": "这是上[ʌp]。"
+        }
+      },
+      {
+        "english": "down",
+        "chinese": "下 [daun]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is down.",
+          "chinese": "这是下 [daun]。"
+        }
+      },
+      {
+        "english": "have",
+        "chinese": "a fever 发烧['fi:və]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is have.",
+          "chinese": "这是a fever 发烧['fi:və]。"
+        }
+      },
+      {
+        "english": "hurt",
+        "chinese": "疼痛[hə:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hurt.",
+          "chinese": "这是疼痛[hə:t]。"
+        }
+      },
+      {
+        "english": "have",
+        "chinese": "a cold 感冒[kəuld]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is have.",
+          "chinese": "这是a cold 感冒[kəuld]。"
+        }
+      },
+      {
+        "english": "have",
+        "chinese": "a toothache ⽛疼",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is have.",
+          "chinese": "这是a toothache ⽛疼。"
+        }
+      },
+      {
+        "english": "have",
+        "chinese": "a headache 头疼['hedeik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is have.",
+          "chinese": "这是a headache 头疼['hedeik]。"
+        }
+      },
+      {
+        "english": "have",
+        "chinese": "a sore throat 喉咙疼[sɔ:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is have.",
+          "chinese": "这是a sore throat 喉咙疼[sɔ:]。"
+        }
+      },
+      {
+        "english": "in",
+        "chinese": "在……⾥[in]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is in.",
+          "chinese": "这是在……⾥[in]。"
+        }
+      },
+      {
+        "english": "on",
+        "chinese": "在……上；在……时候 [ɔn, ɔ:n, ən, n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is on.",
+          "chinese": "这是在……上；在……时候 [ɔn, ɔ:n, ən, n]。"
+        }
+      },
+      {
+        "english": "under",
+        "chinese": "在……下⾯['ʌndə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is under.",
+          "chinese": "这是在……下⾯['ʌndə]。"
+        }
+      },
+      {
+        "english": "near",
+        "chinese": "在……的旁边[niə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is near.",
+          "chinese": "这是在……的旁边[niə]。"
+        }
+      },
+      {
+        "english": "behind",
+        "chinese": "在……后边[bi'haind]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is behind.",
+          "chinese": "这是在……后边[bi'haind]。"
+        }
+      },
+      {
+        "english": "next",
+        "chinese": "to 与……相邻[nekst]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is next.",
+          "chinese": "这是to 与……相邻[nekst]。"
+        }
+      },
+      {
+        "english": "over",
+        "chinese": "在……上⾯['əuvə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is over.",
+          "chinese": "这是在……上⾯['əuvə]。"
+        }
+      },
+      {
+        "english": "in",
+        "chinese": "front of 在……前⾯[frʌnt]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is in.",
+          "chinese": "这是front of 在……前⾯[frʌnt]。"
+        }
+      },
+      {
+        "english": "I",
+        "chinese": "我",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is I.",
+          "chinese": "这是我。"
+        }
+      },
+      {
+        "english": "we",
+        "chinese": "我们[wi:弱 wi]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is we.",
+          "chinese": "这是我们[wi:弱 wi]。"
+        }
+      },
+      {
+        "english": "you",
+        "chinese": "你；你们[ju:, 弱 ju, jə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is you.",
+          "chinese": "这是你；你们[ju:, 弱 ju, jə]。"
+        }
+      },
+      {
+        "english": "he",
+        "chinese": "他[hi:, 弱 hi, i:, i]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is he.",
+          "chinese": "这是他[hi:, 弱 hi, i:, i]。"
+        }
+      },
+      {
+        "english": "she",
+        "chinese": "她[ʃi:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is she.",
+          "chinese": "这是她[ʃi:]。"
+        }
+      },
+      {
+        "english": "it",
+        "chinese": "它[it]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is it.",
+          "chinese": "这是它[it]。"
+        }
+      },
+      {
+        "english": "they",
+        "chinese": "他（她，它）们[ðei, 弱ðe]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is they.",
+          "chinese": "这是他（她，它）们[ðei, 弱ðe]。"
+        }
+      },
+      {
+        "english": "my",
+        "chinese": "我的",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is my.",
+          "chinese": "这是我的。"
+        }
+      },
+      {
+        "english": "our",
+        "chinese": "我们的['auə, ɑ:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is our.",
+          "chinese": "这是我们的['auə, ɑ:]。"
+        }
+      },
+      {
+        "english": "your",
+        "chinese": "你的；你们的[jɔ:, jəu, 弱 jə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is your.",
+          "chinese": "这是你的；你们的[jɔ:, jəu, 弱 jə]。"
+        }
+      },
+      {
+        "english": "his",
+        "chinese": "他的[hiz, 弱 iz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is his.",
+          "chinese": "这是他的[hiz, 弱 iz]。"
+        }
+      },
+      {
+        "english": "her",
+        "chinese": "她的[hə:, 弱ə:, hə, ə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is her.",
+          "chinese": "这是她的[hə:, 弱ə:, hə, ə]。"
+        }
+      },
+      {
+        "english": "skate",
+        "chinese": "滑冰[skeit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is skate.",
+          "chinese": "这是滑冰[skeit]。"
+        }
+      },
+      {
+        "english": "jump",
+        "chinese": "跳[dʒʌmp]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is jump.",
+          "chinese": "这是跳[dʒʌmp]。"
+        }
+      },
+      {
+        "english": "walk",
+        "chinese": "⾛[wɔ:k]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is walk.",
+          "chinese": "这是⾛[wɔ:k]。"
+        }
+      },
+      {
+        "english": "climb",
+        "chinese": "爬[klaim]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is climb.",
+          "chinese": "这是爬[klaim]。"
+        }
+      },
+      {
+        "english": "like",
+        "chinese": "像，喜欢[laik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is like.",
+          "chinese": "这是像，喜欢[laik]。"
+        }
+      },
+      {
+        "english": "turn",
+        "chinese": "转弯 [tə:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is turn.",
+          "chinese": "这是转弯 [tə:n]。"
+        }
+      },
+      {
+        "english": "live",
+        "chinese": "居住 [liv]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is live.",
+          "chinese": "这是居住 [liv]。"
+        }
+      },
+      {
+        "english": "learn",
+        "chinese": "学习 [lə:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is learn.",
+          "chinese": "这是学习 [lə:n]。"
+        }
+      },
+      {
+        "english": "dance",
+        "chinese": "跳舞[dɑ:ns, dæns]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is dance.",
+          "chinese": "这是跳舞[dɑ:ns, dæns]。"
+        }
+      },
+      {
+        "english": "row",
+        "chinese": "划 [rəu]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is row.",
+          "chinese": "这是划 [rəu]。"
+        }
+      },
+      {
+        "english": "do",
+        "chinese": "homework 做作业['həumwə:k]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is do.",
+          "chinese": "这是homework 做作业['həumwə:k]。"
+        }
+      },
+      {
+        "english": "do",
+        "chinese": "housework 做家务['hauswə:k]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is do.",
+          "chinese": "这是housework 做家务['hauswə:k]。"
+        }
+      },
+      {
+        "english": "watch",
+        "chinese": "TV 看电视[wɔtʃ, wɔ:tʃ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is watch.",
+          "chinese": "这是TV 看电视[wɔtʃ, wɔ:tʃ]。"
+        }
+      },
+      {
+        "english": "cook",
+        "chinese": "the meals 做饭[kuk] [mi:ls]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cook.",
+          "chinese": "这是the meals 做饭[kuk] [mi:ls]。"
+        }
+      },
+      {
+        "english": "water",
+        "chinese": "the flowers 浇花['wɔ:tə, 'wɔ-]['flauəz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is water.",
+          "chinese": "这是the flowers 浇花['wɔ:tə, 'wɔ-]['flauəz]。"
+        }
+      },
+      {
+        "english": "clean",
+        "chinese": "the bedroom 打扫卧室[kli:n] ['bedru(:)m]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is clean.",
+          "chinese": "这是the bedroom 打扫卧室[kli:n] ['bedru(:)m]。"
+        }
+      },
+      {
+        "english": "wash",
+        "chinese": "the clothes 洗⾐服[wɔʃ, wɔ:ʃ] [kləuðz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is wash.",
+          "chinese": "这是the clothes 洗⾐服[wɔʃ, wɔ:ʃ] [kləuðz]。"
+        }
+      },
+      {
+        "english": "do",
+        "chinese": "the dishes 洗碗碟",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is do.",
+          "chinese": "这是the dishes 洗碗碟。"
+        }
+      },
+      {
+        "english": "use",
+        "chinese": "a computer 使⽤计算机[ju:z] [kəm'pju:tə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is use.",
+          "chinese": "这是a computer 使⽤计算机[ju:z] [kəm'pju:tə]。"
+        }
+      },
+      {
+        "english": "do",
+        "chinese": "morning exercises 晨练；做广播操['mɔ:niŋ] ['eksəsaiz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is do.",
+          "chinese": "这是morning exercises 晨练；做广播操['mɔ:niŋ] ['eksəsaiz]。"
+        }
+      },
+      {
+        "english": "eat",
+        "chinese": "breakfast 吃早饭[i:t] ['brekfəst]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eat.",
+          "chinese": "这是breakfast 吃早饭[i:t] ['brekfəst]。"
+        }
+      },
+      {
+        "english": "eat",
+        "chinese": "dinner 吃晚饭[i:t] ['dinə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is eat.",
+          "chinese": "这是dinner 吃晚饭[i:t] ['dinə]。"
+        }
+      },
+      {
+        "english": "go",
+        "chinese": "to school 上学[sku:l]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is go.",
+          "chinese": "这是to school 上学[sku:l]。"
+        }
+      },
+      {
+        "english": "have",
+        "chinese": "English class 上英语课[klɑ:s, klæs]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is have.",
+          "chinese": "这是English class 上英语课[klɑ:s, klæs]。"
+        }
+      },
+      {
+        "english": "play",
+        "chinese": "sports 进⾏体育运动[plei] [spɔ:ts]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is play.",
+          "chinese": "这是sports 进⾏体育运动[plei] [spɔ:ts]。"
+        }
+      },
+      {
+        "english": "climb",
+        "chinese": "mountains 爬山[klaim] ['mauntins]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is climb.",
+          "chinese": "这是mountains 爬山[klaim] ['mauntins]。"
+        }
+      },
+      {
+        "english": "go",
+        "chinese": "shopping 买东西[ɡəu] ['ʃɔpiŋ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is go.",
+          "chinese": "这是shopping 买东西[ɡəu] ['ʃɔpiŋ]。"
+        }
+      },
+      {
+        "english": "play",
+        "chinese": "the piano 弹钢琴[plei] [pi'ænəu, pi'ɑ:-]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is play.",
+          "chinese": "这是the piano 弹钢琴[plei] [pi'ænəu, pi'ɑ:-]。"
+        }
+      },
+      {
+        "english": "visit",
+        "chinese": "grandparents 看望（外）祖父母",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is visit.",
+          "chinese": "这是grandparents 看望（外）祖父母。"
+        }
+      },
+      {
+        "english": "go",
+        "chinese": "hiking 去远⾜",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is go.",
+          "chinese": "这是hiking 去远⾜。"
+        }
+      },
+      {
+        "english": "fly",
+        "chinese": "kites 放⻛筝[flai] [kaits]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fly.",
+          "chinese": "这是kites 放⻛筝[flai] [kaits]。"
+        }
+      },
+      {
+        "english": "make",
+        "chinese": "a snowman 堆雪人[meik] ['snəumæn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is make.",
+          "chinese": "这是a snowman 堆雪人[meik] ['snəumæn]。"
+        }
+      },
+      {
+        "english": "plant",
+        "chinese": "trees 种树[plɑ:nt, plænt] [tri:s]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is plant.",
+          "chinese": "这是trees 种树[plɑ:nt, plænt] [tri:s]。"
+        }
+      },
+      {
+        "english": "cook",
+        "chinese": "dinner 做饭[kuk] ['dinə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is cook.",
+          "chinese": "这是dinner 做饭[kuk] ['dinə]。"
+        }
+      },
+      {
+        "english": "read",
+        "chinese": "a book 看书[ri:d] [buk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is read.",
+          "chinese": "这是a book 看书[ri:d] [buk]。"
+        }
+      },
+      {
+        "english": "answer",
+        "chinese": "the phone 接电话['ɑ:nsə, 'æn-] [fəun]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is answer.",
+          "chinese": "这是the phone 接电话['ɑ:nsə, 'æn-] [fəun]。"
+        }
+      },
+      {
+        "english": "listen",
+        "chinese": "to music 听⾳乐['lisən] [tu]['mju:zik]]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is listen.",
+          "chinese": "这是to music 听⾳乐['lisən] [tu]['mju:zik]]。"
+        }
+      },
+      {
+        "english": "clean",
+        "chinese": "the room 打扫房间[kli:n][ru:m]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is clean.",
+          "chinese": "这是the room 打扫房间[kli:n][ru:m]。"
+        }
+      },
+      {
+        "english": "write",
+        "chinese": "an e-mail 写电子邮件[rait] [æn] [i-meil]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is write.",
+          "chinese": "这是an e-mail 写电子邮件[rait] [æn] [i-meil]。"
+        }
+      },
+      {
+        "english": "take",
+        "chinese": "pictures 照相[teik] ['piktʃəz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is take.",
+          "chinese": "这是pictures 照相[teik] ['piktʃəz]。"
+        }
+      },
+      {
+        "english": "watch",
+        "chinese": "insects 观察昆⾍[wɔtʃ, wɔ:tʃ] ['insekts]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is watch.",
+          "chinese": "这是insects 观察昆⾍[wɔtʃ, wɔ:tʃ] ['insekts]。"
+        }
+      },
+      {
+        "english": "pick",
+        "chinese": "up leaves 采摘树叶[pik] [ʌp] [li:vz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pick.",
+          "chinese": "这是up leaves 采摘树叶[pik] [ʌp] [li:vz]。"
+        }
+      },
+      {
+        "english": "do",
+        "chinese": "an experiment 做实验[du:][ æn][ ik'speriment]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is do.",
+          "chinese": "这是an experiment 做实验[du:][ æn][ ik'speriment]。"
+        }
+      },
+      {
+        "english": "catch",
+        "chinese": "butterflies 捉蝴蝶[kætʃ] ['bʌtəflaiz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is catch.",
+          "chinese": "这是butterflies 捉蝴蝶[kætʃ] ['bʌtəflaiz]。"
+        }
+      },
+      {
+        "english": "count",
+        "chinese": "insects 数昆⾍[kaunt] ['insekts]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is count.",
+          "chinese": "这是insects 数昆⾍[kaunt] ['insekts]。"
+        }
+      },
+      {
+        "english": "collect",
+        "chinese": "insects 收集昆⾍[kə'lekt] ['insekts]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is collect.",
+          "chinese": "这是insects 收集昆⾍[kə'lekt] ['insekts]。"
+        }
+      },
+      {
+        "english": "collect",
+        "chinese": "leaves 收集树叶[kə'lekt] [li:vz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is collect.",
+          "chinese": "这是leaves 收集树叶[kə'lekt] [li:vz]。"
+        }
+      },
+      {
+        "english": "write",
+        "chinese": "a report 写报告[rait] [ri'pɔ:t]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is write.",
+          "chinese": "这是a report 写报告[rait] [ri'pɔ:t]。"
+        }
+      },
+      {
+        "english": "play",
+        "chinese": "chess 下棋[plei] [tʃes]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is play.",
+          "chinese": "这是chess 下棋[plei] [tʃes]。"
+        }
+      },
+      {
+        "english": "have",
+        "chinese": "a picnic 举⾏野餐[hæv] ['piknik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is have.",
+          "chinese": "这是a picnic 举⾏野餐[hæv] ['piknik]。"
+        }
+      },
+      {
+        "english": "get",
+        "chinese": "to 到达[ɡet] [tu:]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is get.",
+          "chinese": "这是to 到达[ɡet] [tu:]。"
+        }
+      },
+      {
+        "english": "play",
+        "chinese": "the violin 拉小提琴[plei] [,vaiə'lin]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is play.",
+          "chinese": "这是the violin 拉小提琴[plei] [,vaiə'lin]。"
+        }
+      },
+      {
+        "english": "make",
+        "chinese": "kites 制作⻛筝[meik] [kaits]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is make.",
+          "chinese": "这是kites 制作⻛筝[meik] [kaits]。"
+        }
+      },
+      {
+        "english": "collect",
+        "chinese": "stamps 集邮[kə'lekt] [stæmps]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is collect.",
+          "chinese": "这是stamps 集邮[kə'lekt] [stæmps]。"
+        }
+      },
+      {
+        "english": "welcome",
+        "chinese": "欢迎['welkəm]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is welcome.",
+          "chinese": "这是欢迎['welkəm]。"
+        }
+      },
+      {
+        "english": "thank",
+        "chinese": "谢谢 [θæŋk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is thank.",
+          "chinese": "这是谢谢 [θæŋk]。"
+        }
+      },
+      {
+        "english": "love",
+        "chinese": "爱[lʌv]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is love.",
+          "chinese": "这是爱[lʌv]。"
+        }
+      },
+      {
+        "english": "work",
+        "chinese": "⼯作[wə:k]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is work.",
+          "chinese": "这是⼯作[wə:k]。"
+        }
+      },
+      {
+        "english": "taste",
+        "chinese": "尝[teist]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is taste.",
+          "chinese": "这是尝[teist]。"
+        }
+      },
+      {
+        "english": "smell",
+        "chinese": "闻[smel]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is smell.",
+          "chinese": "这是闻[smel]。"
+        }
+      },
+      {
+        "english": "shear",
+        "chinese": "剪[ʃiə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is shear.",
+          "chinese": "这是剪[ʃiə]。"
+        }
+      },
+      {
+        "english": "milk",
+        "chinese": "挤奶[milk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is milk.",
+          "chinese": "这是挤奶[milk]。"
+        }
+      },
+      {
+        "english": "look",
+        "chinese": "看[luk]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is look.",
+          "chinese": "这是看[luk]。"
+        }
+      },
+      {
+        "english": "guess",
+        "chinese": "猜[ɡes]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is guess.",
+          "chinese": "这是猜[ɡes]。"
+        }
+      },
+      {
+        "english": "help",
+        "chinese": "帮助[help]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is help.",
+          "chinese": "这是帮助[help]。"
+        }
+      },
+      {
+        "english": "pass",
+        "chinese": "传递[pɑ:s, pæs]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is pass.",
+          "chinese": "这是传递[pɑ:s, pæs]。"
+        }
+      },
+      {
+        "english": "show",
+        "chinese": "展⽰[ʃəu]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is show.",
+          "chinese": "这是展⽰[ʃəu]。"
+        }
+      },
+      {
+        "english": "use",
+        "chinese": "使⽤[ju:z]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is use.",
+          "chinese": "这是使⽤[ju:z]。"
+        }
+      },
+      {
+        "english": "clean",
+        "chinese": "打扫[kli:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is clean.",
+          "chinese": "这是打扫[kli:n]。"
+        }
+      },
+      {
+        "english": "open",
+        "chinese": "打开['əupən]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is open.",
+          "chinese": "这是打开['əupən]。"
+        }
+      },
+      {
+        "english": "close",
+        "chinese": "关上[kləuz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is close.",
+          "chinese": "这是关上[kləuz]。"
+        }
+      },
+      {
+        "english": "put",
+        "chinese": "放[put]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is put.",
+          "chinese": "这是放[put]。"
+        }
+      },
+      {
+        "english": "paint",
+        "chinese": "绘画[peint]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is paint.",
+          "chinese": "这是绘画[peint]。"
+        }
+      },
+      {
+        "english": "kick",
+        "chinese": "踢 [kik]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is kick.",
+          "chinese": "这是踢 [kik]。"
+        }
+      },
+      {
+        "english": "bounce",
+        "chinese": "反弹[bauns]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is bounce.",
+          "chinese": "这是反弹[bauns]。"
+        }
+      },
+      {
+        "english": "wait",
+        "chinese": "等 [weit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is wait.",
+          "chinese": "这是等 [weit]。"
+        }
+      },
+      {
+        "english": "fold",
+        "chinese": "折[fəuld]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is fold.",
+          "chinese": "这是折[fəuld]。"
+        }
+      },
+      {
+        "english": "wash",
+        "chinese": "洗[wɔʃ, wɔ:ʃ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is wash.",
+          "chinese": "这是洗[wɔʃ, wɔ:ʃ]。"
+        }
+      },
+      {
+        "english": "shine",
+        "chinese": "照耀[ʃain]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is shine.",
+          "chinese": "这是照耀[ʃain]。"
+        }
+      },
+      {
+        "english": "become",
+        "chinese": "变成[bi'kʌm]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is become.",
+          "chinese": "这是变成[bi'kʌm]。"
+        }
+      },
+      {
+        "english": "put",
+        "chinese": "on 穿上[put] [ɔn]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is put.",
+          "chinese": "这是on 穿上[put] [ɔn]。"
+        }
+      },
+      {
+        "english": "take",
+        "chinese": "off 脱掉[teik] [ɔ:f, ɔf]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is take.",
+          "chinese": "这是off 脱掉[teik] [ɔ:f, ɔf]。"
+        }
+      },
+      {
+        "english": "hang",
+        "chinese": "up 挂起['hæŋ] [ʌp]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is hang.",
+          "chinese": "这是up 挂起['hæŋ] [ʌp]。"
+        }
+      },
+      {
+        "english": "go",
+        "chinese": "home 回家[ɡəu] [həum]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is go.",
+          "chinese": "这是home 回家[ɡəu] [həum]。"
+        }
+      },
+      {
+        "english": "go",
+        "chinese": "to bed 上床睡觉[bed]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is go.",
+          "chinese": "这是to bed 上床睡觉[bed]。"
+        }
+      },
+      {
+        "english": "play",
+        "chinese": "computer games 玩电脑游戏[plei] [kəm'pju:tə] ['ɡeimz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is play.",
+          "chinese": "这是computer games 玩电脑游戏[plei] [kəm'pju:tə] ['ɡeimz]。"
+        }
+      },
+      {
+        "english": "play",
+        "chinese": "chess 下棋[plei] [tʃes]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is play.",
+          "chinese": "这是chess 下棋[plei] [tʃes]。"
+        }
+      },
+      {
+        "english": "empty",
+        "chinese": "the trash 倒垃圾['empti] [træʃ]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is empty.",
+          "chinese": "这是the trash 倒垃圾['empti] [træʃ]。"
+        }
+      },
+      {
+        "english": "put",
+        "chinese": "away the clothes 收拾⾐服 [put] [ə'wei] [kləuðz]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is put.",
+          "chinese": "这是away the clothes 收拾⾐服 [put] [ə'wei] [kləuðz]。"
+        }
+      },
+      {
+        "english": "get",
+        "chinese": "off 下⻋[ɡet] [ɔ:f, ɔf]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is get.",
+          "chinese": "这是off 下⻋[ɡet] [ɔ:f, ɔf]。"
+        }
+      },
+      {
+        "english": "take",
+        "chinese": "a trip 去旅⾏[teik] [trip]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is take.",
+          "chinese": "这是a trip 去旅⾏[teik] [trip]。"
+        }
+      },
+      {
+        "english": "read",
+        "chinese": "a magazine 阅读杂志[ri:d] [,mæɡə'zi:n]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is read.",
+          "chinese": "这是a magazine 阅读杂志[ri:d] [,mæɡə'zi:n]。"
+        }
+      },
+      {
+        "english": "go",
+        "chinese": "to the cinema 去看电影[ɡəu][tu]['sinəmə]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is go.",
+          "chinese": "这是to the cinema 去看电影[ɡəu][tu]['sinəmə]。"
+        }
+      },
+      {
+        "english": "go",
+        "chinese": "straight 向前直⾛[ɡəu] [streit]",
+        "phonetic": "[]",
+        "pos": "",
+        "example": {
+          "english": "This is go.",
+          "chinese": "这是straight 向前直⾛[ɡəu] [streit]。"
+        }
+      }
+    ]
+  }
+}

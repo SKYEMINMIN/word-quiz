@@ -1,192 +1,116 @@
-// script.js
-import { wordsList, wordsModule } from './words.js';
+let currentWordIndex = 0;
+let correctCount = 0;
+let isQuizActive = false;
 
+// 获取DOM元素
+const startButton = document.getElementById('start-quiz');
+const quizContainer = document.getElementById('quiz-container');
+const wordDisplay = document.getElementById('word-display');
+const userInput = document.getElementById('user-input');
+const feedback = document.getElementById('feedback');
+const results = document.getElementById('results');
+const progress = document.getElementById('progress');
 
-document.addEventListener('DOMContentLoaded', function() {
-    // 获取 DOM 元素
-    const startButton = document.getElementById('start-quiz');
-    const quizContainer = document.getElementById('quiz-container');
-    const wordDisplay = document.getElementById('word-display');
-    const userInput = document.getElementById('user-input');
-    const submitButton = document.getElementById('submit-btn');
-    const feedback = document.getElementById('feedback');
-    const progress = document.getElementById('progress');
-    const results = document.getElementById('results');
-    const correctCountElement = document.getElementById('correct-count');
-    const errorCountElement = document.getElementById('error-count');
-    const errorListElement = document.getElementById('error-list');
-    const restartButton = document.getElementById('restart-btn');
-
-    // 初始化变量
-    let currentQuiz = [];
-    let currentWordIndex = 0;
-    let correctCount = 0;
-    let errorCount = 0;
-    let errorList = [];
-    let waitingForNext = false;
-
-    // 添加事件监听器
-    startButton.addEventListener('click', startQuiz);
-    submitButton.addEventListener('click', checkAnswer);
-    restartButton.addEventListener('click', startQuiz);
-
-    // 添加获取随机单词的辅助函数
-    function getRandomWords(wordsList, count) {
-        const shuffled = [...wordsList].sort(() => 0.5 - Math.random());
-        return shuffled.slice(0, count);
-    }
-
-    // 添加全局键盘事件监听
-    document.addEventListener('keydown', function(e) {
-        if (waitingForNext) {
-            // 在显示单词卡状态下，按任意键继续
-            waitingForNext = false;
-            currentWordIndex++;
-            if (currentWordIndex < currentQuiz.length) {
-                showCurrentWord();
-                feedback.innerHTML = '';
-                userInput.value = '';
-                userInput.focus();
-            } else {
-                showResults();
-            }
-        }
-    });
-
-    // 添加输入框键盘事件监听
-    userInput.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter' && !waitingForNext) {
-            checkAnswer();
-        }
-        // 阻止在等待继续状态下的输入
-        if (waitingForNext) {
-            e.preventDefault();
-        }
-    });
-
-    // 初始化页面状态
-    quizContainer.style.display = 'none';
-    results.style.display = 'none';
-
-    // 开始测试函数
-    function startQuiz() {
-        currentWordIndex = 0;
-        correctCount = 0;
-        errorCount = 0;
-        errorList = [];
-        waitingForNext = false;
-        
-        // 从words数组中随机选择50个单词
-        currentQuiz = getRandomWords(words, 50);
-        
-        startButton.style.display = 'none';
-        quizContainer.style.display = 'block';
-        results.style.display = 'none';
-        feedback.innerHTML = '';
-        
-        showCurrentWord();
-        
-        userInput.value = '';
-        userInput.focus();
-    }
-
-    // 显示当前单词
-    function showCurrentWord() {
-        const currentWord = currentQuiz[currentWordIndex];
-        progress.textContent = `进度：${currentWordIndex + 1}/${currentQuiz.length}`;
-        
-        wordDisplay.innerHTML = `
-            <div class="word-info">
-                <div class="chinese">${currentWord.chinese}</div>
-                <div class="phonetic">${currentWord.phonetic || ''}</div>
-            </div>
-        `;
-    }
-
-    // 检查答案函数
-    function checkAnswer() {
-        if (waitingForNext) return;
-
-        const currentWord = currentQuiz[currentWordIndex];
-        const userAnswer = userInput.value.trim().toLowerCase();
-        
-        const wordCard = `
-            <div class="word-card">
-                <div class="result-status">
-                    ${userAnswer === currentWord.english.toLowerCase() 
-                        ? '✓ 回答正确！' 
-                        : `✗ 正确答案是：${currentWord.english}`}
-                </div>
-                
-                <div class="word-main-info">
-                    <div class="word-english">${currentWord.english}</div>
-                    <div class="word-phonetic">${currentWord.phonetic || ''}</div>
-                    <div class="word-chinese">${currentWord.chinese}</div>
-                </div>
-
-                <div class="divider"></div>
-                
-                ${currentWord.example ? `
-                    <div class="word-examples">
-                        <div class="example-item">
-                            <p>${currentWord.example.sentence}</p>
-                            <p style="color: #666;">${currentWord.example.translation}</p>
-                        </div>
-                    </div>
-                ` : ''}
-                
-                ${currentWord.examples && currentWord.examples.length > 0 ? `
-                    <div class="word-examples">
-                        ${currentWord.examples.slice(0, 2).map(ex => `
-                            <div class="example-item">
-                                <p>${ex.sentence}</p>
-                                <p style="color: #666;">${ex.translation}</p>
-                            </div>
-                        `).join('')}
-                    </div>
-                ` : ''}
-                
-                ${currentWord.notes ? `
-                    <div style="color: #666; font-style: italic; margin-top: 15px; padding: 10px; background-color: #f8f9fa; border-radius: 6px;">
-                        ${currentWord.notes}
-                    </div>
-                ` : ''}
-
-                <div class="continue-tip">
-                    按任意键继续下一个单词...
-                </div>
-            </div>
-        `;
-
-        if (userAnswer === currentWord.english.toLowerCase()) {
-            feedback.innerHTML = `<div class="correct">${wordCard}</div>`;
-            correctCount++;
-        } else {
-            feedback.innerHTML = `<div class="wrong">${wordCard}</div>`;
-            errorCount++;
-            errorList.push(currentWord);
-        }
-        
-        userInput.value = '';
-        waitingForNext = true;
-    }
-
-    // 显示结果函数
-    function showResults() {
-        quizContainer.style.display = 'none';
-        results.style.display = 'block';
-        startButton.style.display = 'block';
-        startButton.textContent = '重新测试';
-        
-        correctCountElement.textContent = correctCount;
-        errorCountElement.textContent = errorCount;
-        
-        // 显示错误列表
-        errorListElement.innerHTML = errorList.map(word => `
-            <div class="error-item">
-                <span class="english">${word.english}</span>
-                <span class="chinese">${word.chinese}</span>
-            </div>
-        `).join('');
+// 开始测试
+startButton.addEventListener('click', () => {
+    if (!isQuizActive) {
+        startQuiz();
     }
 });
+
+function startQuiz() {
+    isQuizActive = true;
+    currentWordIndex = 0;
+    correctCount = 0;
+    startButton.style.display = 'none';
+    quizContainer.style.display = 'block';
+    feedback.innerHTML = '';
+    results.innerHTML = '';
+    showNextWord();
+}
+
+function showNextWord() {
+    if (currentWordIndex < words.length) {
+        const currentWord = words[currentWordIndex];
+        wordDisplay.textContent = currentWord.chinese;
+        userInput.value = '';
+        userInput.focus();
+        updateProgress();
+    } else {
+        showResults();
+    }
+}
+
+// 检查答案
+userInput.addEventListener('keyup', (event) => {
+    if (event.key === 'Enter' && isQuizActive) {
+        checkAnswer();
+    }
+});
+
+function checkAnswer() {
+    const currentWord = words[currentWordIndex];
+    const userAnswer = userInput.value.trim().toLowerCase();
+    const correctAnswer = currentWord.word.toLowerCase();
+
+    if (userAnswer === correctAnswer) {
+        correctCount++;
+        feedback.innerHTML = createFeedbackCard(currentWord, true);
+    } else {
+        feedback.innerHTML = createFeedbackCard(currentWord, false);
+    }
+
+    currentWordIndex++;
+    setTimeout(showNextWord, 1500);
+}
+
+function createFeedbackCard(word, isCorrect) {
+    return `
+        <div class="feedback-card ${isCorrect ? 'correct' : 'wrong'}">
+            <div class="result-header">
+                ${isCorrect ? '✓ 正确!' : '✗ 错误!'}
+            </div>
+            <div class="word-info">
+                <div class="word-main">
+                    <span class="word-english">${word.word}</span>
+                    <span class="word-phonetic">${word.phonetic}</span>
+                </div>
+                <div class="word-chinese">${word.chinese}</div>
+            </div>
+            <div class="word-examples">
+                <div class="example">
+                    <div class="example-english">${word.example1.en}</div>
+                    <div class="example-chinese">${word.example1.zh}</div>
+                </div>
+                <div class="example">
+                    <div class="example-english">${word.example2.en}</div>
+                    <div class="example-chinese">${word.example2.zh}</div>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function updateProgress() {
+    const percent = (currentWordIndex / words.length) * 100;
+    progress.style.width = `${percent}%`;
+}
+
+function showResults() {
+    isQuizActive = false;
+    quizContainer.style.display = 'none';
+    startButton.style.display = 'block';
+    startButton.textContent = '重新开始';
+    
+    const percentage = (correctCount / words.length) * 100;
+    results.innerHTML = `
+        <div class="results-container">
+            <h2>测试结束</h2>
+            <div class="score">
+                <div class="score-number">${correctCount}/${words.length}</div>
+                <div class="score-percentage">${percentage.toFixed(1)}%</div>
+            </div>
+        </div>
+    `;
+}
+

@@ -1,185 +1,180 @@
-/* 基础容器样式 */
-.container {
-    max-width: 800px;
+/* 1. 首先重置所有注入的变量并定义我们的变量 - 使用最高优先级 */
+:root:not(#😅), /* 使用一个不存在的ID来提高优先级 */
+:root.global-light-theme {
+    /* 我们的核心变量 */
+    --app-primary-color: #4263eb !important;
+    --app-background: #f5f6f8 !important;
+    --app-text-color: #2f3437 !important;
+    --app-border-color: #e9ecef !important;
+    --app-success-color: #00b042 !important;
+    --app-error-color: #eb2f2f !important;
+    --app-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+
+    /* 覆盖注入的变量 */
+    --adm-color-text: var(--app-text-color) !important;
+    --adm-font-size-main: 16px !important;
+    --adm-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+    
+    /* 覆盖TY变量 */
+    --TY-Bg-0: var(--app-background) !important;
+    --TY-Bg-1: var(--app-background) !important;
+    --TY-Bg-2: var(--app-primary-color) !important;
+    --TY-Text-0: var(--app-text-color) !important;
+    --TY-Text-1: var(--app-text-color) !important;
+    --TY-Text-2: var(--app-text-color) !important;
+}
+
+/* 2. 重置全局滚动行为 */
+html,
+html *,
+body,
+body * {
+    scroll-behavior: auto !important;
+}
+
+/* 3. 设置body基础样式 - 使用更具体的选择器 */
+html:not(#😅) body, /* 使用不存在的ID提高优先级 */
+body[class],
+body[style],
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: var(--app-background) !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+    color: var(--app-text-color) !important;
+    line-height: 1.6 !important;
+    font-size: 16px !important;
+    display: block !important;
+    counter-reset: katexEqnNo 0 mmlEqnNo 0 !important;
+}
+
+/* 4. 滚动条样式 */
+::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1 !important;
+    border-radius: 3px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+/* 5. 应用主容器 */
+.word-quiz-app {
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    box-sizing: border-box;
 }
 
-/* 头部样式 */
-.header {
+/* 6. 标题样式 */
+.word-quiz-app .title {
     text-align: center;
+    font-size: 2.5em;
+    color: var(--app-text-color);
     margin-bottom: 30px;
-}
-
-.header h1 {
-    color: #2196F3;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-/* 测试容器样式 */
-#quiz-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* 输入和按钮样式 */
-#user-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 2px solid #2196F3;
-    border-radius: 6px;
-    font-size: 16px;
-}
-
-#submit-btn, #start-quiz, #restart-btn {
-    background-color: #2196F3;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-#submit-btn:hover, #start-quiz:hover, #restart-btn:hover {
-    background-color: #1976D2;
-}
-
-/* 进度和单词显示 */
-#progress {
-    color: #666;
-    margin-bottom: 15px;
-    font-size: 14px;
-}
-
-.chinese {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.phonetic {
-    color: #666;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-/* 单词卡片样式 */
-.word-card {
-    background-color: white;
-    padding: 30px;
-    margin: 20px auto;
-    border-radius: 12px;
-    border-left: 4px solid #2196F3;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    max-width: 600px;
-}
-
-/* 主要信息区域 */
-.word-main-info {
-    text-align: center;
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    margin-bottom: 25px;
-}
-
-/* 英文单词显示 */
-.word-english {
-    font-size: 36px;
     font-weight: 700;
-    color: #1976D2;
-    margin-bottom: 12px;
-    letter-spacing: 1px;
 }
 
-/* 音标显示 */
-.word-phonetic {
-    font-size: 24px;
-    color: #444;
-    margin-bottom: 15px;
-    font-family: Arial, sans-serif;
-    font-weight: 500;
+/* 7. 开始按钮 */
+.word-quiz-app .start-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    background-color: var(--app-primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
 }
 
-/* 中文释义 */
-.word-chinese {
-    font-size: 28px;
-    color: #333;
-    font-weight: 600;
-    margin-bottom: 20px;
-    padding: 10px 0;
+.word-quiz-app .start-button:hover {
+    opacity: 0.9;
 }
 
-/* 分隔线 */
-.divider {
-    height: 2px;
-    background-color: #e0e0e0;
+/* 8. 布局容器 */
+.word-quiz-app .split-layout {
+    display: flex;
+    gap: 30px;
     margin: 20px 0;
+}
+
+/* 9. 面板样式 */
+.word-quiz-app .left-panel,
+.word-quiz-app .right-panel {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: var(--app-shadow);
+}
+
+/* 10. 输入区域 */
+.word-quiz-app .word-display {
+    text-align: center;
+    font-size: 2em;
+    margin: 30px 0;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word-quiz-app .user-input {
     width: 100%;
-}
-
-/* 例句部分 */
-.word-examples {
-    margin-top: 20px;
     padding: 15px;
-    background-color: #f8f9fa;
+    font-size: 1.2em;
+    border: 2px solid var(--app-border-color);
     border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
 }
 
-.example-item {
-    margin: 10px 0;
-    padding: 12px;
-    background-color: white;
-    border-radius: 6px;
-    border-left: 2px solid #2196F3;
+.word-quiz-app .user-input:focus {
+    outline: none;
+    border-color: var(--app-primary-color);
+    box-shadow: 0 0 0 3px rgba(66, 99, 235, 0.1);
 }
 
-.example-item p {
-    margin: 5px 0;
-    line-height: 1.6;
-    font-size: 15px;
-}
-
-/* 继续提示 */
-.continue-tip {
-    text-align: center;
-    color: #666;
-    margin-top: 25px;
-    padding: 12px;
-    background-color: #f5f5f5;
-    border-radius: 6px;
-    font-size: 14px;
-}
-
-/* 正确/错误提示 */
-.result-status {
-    text-align: center;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    padding: 12px;
+/* 11. 反馈样式 */
+.word-quiz-app .feedback {
+    padding: 15px;
     border-radius: 8px;
+    margin-top: 20px;
 }
 
-.correct .result-status {
-    color: #4CAF50;
-    background-color: #E8F5E9;
+.word-quiz-app .feedback.correct {
+    background-color: rgba(0, 176, 66, 0.1);
+    color: var(--app-success-color);
 }
 
-.wrong .result-status {
-    color: #f44336;
-    background-color: #FFEBEE;
+.word-quiz-app .feedback.incorrect {
+    background-color: rgba(235, 47, 47, 0.1);
+    color: var(--app-error-color);
 }
 
-/* Mac 显示优化 */
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    .word-card {
-        -webkit-font-smoothing: antialiased;
+/* 12. 响应式设计 */
+@media (max-width: 768px) {
+    .word-quiz-app .split-layout {
+        flex-direction: column;
+    }
+
+    .word-quiz-app .title {
+        font-size: 2em;
+    }
+
+    .word-quiz-app .word-display {
+        font-size: 1.5em;
+    }
+
+    .word-quiz-app .user-input {
+        font-size: 1em;
+        padding: 12px;
     }
 }
